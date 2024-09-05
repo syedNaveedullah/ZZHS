@@ -164,12 +164,10 @@ body {
   height: 100%;
 }
 #sec1-green-circle {
-  background: url("../pictures/Overall-Site-circle.png") no-repeat center
-    center/cover;
-  height: 1200px;
-  width: 800px;
+  height: 800px;
+  width: 845px;
   position: absolute;
-  top: 400px;
+  top: 920px;
   right: 0;
 }
 
@@ -213,12 +211,10 @@ body {
 }
 
 #sec3-green-circle {
-  background: url("../pictures/Overall-Site-circle.png") no-repeat center
-    center/cover;
-  height: 1200px;
-  width: 800px;
+  height: 830px;
+  width: 700px;
   position: absolute;
-  top: 2000px;
+  top: 2597px;
   left: 0;
 }
 
