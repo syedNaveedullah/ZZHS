@@ -252,3 +252,58 @@ body {
 /* section 5 style code is in slider.css file */
 
 /* section-6 */
+#section-6 {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sec6-h1 {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.sec6-h1 h1 {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.sec6-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.sec6-cards {
+  height: 450px;
+  width: 400px;
+  /* border: 2px solid black; */
+  background: #82ad59;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.sec6-cards .pic {
+  height: 200px;
+  width: 200px;
+}
+.sec6-cards .pic img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 100%;
+}
+.sec6-cards .text {
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
