@@ -274,5 +274,52 @@
         </div>
       </div>
     </section>
+
+    <!-- section 7 contact us form -->
+    <section id="section-7">
+      <!-- heading -->
+      <div class="sec7-h1">
+        <h1>Contact Us</h1>
+      </div>
+      <!-- form -->
+      <div id="form-div">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Replace with your Access Key //this is for getting mail from form using (web3forms)-->
+          <input
+            type="hidden"
+            name="access_key"
+            value="0dad372e-1edb-44da-bdc3-357b6d99b02c" />
+          <!-- name -->
+          <div class="form-input">
+            <label for="name">Name:-</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <!-- email -->
+          <div class="form-input">
+            <label for="email">Mail id:-</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <!-- mobile number -->
+          <div class="form-input">
+            <label for="phone">Mobile No. :-</label>
+            <input type="number" name="phone" id="phone" required />
+          </div>
+          <!-- query -->
+          <div class="form-input">
+            <label for="query">Query :-</label>
+            <textarea
+              name="query"
+              id="query"
+              cols="15"
+              rows="3"
+              required></textarea>
+          </div>
+          <!-- button -->
+          <div class="form-input">
+            <button class="form-btn">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
