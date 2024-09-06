@@ -9,7 +9,11 @@
   "author": "Naveed,Hameed",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "ejs-mate": "^4.0.0",
+    "express": "^4.19.2",
+    "groq-sdk": "^0.7.0"
   }
 }

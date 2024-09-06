@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/bot.css" />
+    <!-- title logo -->
+    <link rel="icon" href="pictures/zzl.png" />
+    <!-- tab title -->
+    <title>Zam Zam High School</title>
+  </head>
+  <body>
+    <!-- navabr --------------------------------------------------------------------->
+    <nav id="navbar">
+      <!-- navbar logo -->
+      <div id="nav-logo">
+        <img src="pictures/zzl.png" alt="logo" />
+      </div>
+      <!-- center div -->
+      <div id="container">
+        <!-- nav-items -->
+        <div id="nav-items">
+          <ul id="nav-list">
+            <i class="fa-solid fa-house"></i>
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+        <!-- heading -->
+        <div id="bot-heading">
+          <h1>CHAT WITH OUR AI BOT TO SOLVE YOUR ACADEMIC PROBLEMS</h1>
+        </div>
+      </div>
+      <!-- nav-bot-icon -->
+      <div id="nav-bot-icon">
+        <img src="pictures/BOT-in-Circle.png" alt="bot-icon" />
+      </div>
+    </nav>
+    <!-- navbar end================ -->
+    <!-- bot center text  -->
+    <!-- /////////////////////////BOT/////////////////////////////////////////////////// -->
+    <div class="botContainer">
+      <div class="scroll-div">
+        <ul id="messages"></ul>
+      </div>
+
+      <div class="input-group">
+        <textarea
+          type="text"
+          id="messageInput"
+          placeholder="Type your message..."></textarea>
+
+        <div class="input-group-append">
+          <button onclick="sendMessage()" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- bot js link -->
+    <script src="js/bot.js"></script>
+  </body>
+</html>
