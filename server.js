@@ -16,29 +16,24 @@ app.use(bodyParser.json());
 
 //============for llama api bot code===============================
 const Groq = require("groq-sdk");
-// Verify the API key is loaded
+
 if (!process.env.GROQ_API_KEY) {
-  console.error(
-    "ERROR: GROQ_API_KEY is not defined. Please check your .env file."
-  );
+  console.error("ERROR: GROQ_API_KEY is not defined.");
   process.exit(1);
 }
+
 const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,
 });
 
 // Function to get chat completion from Groq API
-async function getGroqChatCompletion(userMessage) {
+async function getGroqChatCompletion(conversation) {
   try {
     const response = await groq.chat.completions.create({
-      messages: [
-        {
-          role: "user",
-          content: userMessage,
-        },
-      ],
+      messages: conversation, // Send the entire conversation
       model: "llama3-70b-8192",
     });
+
     return (
       response.choices[0]?.message?.content || "No response from the model."
     );
@@ -53,17 +48,16 @@ async function getGroqChatCompletion(userMessage) {
 
 // Endpoint to handle chatbot requests
 app.post("/chat", async (req, res) => {
-  const userMessage = req.body.message;
+  const conversation = req.body.conversation; // Conversation history
 
   try {
-    const botResponse = await getGroqChatCompletion(userMessage);
+    const botResponse = await getGroqChatCompletion(conversation);
     res.json({ response: botResponse });
   } catch (error) {
     res.status(500).send("Error communicating with Groq API");
   }
 });
 
-//this route is to render bot page
 app.get("/bot", (req, res) => {
   res.render("bot.ejs");
 });
