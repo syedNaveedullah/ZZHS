@@ -385,3 +385,65 @@ body {
   text-align: center;
   margin: auto;
 }
+
+/* ============================footer ============================ */
+footer {
+  background-color: rgb(21, 21, 21);
+  height: 40vh;
+}
+
+.footer-container {
+  height: 100%;
+}
+/* div1-------*/
+#div1 {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div1 a {
+  text-decoration: none;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: white;
+}
+.circle i {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+/* div2-------- */
+#div2 {
+  height: 25%;
+}
+#div2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div2 ul li {
+  list-style: none;
+  margin: 0px 20px 0px 20px;
+}
+#div2 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/* div3-------- */
+#div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
