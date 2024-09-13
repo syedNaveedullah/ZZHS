@@ -10,6 +10,7 @@ body {
 
 .btn {
   background-color: #82ad59;
+  box-shadow: 4px 4px 10px 4px #a6b895ce;
   border: none;
   height: 40px;
   width: 120px;
