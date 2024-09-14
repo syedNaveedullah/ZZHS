@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#signup-login {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#signup-login a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.signup-login-btn {
+  color: white;
+  background-color: #2e540a;
+  /* box-shadow: 4px 4px 10px 4px #a6b895ce; */
+  border: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.main-sign-login-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-div {
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-div form {
+  width: 70%;
+}
+.form-div form label {
+  font-size: 20px;
+}
+.form-div form h1 {
+  font-size: 80px;
+  color: #0f1f00;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 40vw;
+}
+.illustration img {
+  height: 600px;
+  width: 600px;
+}
+
+.form-btn {
+  color: white;
+  background-color: #2e540a;
+  box-shadow: 3px 3px 8px 2px #242424ce;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.form-btn:hover {
+  background-color: #101c04;
+}

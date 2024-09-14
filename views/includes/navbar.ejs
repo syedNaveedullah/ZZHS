@@ -14,6 +14,24 @@
       <li><a href="/">Courses</a></li>
       <li><a href="#section-7">Contact Us</a></li>
     </ul>
+    <!-- signup -->
+    <div id="signup-login">
+      <a href="/signup">
+        <button class="signup-login-btn">signup</button>
+      </a>
+      <!-- login -->
+      <% if(!currentUser){ %>
+      <a href="/login">
+        <button class="signup-login-btn">login</button>
+      </a>
+      <% } %>
+      <!-- logout -->
+      <% if(currentUser){ %>
+      <a href="/logout">
+        <button class="signup-login-btn">logout</button>
+      </a>
+      <% } %>
+    </div>
   </div>
   <!-- nav-bot-icon -->
   <div id="nav-bot-icon">

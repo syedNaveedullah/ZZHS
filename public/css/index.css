@@ -47,9 +47,13 @@ body {
 #nav-items {
   width: 70%;
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #nav-items ul {
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -387,7 +391,7 @@ body {
   margin: auto;
 }
 
-/* ============================footer ============================ */
+/* ============================footer============================ */
 footer {
   background-color: rgb(21, 21, 21);
   height: 40vh;

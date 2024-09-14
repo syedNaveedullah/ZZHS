@@ -6,6 +6,23 @@ const path = require("path");
 // for layouts in views
 const ejsMate = require("ejs-mate");
 const bodyParser = require("body-parser");
+// mongoose
+const mongoose = require("mongoose");
+// passport
+const passport = require("passport");
+const LocalStrategy = require("passport-local");
+//user model
+const User = require("./models/user.js");
+// session
+const session = require("express-session");
+// errors
+const wrapAsync = require("./utils/wrapAsync.js");
+const ExpressError = require("./utils/ExpressError.js");
+// user routes
+const userRouter = require("./routes/user.js");
+// for flashing errors and messages
+const flash = require("connect-flash");
+
 //for .env file
 const dotenv = require("dotenv");
 dotenv.config();
@@ -13,6 +30,45 @@ dotenv.config();
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
+
+// connecting to DB================================================
+// mongoDB url
+const mongoDB_url = process.env.MONGO_URL;
+
+main()
+  .then((res) => {
+    console.log("connected to DB");
+  })
+  .catch((err) => console.log(err));
+
+//calling main to connect with DB
+async function main() {
+  await mongoose.connect(mongoDB_url);
+}
+
+//express sessions=====================================================
+let sessionOptions = {
+  secret: "mysupersecretkey",
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+    expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
+    maxAge: 7 + 24 * 60 * 60 * 1000,
+    httpOnly: true,
+  },
+};
+
+app.use(session(sessionOptions));
+// flash
+app.use(flash());
+
+// passport initializing and running============================
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new LocalStrategy(User.authenticate()));
+// it save data in session and delete
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
 
 //============for llama api bot code===============================
 const Groq = require("groq-sdk");
@@ -73,6 +129,16 @@ app.engine("ejs", ejsMate);
 app.set("views", path.join(__dirname, "views"));
 // path for static
 app.use(express.static(path.join(__dirname, "public")));
+//for parsing req body
+app.use(express.urlencoded({ extended: true }));
+
+//flash local variabls
+app.use((req, res, next) => {
+  res.locals.successMsg = req.flash("success");
+  res.locals.errorMsg = req.flash("error");
+  res.locals.currentUser = req.user;
+  next();
+});
 
 // starting the server
 app.listen(port, () => {
@@ -84,4 +150,33 @@ app.listen(port, () => {
 // index route
 app.get("/", (req, res) => {
   res.render("index.ejs");
+});
+
+// router routes==============================
+app.use("/", userRouter);
+
+//fake user for testing
+app.get(
+  "/register",
+  wrapAsync(async (req, res) => {
+    let fakeUser = new User({
+      email: "student@gmail.com",
+      username: "syed hameed",
+    });
+
+    let newUser = await User.register(fakeUser, "password");
+    res.send(newUser);
+  })
+);
+
+//route for all incorrect route request------------------------------
+app.all("*", (req, res, next) => {
+  next(new ExpressError(404, "Page Not Found"));
+});
+
+// error handling middlewares----------------------------------------
+app.use((err, req, res, next) => {
+  let { statusCode = 500, message = "Something went wrong" } = err;
+  // res.status(statusCode).send(message);
+  res.status(statusCode).render("error.ejs", { message });
 });
