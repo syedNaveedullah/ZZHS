@@ -1,5 +1,6 @@
 let conversationHistory = [];
-// // getting query from user and response from llama3 api in this block
+
+// Sending the user's message and getting the bot's response from the API
 async function sendMessage() {
   const input = document.getElementById("messageInput");
   const message = input.value.trim();
@@ -7,6 +8,8 @@ async function sendMessage() {
 
   // Add user's message to the conversation history
   conversationHistory.push({ role: "user", content: message });
+
+  input.value = ""; // Clear the input field
 
   // Display user message in the chat window
   displayMessage("user", message);
@@ -25,8 +28,6 @@ async function sendMessage() {
 
   // Display bot message in the chat window
   displayMessage("assistant", data.response);
-
-  input.value = ""; // Clear the input field
 }
 
 // Add keydown event listener for the Enter key
@@ -39,18 +40,36 @@ document
     }
   });
 
-// //now displaying chats of user and bot according to the parameters passed in this function==================================
+// Display messages with HTML formatting
 function displayMessage(sender, text) {
   const messages = document.getElementById("messages");
-  // Create the new message element
   const messageElem = document.createElement("li");
 
   // Map 'assistant' to 'bot' for styling purposes
   const senderClass = sender === "assistant" ? "bot" : sender;
   messageElem.className = `message ${senderClass}`;
-  messageElem.textContent = text;
-  // Append the new message to the chat
+
+  // Use innerHTML instead of textContent to support formatted content
+  messageElem.innerHTML = formatMessage(text);
+
   messages.appendChild(messageElem);
-  // Scroll to the new message
   messageElem.scrollIntoView({ behavior: "smooth", block: "end" });
+}
+
+function formatMessage(text) {
+  // Parsing for headings, subheadings, bullet points, and other formatting
+  let formattedText = text
+    .replace(/(?:\*\*|__)([^*_]+)(?:\*\*|__)/g, "<strong>$1</strong>") // Bold text
+    .replace(/(?:\*|_)([^*_]+)(?:\*|_)/g, "<em>$1</em>") // Italic text
+    .replace(/\n### (.+)/g, "<h3>$1</h3>") // Sub-subheadings (###)
+    .replace(/\n## (.+)/g, "<h2>$1</h2>") // Subheadings (##)
+    .replace(/\n# (.+)/g, "<h1>$1</h1>") // Main headings (#)
+    .replace(/\n(\d+)\. (.+)/g, "<li>$2</li>") // List items (numbers)
+    .replace(/\n\* (.+)/g, "<li>$1</li>"); // Bullet points (*)
+
+  // Wrap the list items in <ol> or <ul> appropriately
+  formattedText = formattedText.replace(/(<li>.+<\/li>)/g, "<ol>$1</ol>");
+  formattedText = formattedText.replace(/<\/ol><ol>/g, ""); // Merge consecutive <ol>
+
+  return formattedText;
 }
