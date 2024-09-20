@@ -20,6 +20,8 @@ const wrapAsync = require("./utils/wrapAsync.js");
 const ExpressError = require("./utils/ExpressError.js");
 // user routes
 const userRouter = require("./routes/user.js");
+// courses route
+const coursesRoute = require("./routes/courses.js");
 // for flashing errors and messages
 const flash = require("connect-flash");
 
@@ -153,7 +155,10 @@ app.get("/", (req, res) => {
 });
 
 // router routes==============================
+//user
 app.use("/", userRouter);
+//Courses
+app.use("/courses", coursesRoute);
 
 //fake user for testing
 app.get(
