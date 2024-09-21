@@ -1,0 +1,76 @@
+.nameIcon1 {
+  text-align: center;
+}
+
+.nameIcon1 i {
+  margin: 0.75rem;
+  opacity: 0.5;
+  font-size: 2rem;
+}
+
+.nameIcon1 i:hover {
+  opacity: 1;
+  font-size: 2.25rem;
+}
+.card1 {
+  /* background-color: #ffffff; */
+  width: 180px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+
+.card1 img {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 1rem;
+  transform: rotateX(20deg) rotateZ(-30deg);
+  transition: all 0.4s;
+}
+
+.card1:hover img {
+  width: 110%;
+  height: 260px;
+  transform: rotateX(0deg) rotateZ(0deg);
+}
+
+.card1-title {
+  font-weight: 600;
+}
+
+.card1-info {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.books-container {
+  background-color: rgba(53, 55, 50, 0.63);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.books-container h1 {
+  color: #b2f870;
+  font-size: 60px;
+  font-weight: bold;
+  background-color:rgba(0, 0, 0, 0.842) ;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.text-container{
+  background-color: rgba(0, 0, 0, 0.842);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+  font-size: 20px;
+}

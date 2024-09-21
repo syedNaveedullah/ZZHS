@@ -12,9 +12,9 @@ router.get("/:className", (req, res) => {
   res.render("course/subjects.ejs", { className });
 });
 
-router.get("/:className/:subject", (req, res) => {
-  let { className, subject } = req.params;
-  res.send(`working ${className}...${subject}`);
+router.get("/:className/:subject/:username", (req, res) => {
+  let { className, subject, username } = req.params;
+  res.send(`working ${className}...${subject}....${username}`);
 });
 
 module.exports = router;

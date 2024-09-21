@@ -39,22 +39,25 @@
     <!-- flash -->
     <%- include("../includes/flash.ejs") %>
     <!-- ==============================body====================================== -->
-    <div class="container mt-5 mb-5">
-      <h1>Subjects</h1>
+     <!-- first container starts -->
+    <% if(className == "10th"){ %> 
+    <div class="container mt-5 mb-5 offset-1">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <!-- hindi -->
+        <!-- Maths -->
         <div class="col">
-          <a href="/courses/<%= className %>/hindi" class="class-link">
-            <div class="card h-100 class-card">
+          <a
+            href="/courses/<%= className %>/maths/<%= currentUser %>"
+            class="class-link">
+            <div class="card h-100 class-card" style="width: 20rem">
               <img
-                src="/pictures/course-imgs/classes-img/10th.jpg"
+                src=""
                 class="card-img-top"
                 alt="book-cover"
                 style="height: 20rem" />
               <!-- this div is used for overlay effect -->
               <div class="card-img-overlay"></div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Methematics</h5>
                 <p class="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -64,12 +67,14 @@
             </div>
           </a>
         </div>
-        <!-- telugu -->
+        <!-- Biology -->
         <div class="col">
-          <a href="/courses/<%= className %>/telugu" class="class-link">
-            <div class="card h-100 class-card">
+          <a
+            href="/courses/<%= className %>/Biology/<%= currentUser %>"
+            class="class-link">
+            <div class="card h-100 class-card" style="width: 20rem">
               <img
-                src="/pictures/course-imgs/classes-img/9th.jpg"
+                src=""
                 class="card-img-top"
                 alt="book-cover"
                 style="height: 20rem" />
@@ -82,76 +87,14 @@
             </div>
           </a>
         </div>
-        <!-- english -->
+        <!-- physics -->
         <div class="col">
-          <a href="/courses/<%= className %>/english" class="class-link">
-            <div class="card h-100 class-card">
+          <a
+            href="/courses/<%= className %>/Physics/<%= currentUser %>"
+            class="class-link">
+            <div class="card h-100 class-card" style="width: 20rem">
               <img
-                src="/pictures/course-imgs/classes-img/8th.jpg"
-                class="card-img-top"
-                alt="book-cover"
-                style="height: 20rem" />
-              <!-- this div is used for overlay effect -->
-              <div class="card-img-overlay"></div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- maths -->
-        <div class="col">
-          <a href="/courses/<%= className %>/maths" class="class-link">
-            <div class="card h-100 class-card">
-              <img
-                src="/pictures/course-imgs/classes-img/7th.jpg"
-                class="card-img-top"
-                alt="book-cover"
-                style="height: 20rem" />
-              <!-- this div is used for overlay effect -->
-              <div class="card-img-overlay"></div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- science -->
-        <div class="col">
-          <a href="/courses/<%= className %>/science" class="class-link">
-            <div class="card h-100 class-card">
-              <img
-                src="/pictures/course-imgs/classes-img/6th.jpg"
-                class="card-img-top"
-                alt="book-cover"
-                style="height: 20rem" />
-              <!-- this div is used for overlay effect -->
-              <div class="card-img-overlay"></div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- social -->
-        <div class="col">
-          <a href="/courses/<%= className %>/social" class="class-link">
-            <div class="card h-100 class-card">
-              <img
-                src="/pictures/course-imgs/classes-img/6th.jpg"
+                src=""
                 class="card-img-top"
                 alt="book-cover"
                 style="height: 20rem" />
@@ -170,7 +113,24 @@
         <!-- cards end -->
       </div>
     </div>
+    <% } %>
     <!-- --------------------card container ends------------------------- -->
+
+    <!-- =========books================ -->
+    <% if(className == "10th"){ %> 
+    <%-include("../includes/classes/class10.ejs") %>
+     <% } %>
+    <% if(className == "9th"){ %> 
+    <%-include("../includes/classes/class10.ejs") %>
+     <% } %>
+    <% if(className == "8th"){ %> 
+    <%-include("../includes/classes/class10.ejs") %>
+     <% } %>
+    <% if(className == "7th"){ %> 
+    <%-include("../includes/classes/class10.ejs") %>
+     <% } %>
+     <!-- books end -->
+
     <!-- =========footer================ -->
     <%- include("../includes/footer.ejs") %>
     <!-- bootstrap js links -->

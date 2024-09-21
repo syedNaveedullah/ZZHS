@@ -1,8 +1,12 @@
+body {
+  background: url("/pictures/course-imgs/classes-img/courses-bg.jpg") no-repeat center center/cover;
+}
 /* Cards */
 .class-card {
-  /* border: none !important; */
+  border: none !important;
   margin-bottom: 2rem;
   border-radius: 1rem !important;
+  box-shadow: 5px 5px 20px 4px black;
 }
 .card-img-top {
   border-radius: 1rem !important;
@@ -28,9 +32,3 @@
   background-color: white;
 }
 
-h1 {
-  font-family: "Rowdies", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #2e540a !important;
-}
