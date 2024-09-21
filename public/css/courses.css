@@ -1,7 +1,8 @@
 /* Cards */
 .class-card {
-  border: none !important;
+  /* border: none !important; */
   margin-bottom: 2rem;
+  border-radius: 1rem !important;
 }
 .card-img-top {
   border-radius: 1rem !important;
@@ -25,4 +26,11 @@
 .card-img-overlay:hover {
   opacity: 0.2;
   background-color: white;
+}
+
+h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #2e540a !important;
 }
