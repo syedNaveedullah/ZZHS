@@ -71,48 +71,36 @@ body {
 }
 
 /* main index view ====================================================*/
-.main-index {
-  height: 100vh;
+.main{
+  height: 70vh;
   width: 100vw;
-  margin-bottom: 0px;
+}
+.carousel-btn{
+  z-index: 20 !important;
+  background-color: black !important;
 }
 
-#main-img-div {
-  height: 100vh;
-  width: 100%;
+.carousel{
+  height: 70vh;
+  width: 100vw;
 }
 
-#main-img-div::before {
-  content: "";
-  background: url("../pictures/P1-s.png") no-repeat center center/cover;
-  position: absolute;
-  top: 190px;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: -1;
-  opacity: 0.4;
+.carousel-caption{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
 }
+
+.carousel-item img{
+  height: 70vh;
+}
+
 
 /* Circle-below-logo */
 #Circle-below-logo {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-/* main text */
-#main-text-div {
-  color: white;
-  position: absolute;
-  top: 500px;
-  left: 240px;
-}
-
-#main-text-div h1 {
-  color: white;
-  font-size: 70px;
-  font-weight: 300;
+  z-index: 5;
 }
 
 /* section 1 About Us======================================================= */

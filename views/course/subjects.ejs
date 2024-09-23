@@ -46,23 +46,21 @@
         <!-- Maths -->
         <div class="col">
           <a
-            href="/courses/<%= className %>/maths/<%= currentUser %>"
+            href="/courses/<%= className %>/Mathematics"
             class="class-link">
             <div class="card h-100 class-card" style="width: 20rem">
               <img
                 src=""
                 class="card-img-top"
-                alt="book-cover"
+                alt="subject videos card"
                 style="height: 20rem" />
               <!-- this div is used for overlay effect -->
               <div class="card-img-overlay"></div>
               <div class="card-body">
                 <h5 class="card-title">Methematics</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                  Dive into the world of numbers, equations, and logic. Mathematics sharpens your mind, builds problem-solving skills, and unlocks the power to understand patterns in everyday life.
+                </p>                
               </div>
             </div>
           </a>
@@ -70,19 +68,21 @@
         <!-- Biology -->
         <div class="col">
           <a
-            href="/courses/<%= className %>/Biology/<%= currentUser %>"
+            href="/courses/<%= className %>/Biology"
             class="class-link">
             <div class="card h-100 class-card" style="width: 20rem">
               <img
                 src=""
                 class="card-img-top"
-                alt="book-cover"
+                alt="subject videos card"
                 style="height: 20rem" />
               <!-- this div is used for overlay effect -->
               <div class="card-img-overlay"></div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a short card.</p>
+                <h5 class="card-title">Biology</h5>
+                <p class="card-text">
+                  Explore the wonders of life on Earth. From cells to ecosystems, biology helps us understand how living things grow, adapt, and survive in their environments.
+                </p>                
               </div>
             </div>
           </a>
@@ -90,22 +90,21 @@
         <!-- physics -->
         <div class="col">
           <a
-            href="/courses/<%= className %>/Physics/<%= currentUser %>"
+            href="/courses/<%= className %>/Physics"
             class="class-link">
             <div class="card h-100 class-card" style="width: 20rem">
               <img
                 src=""
                 class="card-img-top"
-                alt="book-cover"
+                alt="subject videos card"
                 style="height: 20rem" />
               <!-- this div is used for overlay effect -->
               <div class="card-img-overlay"></div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Physics</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
+                  Uncover the laws that govern the universe. Physics explains everything from the tiniest particles to the largest galaxies, shaping the technology and innovations of tomorrow.
+                </p>                
               </div>
             </div>
           </a>
@@ -121,13 +120,13 @@
     <%-include("../includes/classes/class10.ejs") %>
      <% } %>
     <% if(className == "9th"){ %> 
-    <%-include("../includes/classes/class10.ejs") %>
+    <%-include("../includes/classes/class9.ejs") %>
      <% } %>
     <% if(className == "8th"){ %> 
-    <%-include("../includes/classes/class10.ejs") %>
+    <%-include("../includes/classes/class8.ejs") %>
      <% } %>
     <% if(className == "7th"){ %> 
-    <%-include("../includes/classes/class10.ejs") %>
+    <%-include("../includes/classes/class7.ejs") %>
      <% } %>
      <!-- books end -->
 
