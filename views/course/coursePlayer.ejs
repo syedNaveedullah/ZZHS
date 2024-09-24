@@ -1,67 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- google fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-        <!-- font awasome -->
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer" />
-        <!-- bootstrap style link -->
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-          crossorigin="anonymous" />
-          <!-- course player syle sheet -->
-           <link rel="stylesheet" href="/css/coursePlayer.css">
-        <!-- title logo -->
-        <link rel="icon" href="/pictures/zzl.png" />
-        <!-- tab title -->
-        <title>Zam Zam High School</title>
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet" />
+    <!-- font awasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- bootstrap style link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <!-- course player syle sheet -->
+    <link rel="stylesheet" href="/css/coursePlayer.css" />
+    <!-- title logo -->
+    <link rel="icon" href="/pictures/zzl.png" />
+    <!-- tab title -->
+    <title>Zam Zam High School</title>
+  </head>
+  <body>
     <div class="main-container">
       <!-- side bar for drop down -->
-        <div class="sideBar">
-          <!-- top navigation for back -->
-          <div class="top">
-            <a href="">
-              <p> &larr; Back to Subjects page</p>
-            </a>
-          </div>
-          <!-- heading -->
-          <div class="heading">
-            <h2><%= subject %>, class <%= className %></h2>
-          </div>
-          <!-- dropDown for playlist -->
-          <div class="dropdown"></div>
+      <div class="sideBar">
+        <!-- top navigation for back -->
+        <div class="top">
+          <a href="">
+            <p>&larr; Back to Subjects page</p>
+          </a>
         </div>
-        <!-- video goes here  -->
-        <div class="videoPlayer"></div>
-        
-    </div>
+        <!-- heading -->
+        <div class="heading">
+          <h2><%= subject %>, class <%= className %></h2>
+        </div>
+        <!-- dropDown for playlist -->
+        <div class="dropdown">
+          <ul class="list-group">
+            <li class="list-group-item" value="QptwLyh8XtQ?si=KywgUv0w_ylNtwa6">
+             Real Numbers (unit-1) <i class="fa-solid fa-lock-open"></i>
+            </li>
+            <li class="list-group-item active" aria-current="true">
+              test <i class="fa-solid fa-lock-open"></i>
+            </li>
+            <li class="list-group-item" value="YjG7gFe-R0Q?si=o64eQkDWo2nAXl6w">
+             Sets (unit-2) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="zpuQ8n0fcV4?si=yrfr4ZCym7EFCtwL">
+             Polynomials (unit-3) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="QPjHCAHfjoU?si=sMbvjkR2jF8T9wrX">
+             Pair of Linear Equations in Two Variables (unit-4) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Quadratic Equations (unit-5)  <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Progressions (unit-6) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Coordinate Geometry (unit-7) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Similar Triangles (unit-8) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Tangents and Secants to a Circle (unit-10) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Mensuration (unit-11) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Trigonometry (unit-12) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Probability (unit-13) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+             Statistics (unit-14) <i class="fa-solid fa-lock"></i>
+            </li>
+            <li class="list-group-item" value="abcd">
+              test <i class="fa-solid fa-lock"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- =================video goes here============================  -->
+      <div class="embed-reponsive embed-reponsive-16by9 videoPlayer">
+          <iframe
+           class="embed-responsive-item vid-frame"
+           src="/pictures/sec2img.jpg" 
+           title="YouTube video player" 
+           frameborder="0" 
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+           referrerpolicy="strict-origin-when-cross-origin" 
+           allowfullscreen></iframe>
+      </div>
+    <!-- bootstrap js links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
 
-
-
-
-
-
-     <!-- bootstrap js links -->
-     <script
-     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-     crossorigin="anonymous"></script>
-   <script
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-     crossorigin="anonymous"></script>
-</body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="/js/videoPlayer.js"></script>
+  </body>
 </html>

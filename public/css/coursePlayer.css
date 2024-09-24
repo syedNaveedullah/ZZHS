@@ -1,55 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.main-container{
-    display: flex;
+.main-container {
+  display: flex;
 }
 
-.sideBar{
-    height: 100vh;
-    width: 30vw;
-    background-color: rgb(31, 31, 31);
+.sideBar {
+  height: 100vh;
+  width: 30vw;
+  background-color: rgb(13, 13, 13);
 }
-
-.videoPlayer{
-    height: 100vh;
-    width: 70vw;
-    background-color: rgb(0, 0, 0);
-}
-
 /* sidebar================================================================================ */
-.top{
-    height: 5%;
-    width: 100%;
-    /* padding: 1rem; */
-    background-color: rgb(0, 53, 53);
+.top {
+  height: 8%;
+  width: 100%;
+  /* padding: 1rem; */
+  background-color: rgb(40, 40, 40);
+}
+.top a {
+  text-decoration: none;
+}
+.top a p {
+  height: 100%;
+  margin: 0 0 0 1rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
+.heading {
+  height: 12%;
+  background-color: rgb(23, 23, 23);
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem 0;
 }
-.top a{
-    text-decoration: none;
-}
-.top a p{
-    height: 100%;
-    margin: 0 0 0 1rem;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
+.heading h2 {
+  color: white;
+  margin: 0 0 0 1rem;
 }
 
-.heading{
-    height: 10%;
-    background-color: brown;
-    display: flex;
-    align-items: center;
-    
+/* dropdown==================================== */
+.dropdown {
+  padding: 0.25rem;
+  height: 77%;
+  overflow-y: auto; /* Ensure scrolling is enabled */
+  scroll-behavior: smooth;
 }
-.heading h2{
-    color: white;
-    margin: 0 0 0 1rem;
 
+li {
+  display: flex !important;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #82ad59 !important;
+  border: 1px solid #82ad59 !important;
+}
+
+/*==========================video player=================================== */
+.videoPlayer {
+  height: 100vh;
+  width: 70vw;
+  padding: 0.5rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.vid-frame {
+  height: 100%;
+  width: 100%;
 }
