@@ -35,7 +35,7 @@
       <div class="sideBar">
         <!-- top navigation for back -->
         <div class="top">
-          <a href="">
+          <a href="/courses/10th">
             <p>&larr; Back to Subjects page</p>
           </a>
         </div>
@@ -46,97 +46,35 @@
         <!-- dropDown for playlist -->
         <div class="dropdown">
           <ul class="list-group">
-            <li class="list-group-item" value="QptwLyh8XtQ?si=KywgUv0w_ylNtwa6">
-             Real Numbers (unit-1) <i class="fa-solid fa-lock-open"></i>
-            </li>
-            <li class="list-group-item active" aria-current="true">
-              test <i class="fa-solid fa-lock-open"></i>
-            </li>
-            <li class="list-group-item" value="YjG7gFe-R0Q?si=o64eQkDWo2nAXl6w">
-             Sets (unit-2) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="zpuQ8n0fcV4?si=yrfr4ZCym7EFCtwL">
-             Polynomials (unit-3) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="QPjHCAHfjoU?si=sMbvjkR2jF8T9wrX">
-             Pair of Linear Equations in Two Variables (unit-4) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Quadratic Equations (unit-5)  <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Progressions (unit-6) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Coordinate Geometry (unit-7) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Similar Triangles (unit-8) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Tangents and Secants to a Circle (unit-10) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Mensuration (unit-11) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Trigonometry (unit-12) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Probability (unit-13) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-             Statistics (unit-14) <i class="fa-solid fa-lock"></i>
-            </li>
-            <li class="list-group-item" value="abcd">
-              test <i class="fa-solid fa-lock"></i>
-            </li>
+            <% if(subject == "Mathematics"){ %>
+              <%- include("../includes/subjects/maths.ejs") %>
+            <% } %>
+            <% if(subject == "Biology"){ %>
+              <%- include("../includes/subjects/biology.ejs") %>
+            <% } %>
+            <% if(subject == "Physics"){ %>
+              <%- include("../includes/subjects/physics.ejs") %>
+            <% } %>
           </ul>
         </div>
       </div>
       <!-- =================video goes here============================  -->
-      <div class="embed-reponsive embed-reponsive-16by9 videoPlayer">
-          <iframe
+      <!-- <div class="embed-reponsive embed-reponsive-16by9 videoPlayer"> -->
+          <!-- <iframe
+           id="youtube-video"
            class="embed-responsive-item vid-frame"
            src="/pictures/sec2img.jpg" 
            title="YouTube video player" 
            frameborder="0" 
            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
            referrerpolicy="strict-origin-when-cross-origin" 
-           allowfullscreen></iframe>
+           allowfullscreen></iframe> -->
+
+           <!-- </div> -->
+           <div class="player-container">
+
+     <div id="player"></div>
+
       </div>
     <!-- bootstrap js links -->
     <script
@@ -148,7 +86,12 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"></script>
 
+      <!-- iframe api link  -->
+<script src="https://www.youtube.com/iframe_api"></script>
+
+      <!-- link for jQuery used in js file -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- js file link -->
       <script src="/js/videoPlayer.js"></script>
   </body>
 </html>
