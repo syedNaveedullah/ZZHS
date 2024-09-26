@@ -13,6 +13,8 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 //user model
 const User = require("./models/user.js");
+// subjects model
+const Subject = require("./models/subjects.js");
 // session
 const session = require("express-session");
 // errors
@@ -160,6 +162,7 @@ app.use("/", userRouter);
 //Courses
 app.use("/courses", coursesRoute);
 
+// /////testing routes////////////////////////////////////////////////////////////////////
 //fake user for testing
 app.get(
   "/register",
@@ -173,6 +176,51 @@ app.get(
     res.send(newUser);
   })
 );
+// for subjects collection
+app.get("/courses/10th/Mathematics/subArr", async (req, res) => {
+  let userId = req.user._id;
+
+  const cheakSubject = await Subject.findOne({ user: req.user._id }); // Find the subject document associated with the user
+
+  if (cheakSubject) {
+    return res
+      .status(400)
+      .send("Subject document for this user already exists.");
+  }
+
+  const newSubject = new Subject({
+    maths_units: ["MATHS1"],
+    biology_units: ["BIOLOGY1"],
+    physics_units: ["PHYSICS1"],
+  });
+  newSubject.user = req.user._id;
+  await newSubject.save();
+  res.send("Subject document created successfully.");
+});
+
+app.get("/courses/10th/Mathematics/pushingSub", async (req, res) => {
+  try {
+    // Assuming the user ID is passed via query string or is available from req.user
+    const userId = req.user._id; // Change based on your authentication system
+
+    // Find the subject document based on the user ID and push "social2" to the subjects array
+    const updatedSubject = await Subject.findOneAndUpdate(
+      { user: userId }, // Find the subject document associated with the user
+      // { $push: { subjects: "social2" } }, // Push "social2" into the subjects array
+      { $addToSet: { maths_units: "social2" } }, // Push "social2" into the subjects array
+      { new: true } // Return the updated document
+    );
+
+    if (!updatedSubject) {
+      return res.status(404).send("No subject document found for this user.");
+    }
+
+    res.send("Subject updated successfully: " + updatedSubject);
+  } catch (error) {
+    console.error("Error updating subject: ", error);
+    res.status(500).send("An error occurred while updating subjects.");
+  }
+});
 
 //route for all incorrect route request------------------------------
 app.all("*", (req, res, next) => {

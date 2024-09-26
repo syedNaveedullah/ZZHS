@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 let User = require("../models/user.js");
+let Subject = require("../models/subjects.js");
 const wrapAsync = require("../utils/wrapAsync");
 const passport = require("passport");
 const user = require("../models/user.js");
@@ -14,27 +15,51 @@ router.get("/signup", (req, res) => {
 router.post("/signup", async (req, res, next) => {
   try {
     let { username, email, password } = req.body;
-    // console.log(username, email, password);
     let newUser = new User({ email, username });
     let registeredUser = await User.register(newUser, password);
-    // console.log(registeredUser);
-    req.login(registeredUser, (err) => {
+
+    // Automatically log the user in after registration
+    req.login(registeredUser, async (err) => {
       if (err) {
         return next(err);
       }
-      req.flash("success", `hello ${username}, Welcome to Zam Zam High School`);
-      res.redirect("/");
+
+      // Check if the subject collection for this user already exists
+      let userId = req.user._id;
+      const cheakSubject = await Subject.findOne({ user: userId }); // Find the subject document associated with the user
+
+      if (cheakSubject) {
+        req.flash(
+          "error",
+          "A user with the given username or email is already registered"
+        );
+        return res.redirect("/signup"); // Use return to stop further execution
+      }
+
+      // If no subject collection exists, create a new one
+      const newSubject = new Subject({
+        maths_units: ["MATHS1"],
+        biology_units: ["BIOLOGY1"],
+        physics_units: ["PHYSICS1"],
+        user: userId,
+      });
+      await newSubject.save();
+
+      // Redirect the user to the homepage after successful signup and subject creation
+      req.flash("success", `Hello ${username}, Welcome to Zam Zam High School`);
+      return res.redirect("/"); // Use return to avoid the "headers already sent" error
     });
   } catch (err) {
+    // Handle error: user with the same email or username already exists
     req.flash(
       "error",
       "A user with the given username or email is already registered"
     );
-    res.redirect("/signup");
+    return res.redirect("/signup"); // Use return to avoid sending another response
   }
 });
 
-// login route
+// login route===============================
 router.get("/login", (req, res) => {
   res.render("users/login.ejs");
 });

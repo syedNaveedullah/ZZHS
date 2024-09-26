@@ -1,7 +1,8 @@
 let subjListItems = document.getElementsByClassName("list-group-item");
 let videoId;
 let player;
-let isPlayerInitialized = false; // Ensure player is only initialized once
+let isPlayerInitialized = false;
+let lastTime = 0; // Keeps track of the current time to prevent seeking
 
 // Event listeners for the list items
 for (element of subjListItems) {
@@ -42,6 +43,7 @@ function YouTubeGetID(url) {
 function changeVideo(videoId) {
   if (player && typeof player.cueVideoById === "function") {
     player.cueVideoById(videoId);
+    lastTime = 0; // Reset the last time when a new video is loaded
   } else {
     console.error(
       "Player is not initialized or cueVideoById method is not available."
@@ -65,9 +67,13 @@ function onYouTubeIframeAPIReady() {
       width: 900,
       videoId: "", // Default video ID (you can change this to any default video)
       playerVars: {
-        playsinline: 1,
-        autoplay: 0,
-        controls: 1,
+        playsinline: 1, // Plays inline
+        autoplay: 0, // Disable autoplay
+        controls: 1, // Show basic controls
+        rel: 0, // Disable related videos at the end
+        disablekb: 1, // Disable keyboard controls
+        modestbranding: 1, // Reduce YouTube branding
+        iv_load_policy: 3, // Disable video annotations
       },
       events: {
         onReady: onPlayerReady,
@@ -85,19 +91,25 @@ function onPlayerReady() {
 
 // YouTube player state change event handler
 function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.PLAYING && !done) {
-    done = true;
-  }
   if (event.data == YT.PlayerState.PLAYING) {
-    console.log("The video is playing");
-  } else if (event.data == YT.PlayerState.PAUSED) {
-    console.log("The video is paused");
-  } else if (event.data == YT.PlayerState.ENDED) {
-    console.log("The video has ended");
+    preventSeeking(); // Check and prevent seeking while playing
   }
 }
 
-var done = false;
+// Prevent users from seeking by resetting the video time if they try to seek forward
+function preventSeeking() {
+  setInterval(function () {
+    const currentTime = player.getCurrentTime();
+
+    // If user seeks forward, reset video to the last valid time
+    if (currentTime > lastTime + 1) {
+      // Allow a slight margin (1 second)
+      player.seekTo(lastTime, true); // Reset to the last valid time
+    } else {
+      lastTime = currentTime; // Update last valid time
+    }
+  }, 1000); // Check every second
+}
 
 // Check if YouTube API is loaded and initialize the player if available
 document.addEventListener("DOMContentLoaded", function () {
