@@ -7,6 +7,10 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  classYear: {
+    type: Number,
+    required: true,
+  },
 });
 
 userSchema.plugin(passportLocalMongoose);

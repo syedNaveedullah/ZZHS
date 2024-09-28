@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const port = 4000;
+// for json file
+const fs = require("fs");
 // connecting views path
 const path = require("path");
 // for layouts in views
@@ -150,6 +152,32 @@ app.listen(port, () => {
   console.log("http://localhost:4000/");
 });
 
+// =========================Route to serve quiz page
+app.get("/quiz", (req, res) => {
+  // Read the questions.json file
+  fs.readFile(path.join(__dirname, "questions.json"), "utf-8", (err, data) => {
+    if (err) {
+      return res.status(500).send("Error reading questions file");
+    }
+
+    // Parse the JSON data
+    const questions = JSON.parse(data);
+
+    // Extract correct answers from the questions array
+    const correctAnswers = {};
+    questions.questions.forEach((question, index) => {
+      correctAnswers[`q${index + 1}`] = question.correctAnswer;
+    });
+
+    // Render the EJS template and pass the questions data
+    res.render("quiz", {
+      questions: questions.questions,
+      correctAnswers: correctAnswers,
+    });
+  });
+});
+
+// ===================quiz route end===================================================
 // Routes
 // index route
 app.get("/", (req, res) => {
@@ -163,19 +191,6 @@ app.use("/", userRouter);
 app.use("/courses", coursesRoute);
 
 // /////testing routes////////////////////////////////////////////////////////////////////
-//fake user for testing
-app.get(
-  "/register",
-  wrapAsync(async (req, res) => {
-    let fakeUser = new User({
-      email: "student@gmail.com",
-      username: "syed hameed",
-    });
-
-    let newUser = await User.register(fakeUser, "password");
-    res.send(newUser);
-  })
-);
 // for subjects collection
 app.get("/courses/10th/Mathematics/subArr", async (req, res) => {
   let userId = req.user._id;

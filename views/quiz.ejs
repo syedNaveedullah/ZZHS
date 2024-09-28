@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Quiz</title>
+    <!-- <link rel="stylesheet" href="/styles.css" /> -->
+    <!-- Link to your stylesheet if needed -->
+  </head>
+  <body>
+    <div class="quiz-container">
+      <form id="quiz-form">
+        <h2>Take Test</h2>
+
+        <% questions.forEach((question, index) => { %>
+        <div class="question">
+          <p><%= (index + 1) %>. <%= question.question %></p>
+          <% question.options.forEach((option, optIndex) => { %>
+          <label>
+            <input
+              type="radio"
+              name="q<%= question.id %>"
+              value="<%= String.fromCharCode(97 + optIndex) %>" />
+            <%= option %> </label
+          ><br />
+          <% }); %>
+        </div>
+        <% }); %>
+
+        <button type="button" onclick="submitQuiz()">Submit Test</button>
+      </form>
+
+      <div id="quiz-results"></div>
+
+      <a href="/dashboard">Back to Course</a>
+    </div>
+
+    <script>
+      // Correctly pass the `correctAnswers` from the server as a JavaScript object
+      const correctAnswers = <%- JSON.stringify(correctAnswers) %>;
+    </script>
+
+    <!-- Link to your JS file -->
+    <script src="/quiz.js"></script>
+  </body>
+</html>
