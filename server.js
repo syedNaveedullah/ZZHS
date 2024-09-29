@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 4000;
+const https = require("https");
 // for json file
 const fs = require("fs");
 // connecting views path
@@ -146,12 +147,25 @@ app.use((req, res, next) => {
   next();
 });
 
-// starting the server
+// ****************************starting the server******************
 app.listen(port, () => {
   console.log("server is running");
   console.log("http://localhost:4000/");
 });
 
+// // for local https (creating local ssl cirtificate)
+// const sslServer = https.createServer(
+//   {
+//     key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
+//     cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
+//     allowedHosts: 'all',
+//   },
+//   app
+// );
+// sslServer.listen(port, () => {
+//   console.log("server is running");
+//   console.log("https://localhost:4000/");
+// });
 // =========================Route to serve quiz page
 app.get("/quiz", (req, res) => {
   // Read the questions.json file

@@ -13,6 +13,10 @@ const subjectSchema = new Schema({
   physics_units: {
     type: [String], // This defines that `subjects` will be an array of strings
   },
+  classYear: {
+    type: Number,
+    required: true,
+  },
 
   user: {
     type: Schema.Types.ObjectId,

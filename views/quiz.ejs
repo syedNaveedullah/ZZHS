@@ -3,36 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynamic Quiz</title>
-    <!-- <link rel="stylesheet" href="/styles.css" /> -->
-    <!-- Link to your stylesheet if needed -->
+    <title>Test</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <!-- Include the audio element in your HTML -->
+    <audio id="congrats-sound" src="/audios/success-sound.mp3"></audio>
+
+    <style>
+      /* Blur effect for only quiz content */
+      .blur {
+        filter: blur(5px);
+      }
+
+      /* Congrats overlay */
+      .congrats-overlay {
+        z-index: 1050; /* Ensure it's on top of everything */
+        position: fixed; /* Fix to viewport */
+        top: 0; /* Start from top */
+        left: 0; /* Start from left */
+        width: 100vw; /* Full viewport width */
+        height: 100vh; /* Full viewport height */
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); /* Semi-transparent background */
+        display: flex; /* Flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center;
+      }
+
+      /* Style for the congratulation message */
+      .congrats-overlay h2 {
+        font-size: 2rem;
+        color: #28a745; /* Bootstrap success green */
+        margin-bottom: 0.5rem;
+      }
+
+      .congrats-overlay p {
+        font-size: 1.25rem;
+      }
+    </style>
   </head>
   <body>
-    <div class="quiz-container">
-      <form id="quiz-form">
-        <h2>Take Test</h2>
+    <div class="container mt-5">
+      <div class="quiz-container">
+        <form id="quiz-form" class="p-4 border rounded shadow-sm">
+          <h2 class="mb-4">Take Test</h2>
 
-        <% questions.forEach((question, index) => { %>
-        <div class="question">
-          <p><%= (index + 1) %>. <%= question.question %></p>
-          <% question.options.forEach((option, optIndex) => { %>
-          <label>
-            <input
-              type="radio"
-              name="q<%= question.id %>"
-              value="<%= String.fromCharCode(97 + optIndex) %>" />
-            <%= option %> </label
-          ><br />
+          <% questions.forEach((question, index) => { %>
+          <div class="question mb-3">
+            <p><strong><%= (index + 1) %>.</strong> <%= question.question %></p>
+            <% question.options.forEach((option, optIndex) => { %>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q<%= question.id %>"
+                value="<%= String.fromCharCode(97 + optIndex) %>"
+                id="q<%= question.id %>-<%= optIndex %>" />
+              <label
+                class="form-check-label"
+                for="q<%= question.id %>-<%= optIndex %>"
+                ><%= option %></label
+              >
+            </div>
+            <% }); %>
+          </div>
           <% }); %>
-        </div>
-        <% }); %>
 
-        <button type="button" onclick="submitQuiz()">Submit Test</button>
-      </form>
+          <button
+            type="button"
+            class="btn btn-success mt-3"
+            onclick="submitQuiz()">
+            Submit Test
+          </button>
+        </form>
+      </div>
 
-      <div id="quiz-results"></div>
+      <div id="quiz-results" class="mt-4"></div>
 
-      <a href="/dashboard">Back to Course</a>
+      <a href="/courses/10th/Mathematics" class="btn btn-link mt-3"
+        ><button type="button" class="btn btn-success mt-3">
+          Back to Course
+        </button></a
+      >
     </div>
 
     <script>
@@ -40,6 +99,8 @@
       const correctAnswers = <%- JSON.stringify(correctAnswers) %>;
     </script>
 
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Link to your JS file -->
     <script src="/quiz.js"></script>
   </body>

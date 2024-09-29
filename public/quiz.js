@@ -5,7 +5,7 @@ function generateResultHTML(
   userAnswers,
   correctAnswers
 ) {
-  let resultHTML = `<h3>You got ${score} out of ${totalQuestions} correct!</h3>`;
+  let resultHTML = `<h1>Result</h1> <h3 class="mb-3">You got ${score} out of ${totalQuestions} correct!</h3>`;
 
   // Display correct/incorrect for each question
   for (let i = 1; i <= totalQuestions; i++) {
@@ -13,8 +13,22 @@ function generateResultHTML(
     const correctAnswer = correctAnswers[`q${i}`];
     const isCorrect = userAnswer === correctAnswer ? "Correct" : `Incorrect`;
 
-    resultHTML += `<p>Question ${i}: ${isCorrect}</p>`;
+    // Bootstrap alert for correct/incorrect answers
+    resultHTML += `
+      <div class="alert ${
+        isCorrect === "Correct" ? "alert-success" : "alert-danger"
+      }">
+        Question ${i}: ${isCorrect}
+      </div>`;
   }
+
+  // Scroll down a bit to show the results
+  setTimeout(() => {
+    window.scrollBy({
+      top: 500, // Adjust this value as needed (pixels)
+      behavior: "smooth", // Smooth scrolling effect
+    });
+  }, 100); // Delay ensures content is loaded before scrolling
 
   return resultHTML;
 }
@@ -27,12 +41,24 @@ function showCongratulations(
   correctAnswers
 ) {
   const resultsDiv = document.getElementById("quiz-results");
+  const quizContainer = document.querySelector(".quiz-container");
+  const congratsSound = document.getElementById("congrats-sound");
 
-  // Display the congratulatory message
+  // Add a blur effect to the quiz container (but not the overlay)
+  quizContainer.classList.add("blur");
+
+  // Display the congratulatory message in front
   let resultHTML = `
-        <h3>Congratulations! You answered all the questions correctly!</h3>
-        <p>Your score is ${score} out of ${totalQuestions}.</p>
-    `;
+    <div class="congrats-overlay">
+      <div>
+        <img src="/pictures/success.gif" alt="success image" hight="500px" width="500px">
+        <h2 class="text-success">🎉 Congratulations! 🎉</h2>
+        <p>You answered all the questions correctly!</p>
+        <p>Your score is <strong>${score} out of ${totalQuestions}</strong>.</p>
+        <h2 class="text-success">Proceed to Next Chapter➡️</h2>
+      </div>
+    </div>
+  `;
 
   // Append detailed feedback using the helper function
   resultHTML += generateResultHTML(
@@ -43,6 +69,17 @@ function showCongratulations(
   );
 
   resultsDiv.innerHTML = resultHTML;
+
+  // Play the congratulatory sound
+  congratsSound.play();
+  // Automatically hide the congratulations overlay and blur effect after 5 seconds
+  setTimeout(() => {
+    quizContainer.classList.remove("blur");
+    const overlay = document.querySelector(".congrats-overlay");
+    if (overlay) {
+      overlay.remove();
+    }
+  }, 5000); // 5 seconds
 }
 
 function submitQuiz() {

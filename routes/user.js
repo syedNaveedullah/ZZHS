@@ -41,6 +41,7 @@ router.post("/signup", async (req, res, next) => {
         maths_units: ["MATHS1"],
         biology_units: ["BIOLOGY1"],
         physics_units: ["PHYSICS1"],
+        classYear: classYear,
         user: userId,
       });
       await newSubject.save();

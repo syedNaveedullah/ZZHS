@@ -15,7 +15,7 @@
 }
 /* sidebar================================================================================ */
 .top {
-  height: 8%;
+  height: 7%;
   width: 100%;
   /* padding: 1rem; */
   background-color: rgb(40, 40, 40);
@@ -34,7 +34,7 @@
 }
 
 .heading {
-  height: 12%;
+  height: 13%;
   background-color: rgb(23, 23, 23);
   display: flex;
   align-items: center;
@@ -59,20 +59,82 @@ li {
   cursor: pointer;
 }
 
+.sub-list-a {
+  text-decoration: none;
+}
+
 .active {
   background-color: #82ad59 !important;
   border: 1px solid #82ad59 !important;
 }
 
 /*==========================video player=================================== */
+.vid-frame {
+  height: 100%;
+  width: 100%;
+}
+
+/* Hides the watch later, share button, and video suggestions */
+#player iframe {
+  pointer-events: none;
+}
+#player {
+  pointer-events: none;
+}
+
+.ytp-chrome-top,  /* Hides the top controls */
+.ytp-share-button, /* Hides the share button */
+.ytp-watch-later-button, /* Hides the watch later button */
+.ytp-title, /* Hides the video title */
+.ytp-endscreen-content  /* Hides related videos */ {
+  display: none !important;
+}
+
+/**************************************custom buttons***********************************************/
+/* /* Ensure the video container is positioned relative */
 .videoPlayer {
+  position: relative;
   height: 100vh;
   width: 70vw;
   padding: 0.5rem;
   background-color: rgb(0, 0, 0);
 }
 
-.vid-frame {
-  height: 100%;
+/* custom controls */
+.custom-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 10px;
+}
+
+/* Play/Pause and Fullscreen Buttons Styling */
+#playPauseBtn,
+#fullscreenBtn {
+  padding: 10px 20px;
+  background-color: #82ad59;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Progress bar styling */
+.progress-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+/* Additional styles for responsiveness */
+.videoPlayer iframe {
+  width: 100%;
+  height: 100%;
 }
