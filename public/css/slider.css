@@ -1,9 +1,7 @@
-/* section 5 Gallery ==================================================*/
+/* section 5 Gallery ================================================== */
 #section-5 {
   width: 100vw;
   height: 150vh;
-  /* display: flex;
-  align-items: center; */
   overflow: hidden;
   background: white;
 }
@@ -21,8 +19,7 @@
 }
 
 #sec5-green-circle {
-  background: url("../pictures/Overall-Site-circle.png") no-repeat center
-    center/cover;
+  background: url("../pictures/Overall-Site-circle.png") no-repeat center center/cover;
   height: 1000px;
   width: 600px;
   position: absolute;
@@ -30,47 +27,44 @@
   right: 0;
 }
 
-/* slider ======================================== */
-
+/* Updated slider ======================================== */
 .container {
+  max-width: 1024px;
   width: 100%;
-  /* height: 60vh; */
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgContainer {
+  display: flex;
   width: 100%;
-  /* height: 600px; */
-  height: 100vh;
-  position: absolute;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
+  flex-direction: row;
+  animation: scroll 20s ease-in-out infinite;
 }
 
-.slide_div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 30px 0 30px;
-}
-
-#section-5 img {
-  position: relative;
+.slide_div img {
+  flex-shrink: 0;
   width: 350px;
   height: 250px;
-  filter: saturate(10%);
-  transition: 0.7s;
-  background-color: rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  border: 3px solid white;
   border-radius: 20px;
 }
 
+@keyframes scroll {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* Optional: Adjust button hover effect for interactive feeling */
 .button {
   position: absolute;
   width: 350px;
@@ -82,82 +76,4 @@
 
 .button:hover {
   background-color: rgba(0, 0, 0, 0.2);
-}
-
-#slider1:target ~ .imgContainer #img1,
-#slider1:target ~ .imgContainer #button1 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider2:target ~ .imgContainer #img2,
-#slider2:target ~ .imgContainer #button2 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider3:target ~ .imgContainer #img3,
-#slider3:target ~ .imgContainer #button3 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider4:target ~ .imgContainer #img4,
-#slider4:target ~ .imgContainer #button4 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider5:target ~ .imgContainer #img5,
-#slider5:target ~ .imgContainer #button5 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider6:target ~ .imgContainer #img6,
-#slider6:target ~ .imgContainer #button6 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider7:target ~ .imgContainer #img7,
-#slider7:target ~ .imgContainer #button7 {
-  width: 400px;
-  height: 300px;
-  background-color: transparent;
-  filter: saturate(100%);
-}
-
-#slider1:target ~ .imgContainer {
-  left: 60%;
-}
-#slider2:target ~ .imgContainer {
-  left: 40%;
-}
-#slider3:target ~ .imgContainer {
-  left: 20%;
-}
-#slider4:target ~ .imgContainer {
-  left: 0%;
-}
-#slider5:target ~ .imgContainer {
-  left: -20%;
-}
-#slider6:target ~ .imgContainer {
-  left: -40%;
-}
-#slider7:target ~ .imgContainer {
-  left: -60%;
 }
