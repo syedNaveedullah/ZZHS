@@ -64,13 +64,22 @@
      <div id="player" class="embed-responsive-item vid-frame">
     </div>
        <!-- Custom Controls -->
-       <div class="custom-controls">
-         <button id="playPauseBtn">Play</button>
-         <input type="range" id="progressRange" min="0" max="100" value="0" step="0.1" class="progress-bar">
-         <button id="fullscreenBtn">Fullscreen</button>
-        </div>
+<div class="custom-controls d-flex align-items-center justify-content-between">
+  <button id="playPauseBtn" class="control-btn">Play</button>
 
-      </div>
+  <div class="d-flex flex-column flex-grow-1 mx-3">
+    <div class="d-flex justify-content-between mb-1">
+      <span id="currentTime">0:00</span>
+      <span id="totalTime">0:00</span>
+    </div>
+    <input type="range" id="progressRange" min="0" max="100" value="0" step="0.1" class="progress-bar w-100">
+  </div>
+
+  <button id="fullscreenBtn" class="control-btn">Fullscreen</button>
+</div>
+
+
+  </div>
     <!-- bootstrap js links -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

@@ -169,26 +169,30 @@ app.listen(port, () => {
 // =========================Route to serve quiz page
 app.get("/quiz", (req, res) => {
   // Read the questions.json file
-  fs.readFile(path.join(__dirname, "questions.json"), "utf-8", (err, data) => {
-    if (err) {
-      return res.status(500).send("Error reading questions file");
+  fs.readFile(
+    path.join(__dirname, "./public/mcqs/questions.json"),
+    "utf-8",
+    (err, data) => {
+      if (err) {
+        return res.status(500).send("Error reading questions file");
+      }
+
+      // Parse the JSON data
+      const questions = JSON.parse(data);
+
+      // Extract correct answers from the questions array
+      const correctAnswers = {};
+      questions.questions.forEach((question, index) => {
+        correctAnswers[`q${index + 1}`] = question.correctAnswer;
+      });
+
+      // Render the EJS template and pass the questions data
+      res.render("quiz", {
+        questions: questions.questions,
+        correctAnswers: correctAnswers,
+      });
     }
-
-    // Parse the JSON data
-    const questions = JSON.parse(data);
-
-    // Extract correct answers from the questions array
-    const correctAnswers = {};
-    questions.questions.forEach((question, index) => {
-      correctAnswers[`q${index + 1}`] = question.correctAnswer;
-    });
-
-    // Render the EJS template and pass the questions data
-    res.render("quiz", {
-      questions: questions.questions,
-      correctAnswers: correctAnswers,
-    });
-  });
+  );
 });
 
 // ===================quiz route end===================================================
