@@ -4,13 +4,13 @@ const Schema = mongoose.Schema;
 // const User = require("./user.js");
 
 const subjectSchema = new Schema({
-  maths_units: {
+  Mathematics: {
     type: [String], // This defines that `subjects` will be an array of strings
   },
-  biology_units: {
+  Biology: {
     type: [String], // This defines that `subjects` will be an array of strings
   },
-  physics_units: {
+  Physics: {
     type: [String], // This defines that `subjects` will be an array of strings
   },
   classYear: {

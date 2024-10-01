@@ -38,9 +38,9 @@ router.post("/signup", async (req, res, next) => {
 
       // If no subject collection exists, create a new one
       const newSubject = new Subject({
-        maths_units: ["MATHS1"],
-        biology_units: ["BIOLOGY1"],
-        physics_units: ["PHYSICS1"],
+        Mathematics: ["MATHS1"],
+        Biology: ["BIOLOGY1"],
+        Physics: ["PHYSICS1"],
         classYear: classYear,
         user: userId,
       });

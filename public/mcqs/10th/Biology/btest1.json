@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Naveed What is the name of the website the Californian teenager in the text created to obtain sensitive information?",
+      "options": ["American Airlines", "Amazon", "America Online", "Apple"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 2,
+      "question": "What is the term used for a type of phishing that occurs through text messages?",
+      "options": ["Vishing", "Smishing", "Phishing", "Spoofing"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT a type of sensitive information that a phishing scam might target?",
+      "options": ["Credit card details", "Personally identifiable information", "Social security number", "Website login credentials"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "When was the first phishing lawsuit filed?",
+      "options": ["2003", "2004", "2005", "2006"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "What is the primary goal of phishing scams?",
+      "options": ["To spread malware", "To obtain sensitive data", "To disrupt online services", "To create fake accounts"],
+      "correctAnswer": "b"
+    }
+  ]
+}

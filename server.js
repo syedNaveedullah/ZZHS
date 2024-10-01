@@ -3,11 +3,12 @@ const app = express();
 const port = 4000;
 const https = require("https");
 // for json file
-const fs = require("fs");
+const fs = require("fs").promises;
 // connecting views path
 const path = require("path");
 // for layouts in views
 const ejsMate = require("ejs-mate");
+// to parse req body
 const bodyParser = require("body-parser");
 // mongoose
 const mongoose = require("mongoose");
@@ -20,7 +21,7 @@ const User = require("./models/user.js");
 const Subject = require("./models/subjects.js");
 // session
 const session = require("express-session");
-// errors
+// handling errors
 const wrapAsync = require("./utils/wrapAsync.js");
 const ExpressError = require("./utils/ExpressError.js");
 // user routes
@@ -166,37 +167,8 @@ app.listen(port, () => {
 //   console.log("server is running");
 //   console.log("https://localhost:4000/");
 // });
-// =========================Route to serve quiz page
-app.get("/quiz", (req, res) => {
-  // Read the questions.json file
-  fs.readFile(
-    path.join(__dirname, "./public/mcqs/questions.json"),
-    "utf-8",
-    (err, data) => {
-      if (err) {
-        return res.status(500).send("Error reading questions file");
-      }
 
-      // Parse the JSON data
-      const questions = JSON.parse(data);
-
-      // Extract correct answers from the questions array
-      const correctAnswers = {};
-      questions.questions.forEach((question, index) => {
-        correctAnswers[`q${index + 1}`] = question.correctAnswer;
-      });
-
-      // Render the EJS template and pass the questions data
-      res.render("quiz", {
-        questions: questions.questions,
-        correctAnswers: correctAnswers,
-      });
-    }
-  );
-});
-
-// ===================quiz route end===================================================
-// Routes
+// Routes======================================================================
 // index route
 app.get("/", (req, res) => {
   res.render("index.ejs");
@@ -209,28 +181,29 @@ app.use("/", userRouter);
 app.use("/courses", coursesRoute);
 
 // /////testing routes////////////////////////////////////////////////////////////////////
-// for subjects collection
-app.get("/courses/10th/Mathematics/subArr", async (req, res) => {
-  let userId = req.user._id;
+// // for subjects collection
+// app.get("/courses/10th/Mathematics/subArr", async (req, res) => {
+//   let userId = req.user._id;
 
-  const cheakSubject = await Subject.findOne({ user: req.user._id }); // Find the subject document associated with the user
+//   const cheakSubject = await Subject.findOne({ user: req.user._id }); // Find the subject document associated with the user
 
-  if (cheakSubject) {
-    return res
-      .status(400)
-      .send("Subject document for this user already exists.");
-  }
+//   if (cheakSubject) {
+//     return res
+//       .status(400)
+//       .send("Subject document for this user already exists.");
+//   }
 
-  const newSubject = new Subject({
-    maths_units: ["MATHS1"],
-    biology_units: ["BIOLOGY1"],
-    physics_units: ["PHYSICS1"],
-  });
-  newSubject.user = req.user._id;
-  await newSubject.save();
-  res.send("Subject document created successfully.");
-});
+//   const newSubject = new Subject({
+//     Mathematics: ["MATHS1"],
+//     Biology: ["BIOLOGY1"],
+//     Physics: ["PHYSICS1"],
+//   });
+//   newSubject.user = req.user._id;
+//   await newSubject.save();
+//   res.send("Subject document created successfully.");
+// });
 
+// pushing into DB subject array=============================================
 app.get("/courses/10th/Mathematics/pushingSub", async (req, res) => {
   try {
     // Assuming the user ID is passed via query string or is available from req.user
@@ -239,15 +212,14 @@ app.get("/courses/10th/Mathematics/pushingSub", async (req, res) => {
     // Find the subject document based on the user ID and push "social2" to the subjects array
     const updatedSubject = await Subject.findOneAndUpdate(
       { user: userId }, // Find the subject document associated with the user
-      // { $push: { subjects: "social2" } }, // Push "social2" into the subjects array
-      { $addToSet: { maths_units: "social2" } }, // Push "social2" into the subjects array
+      // { $push: { Mathematics: "social2" } }, // Push "social2" into the subjects array
+      { $addToSet: { Mathematics: "social2" } }, // Push "social2" into the subjects array, if social2 already exists leave it
       { new: true } // Return the updated document
     );
 
     if (!updatedSubject) {
       return res.status(404).send("No subject document found for this user.");
     }
-
     res.send("Subject updated successfully: " + updatedSubject);
   } catch (error) {
     console.error("Error updating subject: ", error);
