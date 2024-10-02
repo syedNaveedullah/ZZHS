@@ -71,6 +71,8 @@ router.get(
     res.render("quiz", {
       questions: questions.questions,
       correctAnswers: correctAnswers,
+      subject: subject,
+      testNum: testNum,
     });
   })
 );

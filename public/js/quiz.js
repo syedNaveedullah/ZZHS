@@ -106,6 +106,8 @@ function submitQuiz() {
   // If all answers are correct, show congratulations message + detailed feedback
   if (allCorrect) {
     showCongratulations(score, totalQuestions, userAnswers, correctAnswers);
+    // storing test id to DB
+    addVidIDtoDB();
   } else {
     // Show detailed results if not all answers are correct
     const resultsDiv = document.getElementById("quiz-results");
@@ -116,4 +118,26 @@ function submitQuiz() {
       correctAnswers
     );
   }
+}
+
+// adding test id to DB
+let testID = testNum; //ID to store in DB
+let subjectName = subject;
+// console.log(subject);
+// console.log(testNum);
+
+// =====================ADDING video ID to Data Base===========================================
+function addVidIDtoDB() {
+  // Use the fetch API to call the server route for updating the subject array
+  fetch(`/courses/10th/${subjectName}/${testID}/pushingSub`, {
+    method: "POST", // Assuming this is a GET request, based on your route
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+    })
+    .catch((error) => {
+      console.error("Error in adding video ID to DB:", error);
+    });
 }
