@@ -41,6 +41,7 @@ router.post("/signup", async (req, res, next) => {
         Mathematics: ["MATHS1"],
         Biology: ["BIOLOGY1"],
         Physics: ["PHYSICS1"],
+        Social: ["SOCIAL1"],
         classYear: classYear,
         user: userId,
       });

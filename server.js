@@ -180,53 +180,6 @@ app.use("/", userRouter);
 //Courses
 app.use("/courses", coursesRoute);
 
-// /////testing routes////////////////////////////////////////////////////////////////////
-// // for subjects collection
-// app.get("/courses/10th/Mathematics/subArr", async (req, res) => {
-//   let userId = req.user._id;
-
-//   const cheakSubject = await Subject.findOne({ user: req.user._id }); // Find the subject document associated with the user
-
-//   if (cheakSubject) {
-//     return res
-//       .status(400)
-//       .send("Subject document for this user already exists.");
-//   }
-
-//   const newSubject = new Subject({
-//     Mathematics: ["MATHS1"],
-//     Biology: ["BIOLOGY1"],
-//     Physics: ["PHYSICS1"],
-//   });
-//   newSubject.user = req.user._id;
-//   await newSubject.save();
-//   res.send("Subject document created successfully.");
-// });
-
-// pushing into DB subject array=============================================
-app.get("/courses/10th/Mathematics/pushingSub", async (req, res) => {
-  try {
-    // Assuming the user ID is passed via query string or is available from req.user
-    const userId = req.user._id; // Change based on your authentication system
-
-    // Find the subject document based on the user ID and push "social2" to the subjects array
-    const updatedSubject = await Subject.findOneAndUpdate(
-      { user: userId }, // Find the subject document associated with the user
-      // { $push: { Mathematics: "social2" } }, // Push "social2" into the subjects array
-      { $addToSet: { Mathematics: "social2" } }, // Push "social2" into the subjects array, if social2 already exists leave it
-      { new: true } // Return the updated document
-    );
-
-    if (!updatedSubject) {
-      return res.status(404).send("No subject document found for this user.");
-    }
-    res.send("Subject updated successfully: " + updatedSubject);
-  } catch (error) {
-    console.error("Error updating subject: ", error);
-    res.status(500).send("An error occurred while updating subjects.");
-  }
-});
-
 //route for all incorrect route request------------------------------
 app.all("*", (req, res, next) => {
   next(new ExpressError(404, "Page Not Found"));

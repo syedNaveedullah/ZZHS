@@ -91,10 +91,14 @@
       crossorigin="anonymous"></script>
 
       <!-- iframe api link  -->
-<script src="https://www.youtube.com/iframe_api"></script>
+      <script src="https://www.youtube.com/iframe_api"></script>
 
       <!-- link for jQuery used in js file -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- sending subbject value to js file -->
+        <script>
+          const subject = "<%= subject %>";
+        </script>
       <!-- js file link -->
       <script src="/js/videoPlayer.js"></script>
   </body>

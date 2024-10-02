@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const app = express();
 // for json file
 const fs = require("fs").promises;
 // connecting views path
@@ -9,6 +8,10 @@ const path = require("path");
 const bodyParser = require("body-parser");
 // handling errors
 const wrapAsync = require("../utils/wrapAsync");
+//user model
+const User = require("../models/user.js");
+// subjects model
+const Subject = require("../models/subjects.js");
 
 //to open courses page
 router.get("/", (req, res) => {
@@ -34,7 +37,7 @@ router.get("/:className/:subject", (req, res) => {
   res.render("course/coursePlayer.ejs", { className, subject });
 });
 
-// to open test page=========================================================================================
+//============to open test page================================================
 router.get(
   "/:className/:subject/:testNum",
   wrapAsync(async (req, res) => {
@@ -46,7 +49,7 @@ router.get(
       `../public/mcqs/${className}/${subject}/${testNum}.json`
     );
 
-    // Read the questions.json file using fs.promises
+    // Reading the questions.json file using fs.promises
     const data = await fs.readFile(filePath, "utf-8");
 
     let questions;
@@ -71,5 +74,31 @@ router.get(
     });
   })
 );
+
+// updating the subjects array in DB for lock/unlock
+// pushing into DB subject array=============================================
+router.post("/10th/:subject/:id/pushingSub", async (req, res) => {
+  let { subject, id } = req.params;
+  try {
+    // Assuming the user ID is passed via query string or is available from req.user
+    const userId = req.user._id;
+
+    // Find the subject document based on the user ID and push "social2" to the subjects array
+    const updatedSubject = await Subject.findOneAndUpdate(
+      { user: userId }, // Find the subject document associated with the user
+      // { $push: { Mathematics: "social2" } }, // Push "social2" into the subjects array
+      { $addToSet: { [subject]: `${id}` } }, // Push "social2" into the subjects array, if social2 already exists leave it
+      { new: true } // Return the updated document
+    );
+
+    if (!updatedSubject) {
+      return res.status(404).send("No subject document found for this user.");
+    }
+    res.send("Subject updated successfully: " + updatedSubject);
+  } catch (error) {
+    console.error("Error updating subject: ", error);
+    res.status(500).send("An error occurred while updating subjects.");
+  }
+});
 
 module.exports = router;
