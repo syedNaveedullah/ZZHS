@@ -1,4 +1,5 @@
 let subjListItems = document.getElementsByClassName("list-group-item");
+let testHerf = document.getElementsByClassName("sub-list-a");
 let videoId;
 let player;
 let isPlayerInitialized = false;
@@ -64,6 +65,9 @@ function changeVideo(videoId) {
 // Function to remove "active" class from all list items
 function makeAllUnSelect() {
   for (element of subjListItems) {
+    element.classList.remove("active");
+  }
+  for (element of testHerf) {
     element.classList.remove("active");
   }
 }
@@ -270,28 +274,32 @@ async function fetchSubjectData() {
 
 // Function to unlock the elements by removing the "fa-lock" class
 function unlock() {
-  // unlocking=========================
+  // Unlocking for db_maths
   db_maths.map((el) => {
-    let id = document.getElementById(el);
-    if (id) {
-      // Check if element exists
-      id.querySelector("i").classList.remove("fa-lock");
+    // Select element by the 'value2' attribute
+    let element = document.querySelector(`[value2="${el}"]`);
+    if (element) {
+      // Remove the 'fa-lock' class from the <i> tag
+      element.querySelector("i").classList.remove("fa-lock");
+      element.classList.remove("lock");
     }
   });
 
+  // Unlocking for db_biology
   db_biology.map((el) => {
-    let id = document.getElementById(el);
-    if (id) {
-      // Check if element exists
-      id.querySelector("i").classList.remove("fa-lock");
+    let element = document.querySelector(`[value2="${el}"]`);
+    if (element) {
+      element.querySelector("i").classList.remove("fa-lock");
+      element.classList.remove("lock");
     }
   });
 
+  // Unlocking for db_physics
   db_physics.map((el) => {
-    let id = document.getElementById(el);
-    if (id) {
-      // Check if element exists
-      id.querySelector("i").classList.remove("fa-lock");
+    let element = document.querySelector(`[value2="${el}"]`);
+    if (element) {
+      element.querySelector("i").classList.remove("fa-lock");
+      element.classList.remove("lock");
     }
   });
 }
