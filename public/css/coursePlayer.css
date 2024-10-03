@@ -8,12 +8,16 @@
   display: flex;
 }
 
+/* disable click  */
+.lock {
+  pointer-events: none;
+}
+/* sidebar================================================================================ */
 .sideBar {
   height: 100vh;
   width: 30vw;
   background-color: rgb(13, 13, 13);
 }
-/* sidebar================================================================================ */
 .top {
   height: 7%;
   width: 100%;

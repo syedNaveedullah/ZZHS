@@ -107,7 +107,7 @@ function submitQuiz() {
   if (allCorrect) {
     showCongratulations(score, totalQuestions, userAnswers, correctAnswers);
     // storing test id to DB
-    addVidIDtoDB();
+    addTestIDtoDB();
   } else {
     // Show detailed results if not all answers are correct
     const resultsDiv = document.getElementById("quiz-results");
@@ -126,8 +126,8 @@ let subjectName = subject;
 // console.log(subject);
 // console.log(testNum);
 
-// =====================ADDING video ID to Data Base===========================================
-function addVidIDtoDB() {
+// =====================ADDING test ID to Data Base===========================================
+function addTestIDtoDB() {
   // Use the fetch API to call the server route for updating the subject array
   fetch(`/courses/10th/${subjectName}/${testID}/pushingSub`, {
     method: "POST", // Assuming this is a GET request, based on your route

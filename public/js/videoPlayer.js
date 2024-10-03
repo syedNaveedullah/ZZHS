@@ -219,3 +219,82 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }, 1000); // Add a delay to ensure the API has time to load
 });
+
+// *************************lock/unlock videos and test*************************
+// Initialize empty arrays for the subjects
+let db_maths = [];
+let db_biology = [];
+let db_physics = [];
+
+// Function to fetch and populate the arrays
+async function fetchSubjectData() {
+  try {
+    // Fetch the data from the /accessData route
+    const response = await fetch("/courses/accessData", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch data from server");
+    }
+
+    // Parse the JSON response
+    const data = await response.json();
+
+    // Access and populate the arrays based on the response data
+    if (data.Mathematics) {
+      db_maths.push(...data.Mathematics); // Spread operator to add all elements
+    }
+
+    if (data.Biology) {
+      db_biology.push(...data.Biology);
+    }
+
+    if (data.Physics) {
+      db_physics.push(...data.Physics);
+    }
+    // // Log the updated arrays to verify
+    // console.log("Maths Array:", db_maths);
+    // console.log("Biology Array:", db_biology);
+    // console.log("Physics Array:", db_physics);
+
+    // Call unlock function after fetching data
+    unlock();
+  } catch (error) {
+    console.error("Error fetching subject data:", error);
+  }
+}
+
+// Function to unlock the elements by removing the "fa-lock" class
+function unlock() {
+  // unlocking=========================
+  db_maths.map((el) => {
+    let id = document.getElementById(el);
+    if (id) {
+      // Check if element exists
+      id.querySelector("i").classList.remove("fa-lock");
+    }
+  });
+
+  db_biology.map((el) => {
+    let id = document.getElementById(el);
+    if (id) {
+      // Check if element exists
+      id.querySelector("i").classList.remove("fa-lock");
+    }
+  });
+
+  db_physics.map((el) => {
+    let id = document.getElementById(el);
+    if (id) {
+      // Check if element exists
+      id.querySelector("i").classList.remove("fa-lock");
+    }
+  });
+}
+
+// Call the function to fetch and populate arrays
+fetchSubjectData();

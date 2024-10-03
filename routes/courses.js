@@ -18,6 +18,26 @@ router.get("/", (req, res) => {
   res.render("course/courses.ejs");
 });
 
+// accessing available subjects from DB
+router.get(
+  "/accessData",
+  wrapAsync(async (req, res) => {
+    // Assuming the user ID is passed via query string or is available from req.user
+    const userId = req.user._id;
+
+    // Find the subject document based on the user ID and push "social2" to the subjects array
+    const SubjectsArr = await Subject.findOne(
+      { user: userId } // Find the subject document associated with the user
+    );
+
+    if (!SubjectsArr) {
+      return res.status(404).send("No subject data found for the user.");
+    }
+
+    res.send(SubjectsArr);
+  })
+);
+
 // to open specific class================================================================================
 router.get("/:className", (req, res) => {
   let { className } = req.params;
