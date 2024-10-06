@@ -1,0 +1,126 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which blood vessels carry blood away from the heart?",
+        "options": ["Veins", "Capillaries", "Arteries", "Lymphatic vessels"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 2,
+        "question": "What is the main function of red blood cells in the circulatory system?",
+        "options": ["Fight infections", "Transport oxygen", "Clot blood", "Transport carbon dioxide"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "Which chamber of the heart pumps oxygenated blood to the body?",
+        "options": ["Right atrium", "Right ventricle", "Left atrium", "Left ventricle"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 4,
+        "question": "What is the role of platelets in the blood?",
+        "options": ["Transport oxygen", "Help in blood clotting", "Fight infections", "Carry nutrients"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "What type of blood do veins generally carry?",
+        "options": ["Oxygenated", "Deoxygenated", "Mixed", "Nutrient-rich"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is the largest artery in the human body?",
+        "options": ["Pulmonary artery", "Aorta", "Coronary artery", "Carotid artery"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "What is the main function of the valves in the heart?",
+        "options": ["Pump blood", "Regulate blood pressure", "Prevent backflow of blood", "Exchange gases"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "Which blood vessels have walls thin enough to allow gas exchange?",
+        "options": ["Arteries", "Veins", "Capillaries", "Venules"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 9,
+        "question": "What is the function of white blood cells?",
+        "options": ["Transport oxygen", "Fight infections", "Produce hormones", "Help in digestion"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "Which side of the heart deals with deoxygenated blood?",
+        "options": ["Right side", "Left side", "Both sides", "Middle"],
+        "correctAnswer": "a"
+      },
+  
+      {
+        "id": 11,
+        "question": "What is the liquid part of the blood called?",
+        "options": ["Plasma", "Platelets", "Hemoglobin", "Serum"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 12,
+        "question": "Which tissue in plants is responsible for transporting water from roots to other parts?",
+        "options": ["Xylem", "Phloem", "Cambium", "Epidermis"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 13,
+        "question": "What is the process by which water moves through plants from roots to leaves and then evaporates?",
+        "options": ["Respiration", "Photosynthesis", "Transpiration", "Fermentation"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 14,
+        "question": "What drives the upward movement of water through the xylem in plants?",
+        "options": ["Root pressure", "Capillary action", "Transpiration pull", "All of the above"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following is NOT a function of phloem tissue?",
+        "options": ["Transport of food", "Transport of water", "Transport of hormones", "Storage of nutrients"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "In which part of the plant does the majority of water absorption occur?",
+        "options": ["Leaves", "Stem", "Roots", "Flowers"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "What is the main force responsible for the movement of water from the soil into the plant roots?",
+        "options": ["Root pressure", "Osmosis", "Transpiration", "Photosynthesis"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "Which cells in the leaf are responsible for controlling the opening and closing of stomata?",
+        "options": ["Guard cells", "Phloem cells", "Xylem cells", "Parenchyma cells"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following is a function of transpiration in plants?",
+        "options": ["Transport of minerals", "Cooling of the plant", "Gas exchange", "All of the above"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 20,
+        "question": "What is the name of the process by which plants release oxygen as a byproduct?",
+        "options": ["Transpiration", "Respiration", "Photosynthesis", "Fermentation"],
+        "correctAnswer": "c"
+      }
+    ]
+  }
+  

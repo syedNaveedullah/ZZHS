@@ -1,0 +1,126 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What are the five senses in human beings?",
+        "options": ["Sight, sound, touch, taste, smell", "Sight, sound, touch, taste, hearing", "Sight, sound, touch, taste, balance", "Sight, sound, touch, taste, motion"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 2,
+        "question": "What type of taste do sugar crystals primarily stimulate on the tongue?",
+        "options": ["Bitter", "Sour", "Sweet", "Salty"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 3,
+        "question": "What is the pH range of a healthy mouth?",
+        "options": ["4.5 - 5.5", "6.5 - 7.5", "7.5 - 8.5", "8.5 - 9.5"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "What process moves food from the mouth to the stomach through the esophagus?",
+        "options": ["Diffusion", "Osmosis", "Peristalsis", "Filtration"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 5,
+        "question": "What is peristaltic movement?",
+        "options": ["Contraction of heart muscles", "Wave-like muscle contractions in the digestive tract", "Breathing movement of the lungs", "Blood circulation in veins"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "Which organ acts as the mixer and digester of food in the human body?",
+        "options": ["Liver", "Pancreas", "Stomach", "Small intestine"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 7,
+        "question": "How long does it generally take for food to travel from the stomach to the small intestine?",
+        "options": ["30 minutes", "1-3 hours", "4-6 hours", "8-10 hours"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 8,
+        "question": "What is the role of the anal sphincter?",
+        "options": ["Regulate blood flow", "Control bowel movements", "Assist in digestion", "Promote absorption"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "Which part of the digestive system is primarily responsible for nutrient absorption?",
+        "options": ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "What is the function of saliva in the digestive process?",
+        "options": ["To kill bacteria", "To initiate digestion", "To lubricate food", "All of the above"],
+        "correctAnswer": "d"
+      },
+  
+      {
+        "id": 11,
+        "question": "Which organ secretes gastric juices?",
+        "options": ["Liver", "Stomach", "Pancreas", "Intestine"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "Where does most of the digestion and absorption of nutrients occur in the human digestive system?",
+        "options": ["Stomach", "Small intestine", "Large intestine", "Mouth"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Which enzyme in the saliva breaks down starch into simpler sugars?",
+        "options": ["Pepsin", "Lipase", "Amylase", "Trypsin"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 14,
+        "question": "Sphincter that helps in opening the stomach in the duodenum?",
+        "options": ["Pyloric sphincter", "Cardiac sphincter", "Anal sphincter", "Ileocecal valve"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 15,
+        "question": "Glucose and amino acids are absorbed through the following part of the villus?",
+        "options": ["Lacteals", "Blood capillaries", "Nerve endings", "Epithelial cells"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "The region in the brain portion that controls hunger signals?",
+        "options": ["Diencephalon", "Cerebellum", "Medulla oblongata", "Amygdala"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 17,
+        "question": "In the ratio 2:1:2:3 of our dentition, what does 1 represent?",
+        "options": ["Incisors", "Canines", "Premolars", "Molars"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "Large proteins are broken down in _________ of the digestive tract?",
+        "options": ["Mouth", "Stomach", "Small intestine", "Large intestine"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "Olfactory receptors present in _____________ trigger signals to the brain?",
+        "options": ["Nasal cavity", "Tongue", "Throat", "Ears"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 20,
+        "question": "The walls of the stomach secrete juice containing __________ and other digestive juices.",
+        "options": ["Pepsin", "HCl", "Bile", "Amylase"],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

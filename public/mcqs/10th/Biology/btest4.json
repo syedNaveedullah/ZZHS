@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which organ in the human body is primarily responsible for filtering waste from the blood?",
+      "options": ["Lungs", "Kidneys", "Liver", "Heart"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "What is the functional unit of the kidney called?",
+      "options": ["Nephron", "Neuron", "Alveolus", "Glomerulus"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 3,
+      "question": "Which blood vessel carries filtered blood away from the kidneys?",
+      "options": ["Renal artery", "Aorta", "Renal vein", "Vena cava"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "What is the main nitrogenous waste product excreted in human urine?",
+      "options": ["Carbon dioxide", "Urea", "Ammonia", "Uric acid"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "Which part of the nephron is responsible for filtration of blood?",
+      "options": ["Bowman's capsule", "Loop of Henle", "Distal tubule", "Proximal tubule"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "Which hormone regulates water balance in the body by acting on the kidneys?",
+      "options": ["Insulin", "Adrenaline", "Vasopressin", "Thyroxine"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is not an excretory organ in humans?",
+      "options": ["Lungs", "Skin", "Heart", "Kidneys"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 8,
+      "question": "Which structure stores urine before it is excreted from the body?",
+      "options": ["Ureter", "Urinary bladder", "Urethra", "Kidney"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 9,
+      "question": "Which blood vessel brings oxygenated blood to the kidneys for filtration?",
+      "options": ["Renal artery", "Pulmonary artery", "Renal vein", "Coronary artery"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "What is the role of the loop of Henle in the nephron?",
+      "options": ["Filtration of blood", "Reabsorption of water", "Excretion of urea", "Formation of urine"],
+      "correctAnswer": "b"
+    },
+
+    {
+      "id": 11,
+      "question": "Which condition occurs when the kidneys are unable to filter blood properly?",
+      "options": ["Diabetes", "Kidney stones", "Hypertension", "Kidney failure"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is excreted by the lungs?",
+      "options": ["Water", "Carbon dioxide", "Urea", "Salts"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "What is dialysis used for?",
+      "options": ["Filtering blood externally", "Filtering urine", "Producing red blood cells", "Regulating hormones"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a method of excretion in plants?",
+      "options": ["Photosynthesis", "Transpiration", "Respiration", "Fermentation"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 15,
+      "question": "How do plants mainly remove excess water?",
+      "options": ["Stomatal pores", "Xylem vessels", "Phloem cells", "Root hairs"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "Plants store excess waste materials in which part?",
+      "options": ["Roots", "Vacuoles", "Leaves", "Stem"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following processes involves the removal of oxygen in plants?",
+      "options": ["Respiration", "Photosynthesis", "Transpiration", "Fermentation"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "In plants, which organelle is involved in the excretion of toxic substances?",
+      "options": ["Chloroplast", "Mitochondria", "Vacuole", "Nucleus"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 19,
+      "question": "Through which process do plants release excess oxygen?",
+      "options": ["Transpiration", "Photosynthesis", "Respiration", "Fermentation"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "Plants excrete waste gases through which part?",
+      "options": ["Roots", "Stomata", "Xylem", "Phloem"],
+      "correctAnswer": "b"
+    }
+  ]
+}

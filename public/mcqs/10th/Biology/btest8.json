@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the basic unit of heredity?",
+        "options": ["Gene", "Chromosome", "DNA", "RNA"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 2,
+        "question": "Which scientist is known as the father of genetics?",
+        "options": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "James Watson"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "What is the process by which offspring inherit traits from their parents called?",
+        "options": ["Evolution", "Genetic drift", "Heredity", "Natural selection"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following represents a homozygous genotype?",
+        "options": ["Aa", "AA", "Ab", "aA"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "What type of allele is expressed only when two copies are present?",
+        "options": ["Dominant", "Recessive", "Codominant", "Incomplete dominant"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "What is the term for the physical expression of a gene?",
+        "options": ["Genotype", "Phenotype", "Allele", "Locus"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "What is the term for a change in the DNA sequence?",
+        "options": ["Mutation", "Transcription", "Replication", "Translation"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 8,
+        "question": "Which process leads to the evolution of new species?",
+        "options": ["Genetic variation", "Natural selection", "Artificial selection", "All of the above"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is a mechanism of evolution?",
+        "options": ["Mutation", "Gene flow", "Genetic drift", "All of the above"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 10,
+        "question": "What is the term for the process by which organisms better adapted to their environment tend to survive and produce more offspring?",
+        "options": ["Survival of the fittest", "Natural selection", "Artificial selection", "Adaptive radiation"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 11,
+        "question": "What is the role of mutations in evolution?",
+        "options": ["They create genetic variation", "They decrease genetic variation", "They have no effect on evolution", "They only occur in harmful ways"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 12,
+        "question": "Which of the following is an example of artificial selection?",
+        "options": ["Darwin's finches", "Dog breeding", "Insect resistance to pesticides", "Bacterial resistance to antibiotics"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "What is the primary source of genetic variation in a population?",
+        "options": ["Gene flow", "Mutation", "Natural selection", "Genetic drift"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "Which chromosomes determine the sex in human beings?",
+        "options": ["Autosomes", "Allosomes", "Somatic chromosomes", "Gametes"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "What are variations?",
+        "options": ["Changes in DNA", "Differences in characters within closely related organisms", "Mutations", "Chromosomal aberrations"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "What is an allele?",
+        "options": ["A type of chromosome", "A variant form of a gene", "A type of mutation", "A pair of chromosomes"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 17,
+        "question": "What is the law of dominance?",
+        "options": ["Both alleles express equally", "Only one allele expresses in the first generation", "Alleles are never expressed", "Dominant traits are always harmful"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "What is inheritance?",
+        "options": ["The process of evolution", "The passing of traits from one generation to another", "The study of genes", "The formation of gametes"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "What is palaeontology?",
+        "options": ["The study of living organisms", "The study of fossils", "The study of genetics", "The study of evolution"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "Who was the first person to propose the theory of evolution?",
+        "options": ["Charles Darwin", "Jean Baptist Lamarck", "Gregor Mendel", "Alfred Wallace"],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

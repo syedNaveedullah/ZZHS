@@ -1,0 +1,126 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which part of the brain is responsible for maintaining balance and coordination?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "What is the basic functional unit of the nervous system?",
+        "options": ["Neuron", "Synapse", "Axon", "Dendrite"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 3,
+        "question": "Which hormone is secreted by the pancreas to regulate blood sugar levels?",
+        "options": ["Adrenaline", "Insulin", "Thyroxine", "Glucagon"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "Which gland in the brain controls the release of hormones from other glands?",
+        "options": ["Pituitary gland", "Thyroid gland", "Adrenal gland", "Pancreas"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 5,
+        "question": "Which part of the nervous system controls involuntary actions like heartbeat and digestion?",
+        "options": ["Somatic nervous system", "Autonomic nervous system", "Central nervous system", "Peripheral nervous system"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "What connects neurons to transmit nerve impulses?",
+        "options": ["Synapse", "Axon", "Dendrite", "Myelin sheath"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 7,
+        "question": "Which hormone is known as the 'fight or flight' hormone?",
+        "options": ["Insulin", "Adrenaline", "Cortisol", "Estrogen"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 8,
+        "question": "Which part of the human brain is responsible for thinking, learning, and memory?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla", "Thalamus"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is NOT a part of the central nervous system?",
+        "options": ["Brain", "Spinal cord", "Nerves", "Neurons"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 10,
+        "question": "What is the role of the medulla oblongata in the brain?",
+        "options": ["Controls voluntary movements", "Regulates heart rate and breathing", "Coordinates muscle movements", "Processes sensory information"],
+        "correctAnswer": "b"
+      },
+  
+      {
+        "id": 11,
+        "question": "Which type of neuron carries messages from the body to the brain?",
+        "options": ["Motor neurons", "Sensory neurons", "Interneurons", "Axons"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "Which gland is responsible for the secretion of thyroxine hormone?",
+        "options": ["Adrenal gland", "Pituitary gland", "Thyroid gland", "Pancreas"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is a function of the autonomic nervous system?",
+        "options": ["Regulation of heart rate", "Walking", "Writing", "Speaking"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 14,
+        "question": "Which plant hormone is responsible for promoting cell elongation and growth?",
+        "options": ["Cytokinin", "Auxin", "Ethylene", "Gibberellin"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "What is the response of plants towards light called?",
+        "options": ["Geotropism", "Hydrotropism", "Phototropism", "Thigmotropism"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 16,
+        "question": "Which hormone is responsible for ripening of fruits in plants?",
+        "options": ["Auxin", "Gibberellin", "Ethylene", "Cytokinin"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "What is the directional growth of plants in response to gravity called?",
+        "options": ["Phototropism", "Hydrotropism", "Geotropism", "Thigmotropism"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 18,
+        "question": "Which hormone helps in the closure of stomata during water stress?",
+        "options": ["Auxin", "Abscisic acid", "Gibberellin", "Ethylene"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "What is the term for plant movement in response to touch?",
+        "options": ["Thigmotropism", "Phototropism", "Hydrotropism", "Geotropism"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following hormones inhibits growth and promotes dormancy in plants?",
+        "options": ["Auxin", "Gibberellin", "Abscisic acid", "Cytokinin"],
+        "correctAnswer": "c"
+      }
+    ]
+  }
+  

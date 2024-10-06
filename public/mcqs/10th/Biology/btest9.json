@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the term used for the living organisms in an ecosystem?",
+        "options": ["Abiotic components", "Biotic components", "Environmental factors", "Niche"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a biotic factor in the environment?",
+        "options": ["Soil", "Water", "Plants", "Temperature"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 3,
+        "question": "What is the process by which plants release water vapor into the atmosphere?",
+        "options": ["Transpiration", "Evaporation", "Condensation", "Precipitation"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is an abiotic component of the environment?",
+        "options": ["Animals", "Plants", "Rocks", "Fungi"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 5,
+        "question": "What is the main source of energy for all living organisms?",
+        "options": ["Water", "Soil", "Sunlight", "Air"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 6,
+        "question": "What do you call a group of ecosystems that share similar climates and organisms?",
+        "options": ["Habitat", "Biome", "Niche", "Community"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "Which type of relationship is depicted when one organism benefits while the other is harmed?",
+        "options": ["Mutualism", "Commensalism", "Parasitism", "Predation"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "Which process in the nitrogen cycle converts atmospheric nitrogen into a usable form for plants?",
+        "options": ["Denitrification", "Nitrogen fixation", "Nitrification", "Ammonification"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "What is a food chain?",
+        "options": ["A complex network of feeding relationships", "A single pathway of energy flow", "The total biomass in an ecosystem", "None of the above"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "What is a food web?",
+        "options": ["A linear sequence of organisms", "A complex interconnection of food chains", "The amount of energy available at each trophic level", "None of the above"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 11,
+        "question": "What do ecological pyramids represent?",
+        "options": ["Population density", "Energy flow and biomass", "Habitat distribution", "Biotic interactions"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "What is the term for the accumulation of heavy metals in fish in the Edulabad water reservoir?",
+        "options": ["Biomagnification", "Bioaccumulation", "Eutrophication", "Nitrogen fixation"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following pollutants is a major cause of acid rain?",
+        "options": ["Carbon monoxide", "Sulfur dioxide", "Ozone", "Methane"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "What is the primary cause of habitat destruction?",
+        "options": ["Natural disasters", "Human activities", "Animal migration", "Plant growth"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following is a renewable resource?",
+        "options": ["Fossil fuels", "Solar energy", "Nuclear energy", "Minerals"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "Which gas is primarily responsible for the greenhouse effect?",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "What term describes the variety of life in an ecosystem?",
+        "options": ["Biodiversity", "Ecosystem stability", "Ecological footprint", "Biomagnification"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 18,
+        "question": "Which type of energy is produced by burning fossil fuels?",
+        "options": ["Geothermal energy", "Solar energy", "Chemical energy", "Mechanical energy"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 19,
+        "question": "What role do decomposers play in an ecosystem?",
+        "options": ["Produce energy", "Break down dead organisms", "Compete with producers", "Provide shelter"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following is NOT a consequence of pollution?",
+        "options": ["Health problems", "Climate change", "Increased biodiversity", "Acid rain"],
+        "correctAnswer": "c"
+      }
+    ]
+  }
+  

@@ -1,0 +1,126 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which part of the male reproductive system is responsible for the production of sperm?",
+        "options": ["Testes", "Vas deferens", "Urethra", "Prostate gland"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 2,
+        "question": "Which hormone regulates the menstrual cycle in females?",
+        "options": ["Estrogen", "Testosterone", "Insulin", "Adrenaline"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 3,
+        "question": "What is the site of fertilization in the female reproductive system?",
+        "options": ["Ovary", "Uterus", "Fallopian tube", "Cervix"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 4,
+        "question": "Which hormone triggers ovulation in females?",
+        "options": ["Progesterone", "Luteinizing hormone", "Testosterone", "Cortisol"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "What is the process of formation of sperm called?",
+        "options": ["Spermatogenesis", "Oogenesis", "Fertilization", "Ovulation"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 6,
+        "question": "Which structure in the female reproductive system provides nourishment to the developing embryo?",
+        "options": ["Ovary", "Placenta", "Fallopian tube", "Cervix"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "What is the term for the union of sperm and egg in humans?",
+        "options": ["Ovulation", "Fertilization", "Implantation", "Parturition"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 8,
+        "question": "Which organ in the male reproductive system is responsible for delivering sperm to the female body?",
+        "options": ["Testes", "Penis", "Prostate gland", "Vas deferens"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "What is the role of the amniotic fluid in pregnancy?",
+        "options": ["Provides nutrients", "Protects the fetus", "Delivers oxygen", "Removes waste"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "Which stage of human life is marked by the start of the menstrual cycle in females?",
+        "options": ["Infancy", "Puberty", "Adulthood", "Old age"],
+        "correctAnswer": "b"
+      },
+  
+      {
+        "id": 11,
+        "question": "Which part of a flower is responsible for the production of pollen?",
+        "options": ["Stigma", "Anther", "Ovary", "Style"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "What is the process of transferring pollen from the anther to the stigma called?",
+        "options": ["Fertilization", "Pollination", "Germination", "Photosynthesis"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Which structure develops into a seed after fertilization?",
+        "options": ["Ovary", "Ovule", "Stigma", "Anther"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "Which type of pollination occurs when pollen is transferred between flowers of different plants?",
+        "options": ["Self-pollination", "Cross-pollination", "Wind pollination", "Water pollination"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "Which part of the flower becomes the fruit?",
+        "options": ["Ovule", "Ovary", "Stigma", "Petal"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "What is the name of the process where a seed develops into a new plant?",
+        "options": ["Fertilization", "Germination", "Pollination", "Budding"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 17,
+        "question": "Which of the following is NOT a method of asexual reproduction in plants?",
+        "options": ["Budding", "Fragmentation", "Grafting", "Cross-pollination"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 18,
+        "question": "Which type of reproduction in plants involves only one parent?",
+        "options": ["Asexual reproduction", "Sexual reproduction", "Pollination", "Germination"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 19,
+        "question": "Which type of reproduction in plants involves only one parent?",
+        "options": ["Asexual reproduction", "Sexual reproduction", "Pollination", "Germination"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following conditions is necessary for seed germination?",
+        "options": ["Light", "Water", "Wind", "Gravity"],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

@@ -1,0 +1,225 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What are natural resources?",
+        "options": [
+          "Resources that are man-made",
+          "Resources that exist in the environment",
+          "Resources used only for industry",
+          "None of the above"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a renewable resource?",
+        "options": [
+          "Coal",
+          "Natural gas",
+          "Solar energy",
+          "Nuclear energy"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is a non-renewable resource?",
+        "options": [
+          "Wind energy",
+          "Solar energy",
+          "Fossil fuels",
+          "Geothermal energy"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 4,
+        "question": "What is the main source of energy for the Earth?",
+        "options": [
+          "Wind",
+          "Solar energy",
+          "Geothermal energy",
+          "Hydropower"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "Which gas is a significant component of natural gas?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Methane",
+          "Nitrogen"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 6,
+        "question": "What is conservation?",
+        "options": [
+          "Using resources without regard for the environment",
+          "Preserving and managing natural resources",
+          "Converting natural resources into products",
+          "None of the above"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is a consequence of deforestation?",
+        "options": [
+          "Increased biodiversity",
+          "Soil erosion",
+          "Improved air quality",
+          "Increased water retention"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 8,
+        "question": "What is the primary cause of air pollution?",
+        "options": [
+          "Natural processes",
+          "Human activities",
+          "Plant respiration",
+          "Animal waste"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is a method of water conservation?",
+        "options": [
+          "Building dams",
+          "Drip irrigation",
+          "Using pesticides",
+          "Planting more trees"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "What is the role of forests in the ecosystem?",
+        "options": [
+          "Absorb carbon dioxide",
+          "Provide habitat for wildlife",
+          "Prevent soil erosion",
+          "All of the above"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 11,
+        "question": "What does the term 'sustainable development' refer to?",
+        "options": [
+          "Using resources without planning",
+          "Meeting present needs without compromising future generations",
+          "Maximizing resource extraction",
+          "Ignoring environmental impacts"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "Which type of resource can be replenished naturally over time?",
+        "options": [
+          "Minerals",
+          "Water",
+          "Coal",
+          "Natural gas"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "What is the primary source of freshwater on Earth?",
+        "options": [
+          "Rivers",
+          "Lakes",
+          "Glaciers",
+          "Groundwater"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 14,
+        "question": "What is the main purpose of recycling?",
+        "options": [
+          "Increase waste production",
+          "Reduce resource consumption",
+          "Encourage pollution",
+          "None of the above"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following is an effect of climate change?",
+        "options": [
+          "Rising sea levels",
+          "Stable weather patterns",
+          "Decreased biodiversity",
+          "Both a and c"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following practices can help prevent soil erosion?",
+        "options": [
+          "Overgrazing",
+          "Deforestation",
+          "Crop rotation",
+          "Monoculture"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "What is the impact of plastic pollution on marine life?",
+        "options": [
+          "Improves habitat",
+          "Harms marine organisms",
+          "Has no effect",
+          "Enhances biodiversity"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "What does 'biodegradable' mean?",
+        "options": [
+          "Can be recycled",
+          "Breaks down naturally",
+          "Is made from plastic",
+          "Is non-toxic"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "What type of resource are metals considered?",
+        "options": [
+          "Renewable",
+          "Non-renewable",
+          "Sustainable",
+          "Recyclable"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following is a consequence of overfishing?",
+        "options": [
+          "Increase in fish populations",
+          "Depletion of fish stocks",
+          "Improved marine biodiversity",
+          "None of the above"
+        ],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  
