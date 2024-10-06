@@ -2,32 +2,123 @@
   "questions": [
     {
       "id": 1,
-      "question": "Naveed What is the name of the website the Californian teenager in the text created to obtain sensitive information?",
-      "options": ["American Airlines", "Amazon", "America Online", "Apple"],
-      "correctAnswer": "c"
-    },
-    {
-      "id": 2,
-      "question": "What is the term used for a type of phishing that occurs through text messages?",
-      "options": ["Vishing", "Smishing", "Phishing", "Spoofing"],
+      "question": "Which process in plants converts light energy into chemical energy?",
+      "options": ["Respiration", "Photosynthesis", "Transpiration", "Chemosynthesis"],
       "correctAnswer": "b"
     },
     {
+      "id": 2,
+      "question": "Which pigment in plants is primarily responsible for absorbing sunlight during photosynthesis?",
+      "options": ["Chlorophyll", "Carotene", "Xanthophyll", "Anthocyanin"],
+      "correctAnswer": "a"
+    },
+    {
       "id": 3,
-      "question": "Which of the following is NOT a type of sensitive information that a phishing scam might target?",
-      "options": ["Credit card details", "Personally identifiable information", "Social security number", "Website login credentials"],
+      "question": "In which part of the plant does photosynthesis mainly occur?",
+      "options": ["Roots", "Flowers", "Leaves", "Stem"],
       "correctAnswer": "c"
     },
     {
       "id": 4,
-      "question": "When was the first phishing lawsuit filed?",
-      "options": ["2003", "2004", "2005", "2006"],
+      "question": "Which gas is used by plants during the process of photosynthesis?",
+      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
       "correctAnswer": "b"
     },
     {
       "id": 5,
-      "question": "What is the primary goal of phishing scams?",
-      "options": ["To spread malware", "To obtain sensitive data", "To disrupt online services", "To create fake accounts"],
+      "question": "What is the main product of photosynthesis?",
+      "options": ["Water", "Glucose", "Oxygen", "Carbon dioxide"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "question": "What is the role of stomata in plant nutrition?",
+      "options": ["Absorbing nutrients from the soil", "Regulating water loss", "Gas exchange", "All of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 7,
+      "question": "Which part of the leaf contains the most chloroplasts?",
+      "options": ["Spongy mesophyll", "Palisade mesophyll", "Epidermis", "Xylem"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "Plants obtain nitrogen from the soil in the form of:",
+      "options": ["Nitrogen gas", "Ammonia", "Nitrates", "Nitrites"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 9,
+      "question": "Which type of plants can fix nitrogen from the atmosphere?",
+      "options": ["Leguminous plants", "Non-leguminous plants", "Carnivorous plants", "Hydrophytes"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "Which element is essential for the synthesis of proteins in plants?",
+      "options": ["Calcium", "Nitrogen", "Potassium", "Magnesium"],
+      "correctAnswer": "b"
+    },
+
+    {
+      "id": 11,
+      "question": "Which type of teeth in humans is primarily responsible for tearing food?",
+      "options": ["Molars", "Premolars", "Canines", "Incisors"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 12,
+      "question": "Where does most of the digestion and absorption of nutrients occur in the human digestive system?",
+      "options": ["Stomach", "Small intestine", "Large intestine", "Mouth"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "Which enzyme in the saliva breaks down starch into simpler sugars?",
+      "options": ["Pepsin", "Lipase", "Amylase", "Trypsin"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 14,
+      "question": "Which part of the human body produces bile, which helps in the digestion of fats?",
+      "options": ["Pancreas", "Liver", "Stomach", "Small intestine"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 15,
+      "question": "What is the primary function of carbohydrates in human nutrition?",
+      "options": ["Muscle repair", "Energy production", "Hormone production", "Bone strengthening"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 16,
+      "question": "Which vitamin helps in the absorption of calcium and is essential for healthy bones?",
+      "options": ["Vitamin C", "Vitamin D", "Vitamin A", "Vitamin K"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+     "question": "What is the main function of proteins in the human body?",
+     "options": ["Provide energy", "Build and repair tissues", "Store vitamins", "Improve digestion"],
+     "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+     "question": "Which macronutrient is stored in the body for long-term energy reserves?",
+     "options": ["Proteins", "Fats", "Carbohydrates", "Vitamins"],
+     "correctAnswer": "b"
+    },
+    {
+      "id": 19,
+      "question": "What is the function of the large intestine in the digestive system?",
+      "options": ["Nutrient absorption", "Water absorption and waste formation", "Breakdown of fats", "Protein digestion"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following vitamins is water-soluble?",
+      "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"],
       "correctAnswer": "b"
     }
   ]

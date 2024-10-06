@@ -1,0 +1,126 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the primary site of cellular respiration in eukaryotic cells?",
+        "options": ["Nucleus", "Mitochondria", "Chloroplast", "Ribosome"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "Which process in respiration produces the most ATP?",
+        "options": ["Glycolysis", "Krebs cycle", "Electron transport chain", "Fermentation"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 3,
+        "question": "What is the first step of cellular respiration, which occurs in the cytoplasm?",
+        "options": ["Krebs cycle", "Electron transport chain", "Glycolysis", "Fermentation"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 4,
+        "question": "What is the end product of glycolysis?",
+        "options": ["Glucose", "Lactic acid", "Pyruvate", "Acetyl-CoA"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 5,
+        "question": "In which part of the mitochondria does the Krebs cycle occur?",
+        "options": ["Matrix", "Cristae", "Intermembrane space", "Outer membrane"],
+        "correctAnswer": "a"     
+      },
+      {
+        "id": 6,
+        "question": "Which gas is produced as a waste product of aerobic respiration?",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "What is the final electron acceptor in the electron transport chain during aerobic respiration?",
+        "options": ["Carbon dioxide", "NADH", "Oxygen", "FADH2"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "Which process occurs when oxygen is not available for cellular respiration?",
+        "options": ["Glycolysis", "Fermentation", "Krebs cycle", "Electron transport chain"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "What is the main purpose of fermentation in cells?",
+        "options": ["To produce water", "To produce ATP", "To regenerate NAD+", "To break down pyruvate"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is NOT a product of the Krebs cycle?",
+        "options": ["Carbon dioxide", "ATP", "NADH", "Oxygen"],
+        "correctAnswer": "d"
+      },
+  
+      {
+        "id": 11,
+        "question": "How many ATP molecules are produced from one molecule of glucose during aerobic respiration?",
+        "options": ["2", "12", "36", "38"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 12,
+        "question": "Which type of respiration occurs in yeast cells to produce alcohol?",
+        "options": ["Aerobic respiration", "Anaerobic respiration", "Fermentation", "Glycolysis"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 13,
+        "question": "Which stage of respiration takes place in both aerobic and anaerobic respiration?",
+        "options": ["Glycolysis", "Krebs cycle", "Electron transport chain", "Fermentation"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 14,
+        "question": "What is the main role of oxygen in aerobic respiration?",
+        "options": ["To break down glucose", "To act as an electron donor", "To act as the final electron acceptor", "To produce ATP"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 15,
+        "question": "How many ATP molecules are produced in glycolysis from one molecule of glucose?",
+        "options": ["2", "4", "6", "8"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 16,
+        "question": "What is the total net gain of ATP from fermentation?",
+        "options": ["2", "4", "12", "38"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 17,
+        "question": "What compound is formed when oxygen combines with hydrogen ions at the end of the electron transport chain?",
+        "options": ["Water", "ATP", "Carbon dioxide", "NADH"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 18,
+        "question": "Which of the following is an anaerobic process?",
+        "options": ["Krebs cycle", "Glycolysis", "Electron transport chain", "Oxidative phosphorylation"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "What is the role of ATP in cellular respiration?",
+        "options": ["Acts as an energy source", "Acts as a waste product", "Acts as an electron donor", "Acts as a protein"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 20,
+        "question": "Which compound is essential for initiating glycolysis?",
+        "options": ["Glucose", "ATP", "Pyruvate", "Acetyl-CoA"],
+        "correctAnswer": "a"
+      }
+    ]
+  }
+  
