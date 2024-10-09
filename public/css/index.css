@@ -25,10 +25,11 @@ body {
   justify-content: space-evenly !important;
   align-items: center;
   background-color: #82ad59;
-  height: 150px;
+  height: 120px;
   width: 100vw;
   padding: 10px 20px;
   border: none !important;
+  box-shadow: 0 0.1rem 1rem 0.2rem rgb(0, 0, 0);
 }
 
 .navbar-toggler{
@@ -36,17 +37,18 @@ body {
 }
 
 #nav-logo img {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
 }
 
 #nav-bot-icon {
-  height: 180px;
+  height: 150px;
+  width: 150px;
 }
 #nav-bot-icon img {
   height: 100%;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 #nav-items {
@@ -77,16 +79,16 @@ body {
 
 /* main index view ====================================================*/
 .main {
-  height: 70vh;
+  height: 82vh;
   width: 100vw;
 }
 .carousel-btn {
   z-index: 20 !important;
-  background-color: black !important;
+  /* background-color: black !important; */
 }
 
 .carousel {
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
 }
 
@@ -96,7 +98,7 @@ body {
 }
 
 .carousel-item img {
-  height: 70vh;
+  height: 82vh;
 }
 
 /* Circle-below-logo */
@@ -443,4 +445,46 @@ footer {
   color: white;
   background-color: black;
   font-size: 20px;
+}
+
+/* ================Responsive index.css=============================================== */
+
+/* Media query for Monitor (wide screens) */
+@media only screen and (min-width: 1200px) {
+  /* Styles for large monitors */
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Media query for Laptops (15–16 inches, typical width range: 1366px to 1600px) */
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  /* Styles for 15–16 inch laptops */
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Media query for Laptops without numeric pad (typical width: around 13–14 inches, width range: 1200px to 1365px) */
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  /* Styles for laptops without numeric pad */
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Media query for Tablets (width range: 768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for Mobile Phones (typical width: less than 768px) */
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile phones */
+  body {
+    font-size: 12px;
+  }
 }
