@@ -1,0 +1,125 @@
+
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a balanced chemical equation ensure?",
+      "options": ["Equal number of atoms on both sides", "Equal volume of reactants and products", "Equal mass of reactants and products", "Equal molecules on both sides"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is the correct representation of the chemical equation for the reaction between hydrogen and oxygen to form water?",
+      "options": ["H2 + O → H2O", "H2 + O2 → H2O2", "H2 + O2 → H2O", "H + O → HO"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 3,
+      "question": "In a chemical reaction, the substances that react are called:",
+      "options": ["Catalysts", "Reactants", "Products", "By-products"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 4,
+      "question": "What is the law that a balanced chemical equation follows?",
+      "options": ["Law of constant proportions", "Law of conservation of mass", "Law of multiple proportions", "Law of chemical combinations"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is an example of a decomposition reaction?",
+      "options": ["2H2 + O2 → 2H2O", "CaCO3 → CaO + CO2", "Zn + H2SO4 → ZnSO4 + H2", "2Na + Cl2 → 2NaCl"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a double displacement reaction?",
+      "options": ["Na2SO4 + BaCl2 → BaSO4 + 2NaCl", "Zn + CuSO4 → ZnSO4 + Cu", "H2 + Cl2 → 2HCl", "CaCO3 → CaO + CO2"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "What is the coefficient of O2 when balancing the chemical equation: C2H4 + O2 → CO2 + H2O?",
+      "options": ["3", "4", "2", "5"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following reactions represents a combination reaction?",
+      "options": ["2Mg + O2 → 2MgO", "2H2O → 2H2 + O2", "CuSO4 + Zn → ZnSO4 + Cu", "CaCO3 → CaO + CO2"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "In the reaction Zn + H2SO4 → ZnSO4 + H2, which substance is oxidized?",
+      "options": ["Zn", "H2SO4", "ZnSO4", "H2"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "What type of reaction occurs when silver nitrate reacts with sodium chloride to form silver chloride and sodium nitrate?",
+      "options": ["Combination reaction", "Decomposition reaction", "Single displacement reaction", "Double displacement reaction"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following represents a combustion reaction?",
+      "options": ["CH4 + 2O2 → CO2 + 2H2O", "CaCO3 → CaO + CO2", "2H2 + O2 → 2H2O", "Zn + CuSO4 → ZnSO4 + Cu"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "What is the product formed when calcium carbonate undergoes thermal decomposition?",
+      "options": ["Calcium hydroxide", "Calcium oxide and carbon dioxide", "Calcium sulfate", "Calcium nitrate"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following reactions is an example of a redox reaction?",
+      "options": ["H2 + Cl2 → 2HCl", "CaCO3 → CaO + CO2", "Zn + H2SO4 → ZnSO4 + H2", "NaCl → Na + Cl2"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 14,
+      "question": "The reaction between an acid and a base to form salt and water is called:",
+      "options": ["Neutralization reaction", "Displacement reaction", "Oxidation reaction", "Reduction reaction"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a characteristic of a chemical reaction?",
+      "options": ["Change in state", "Evolution of gas", "Formation of precipitate", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 16,
+      "question": "In a balanced chemical equation, what do the coefficients indicate?",
+      "options": ["Molecular weight of reactants", "The number of atoms of each element", "The ratio of molecules of reactants and products", "The number of electrons involved"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 17,
+      "question": "When iron reacts with oxygen to form iron oxide, the reaction is classified as:",
+      "options": ["Reduction reaction", "Oxidation reaction", "Displacement reaction", "Double displacement reaction"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "What happens to chemical bonds during a chemical reaction?",
+      "options": ["They remain unchanged", "They break and new bonds form", "They get stronger", "They convert into energy"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a synthesis reaction?",
+      "options": ["2H2 + O2 → 2H2O", "2H2O → 2H2 + O2", "Zn + HCl → ZnCl2 + H2", "CaCO3 → CaO + CO2"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 20,
+      "question": "In a chemical reaction, the substance that speeds up the reaction without being consumed is called a:",
+      "options": ["Reactant", "Product", "Catalyst", "Inhibitor"],
+      "correctAnswer": "c"
+    }
+  ]
+}

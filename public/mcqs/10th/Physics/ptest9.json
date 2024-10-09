@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is electric current?",
+        "options": ["Flow of electrons", "Flow of protons", "Flow of neutrons", "Flow of ions"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 2,
+        "question": "The unit of electric current is:",
+        "options": ["Volt", "Ohm", "Ampere", "Coulomb"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 3,
+        "question": "Which instrument is used to measure electric current?",
+        "options": ["Voltmeter", "Ammeter", "Ohmmeter", "Galvanometer"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "If a current of 2 A flows through a conductor for 5 seconds, what is the total charge that passes through a cross-section of the conductor?",
+        "options": ["10 C", "5 C", "2 C", "1 C"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 5,
+        "question": "In a circuit, which component is used to provide resistance?",
+        "options": ["Battery", "Resistor", "Ammeter", "Capacitor"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "Ohm's Law states that:",
+        "options": ["Voltage is equal to current multiplied by resistance", "Current is equal to voltage multiplied by resistance", "Resistance is equal to voltage divided by current", "Both b and c"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 7,
+        "question": "What happens to the current in a series circuit if one component fails?",
+        "options": ["Current increases", "Current decreases", "Current stops flowing", "Current remains the same"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "The direction of current flow is conventionally taken as the direction of:",
+        "options": ["Electron flow", "Proton flow", "Positive charge flow", "Negative charge flow"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 9,
+        "question": "What is the relationship between voltage, current, and resistance called?",
+        "options": ["Kirchhoff's Law", "Ohm's Law", "Faraday's Law", "Ampere's Law"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "A 12 V battery provides a current of 2 A. What is the resistance in the circuit?",
+        "options": ["6 Ω", "12 Ω", "24 Ω", "36 Ω"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 11,
+        "question": "In a parallel circuit, what happens to the total current when more branches are added?",
+        "options": ["It decreases", "It remains the same", "It increases", "It becomes zero"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 12,
+        "question": "Which of the following materials is a good conductor of electricity?",
+        "options": ["Rubber", "Glass", "Copper", "Wood"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 13,
+        "question": "What is the effect of increasing resistance in a circuit while keeping voltage constant?",
+        "options": ["Current increases", "Current decreases", "Voltage increases", "Power increases"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "What is the formula for electric power?",
+        "options": ["P = IV", "P = I/R", "P = V/I", "P = V^2/R"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 15,
+        "question": "What is the SI unit of electric charge?",
+        "options": ["Ampere", "Coulomb", "Volt", "Ohm"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "In a circuit, which component stores electrical energy?",
+        "options": ["Resistor", "Capacitor", "Inductor", "Transistor"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 17,
+        "question": "The flow of electric current in a conductor is due to:",
+        "options": ["Movement of protons", "Movement of electrons", "Movement of neutrons", "All of the above"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "What does a voltmeter measure?",
+        "options": ["Current", "Resistance", "Voltage", "Charge"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 19,
+        "question": "The total resistance in a series circuit is:",
+        "options": ["Less than the smallest resistor", "Equal to the sum of individual resistances", "Zero", "Equal to the largest resistor"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following statements about electric current is true?",
+        "options": ["Current can flow without a closed circuit", "Current flows from lower potential to higher potential", "Current flow is independent of resistance", "Current flows from higher potential to lower potential"],
+        "correctAnswer": "d"
+      }
+    ]
+  }
+  

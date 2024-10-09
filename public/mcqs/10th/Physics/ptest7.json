@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who is credited with creating the first periodic table of elements?",
+        "options": ["Mendeleev", "John Newlands", "Henry Moseley", "Antoine Lavoisier"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 2,
+        "question": "The modern periodic table is arranged according to the:",
+        "options": ["Atomic mass", "Atomic number", "Chemical properties", "Density"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "What is the horizontal row in the periodic table called?",
+        "options": ["Group", "Period", "Family", "Block"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is a characteristic of elements in the same group?",
+        "options": ["Same atomic mass", "Same number of valence electrons", "Same number of neutrons", "Same period"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "How many periods are there in the modern periodic table?",
+        "options": ["7", "8", "9", "10"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is a noble gas?",
+        "options": ["Oxygen", "Hydrogen", "Neon", "Carbon"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 7,
+        "question": "Which group in the periodic table contains alkali metals?",
+        "options": ["Group 1", "Group 2", "Group 17", "Group 18"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 8,
+        "question": "What is the common property of elements in Group 17?",
+        "options": ["They are all metals", "They are highly reactive non-metals", "They are noble gases", "They are transition metals"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following elements is a transition metal?",
+        "options": ["Sodium", "Copper", "Helium", "Chlorine"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "Elements in the same period have the same number of:",
+        "options": ["Valence electrons", "Protons", "Electron shells", "Neutrons"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 11,
+        "question": "What is the valency of elements in Group 2?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "Which scientist improved Mendeleev's periodic table by arranging elements according to increasing atomic number?",
+        "options": ["Henry Moseley", "John Dalton", "Antoine Lavoisier", "J.J. Thomson"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 13,
+        "question": "What is the general trend of atomic size as you move across a period in the periodic table?",
+        "options": ["It increases", "It decreases", "It remains the same", "It fluctuates"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "Which group of the periodic table contains the halogens?",
+        "options": ["Group 1", "Group 2", "Group 17", "Group 18"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following elements is a lanthanide?",
+        "options": ["Uranium", "Neodymium", "Calcium", "Boron"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "Which element is located in Group 1 and Period 3?",
+        "options": ["Lithium", "Sodium", "Magnesium", "Potassium"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 17,
+        "question": "The elements in Group 18 are known as:",
+        "options": ["Alkali metals", "Transition metals", "Halogens", "Noble gases"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 18,
+        "question": "As you move down a group in the periodic table, the atomic radius:",
+        "options": ["Increases", "Decreases", "Remains the same", "Fluctuates"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following pairs are isotopes of each other?",
+        "options": ["Carbon-12 and Carbon-14", "Oxygen and Nitrogen", "Hydrogen and Helium", "Sodium and Potassium"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 20,
+        "question": "Which block in the periodic table contains the transition metals?",
+        "options": ["s-block", "p-block", "d-block", "f-block"],
+        "correctAnswer": "c"
+      }
+    ]
+  }
+  

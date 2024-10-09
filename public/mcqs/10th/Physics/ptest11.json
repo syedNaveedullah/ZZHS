@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is metallurgy?",
+        "options": ["The study of metals and their properties", "The extraction of metals from ores", "The process of alloying metals", "The study of metal applications"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "What is the primary purpose of the ore dressing process?",
+        "options": ["To purify metals", "To separate impurities from ores", "To create alloys", "To melt ores"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is a method of extracting metals from their ores?",
+        "options": ["Magnetic separation", "Centrifugation", "Filtration", "All of the above"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 4,
+        "question": "What is the role of flux in metallurgy?",
+        "options": ["To increase the temperature", "To reduce the melting point", "To remove impurities", "To add strength to metals"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 5,
+        "question": "Which process is used for extracting aluminum from its ore?",
+        "options": ["Bayer's process", "Hall-Héroult process", "Roasting", "Carbon reduction"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "What is the primary raw material for producing iron?",
+        "options": ["Bauxite", "Hematite", "Copper", "Zinc"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is an example of a reduction reaction in metallurgy?",
+        "options": ["Roasting of sulfide ores", "Carbon reduction of metal oxides", "Electrolysis of molten salts", "None of the above"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 8,
+        "question": "What is a common method for purifying copper?",
+        "options": ["Electrolysis", "Distillation", "Filtration", "Sublimation"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 9,
+        "question": "Which metal is primarily extracted from bauxite ore?",
+        "options": ["Iron", "Aluminum", "Copper", "Zinc"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "What is the main purpose of smelting?",
+        "options": ["To separate metal from its ore", "To create alloys", "To purify metals", "To recycle metals"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 11,
+        "question": "In the extraction of iron, what is the reducing agent used?",
+        "options": ["Oxygen", "Carbon monoxide", "Hydrogen", "Nitrogen"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 12,
+        "question": "What is the name of the furnace used in the extraction of iron?",
+        "options": ["Blast furnace", "Cupola furnace", "Electric arc furnace", "Induction furnace"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 13,
+        "question": "What is the process called where an ore is heated in the presence of oxygen?",
+        "options": ["Reduction", "Roasting", "Calcination", "Smelting"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "Which of the following metals is extracted using the electrolytic method?",
+        "options": ["Iron", "Aluminum", "Copper", "Lead"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "What is the main impurity removed during the refining of copper?",
+        "options": ["Iron", "Silver", "Gold", "Sulfur"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 16,
+        "question": "What is the main purpose of alloying metals?",
+        "options": ["To increase strength", "To reduce weight", "To improve conductivity", "To lower melting point"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 17,
+        "question": "Which of the following is a non-ferrous metal?",
+        "options": ["Aluminum", "Iron", "Steel", "Cast iron"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 18,
+        "question": "What is the significance of the melting point in metallurgy?",
+        "options": ["It indicates the purity of a metal", "It determines the temperature of extraction", "It shows the density of a metal", "It is irrelevant"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "Which process is used for extracting zinc from its ore?",
+        "options": ["Carbon reduction", "Froth flotation", "Hydrometallurgy", "Electrolysis"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 20,
+        "question": "What is the term for the process of converting a metal into its oxide?",
+        "options": ["Reduction", "Oxidation", "Electrolysis", "Hydrometallurgy"],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

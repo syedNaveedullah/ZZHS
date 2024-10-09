@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who proposed the planetary model of the atom?",
+        "options": ["J.J. Thomson", "Ernest Rutherford", "Niels Bohr", "James Chadwick"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "Which subatomic particle has a negative charge?",
+        "options": ["Proton", "Electron", "Neutron", "Positron"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "Which scientist discovered the neutron?",
+        "options": ["Niels Bohr", "Ernest Rutherford", "James Chadwick", "J.J. Thomson"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 4,
+        "question": "What is the charge on a proton?",
+        "options": ["-1", "0", "+1", "+2"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 5,
+        "question": "Which of the following particles is located in the nucleus of an atom?",
+        "options": ["Electron", "Proton", "Neutron", "Both Proton and Neutron"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 6,
+        "question": "Which model of the atom proposed that electrons revolve in discrete orbits around the nucleus?",
+        "options": ["Bohr's model", "Thomson's model", "Rutherford's model", "Chadwick's model"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 7,
+        "question": "Which particle has the least mass among the following?",
+        "options": ["Proton", "Neutron", "Electron", "Alpha particle"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "What is the maximum number of electrons that can be accommodated in the second shell of an atom?",
+        "options": ["2", "8", "18", "32"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "What is the atomic number of an element?",
+        "options": ["Number of protons", "Number of neutrons", "Number of electrons", "Number of protons and neutrons"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 10,
+        "question": "The mass number of an atom is defined as:",
+        "options": ["Number of protons", "Number of electrons", "Sum of protons and neutrons", "Sum of electrons and protons"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 11,
+        "question": "Which element has an atomic number of 6?",
+        "options": ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 12,
+        "question": "What did Rutherford's gold foil experiment discover?",
+        "options": ["Electron", "Nucleus", "Proton", "Neutron"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Which subatomic particle is neutral?",
+        "options": ["Proton", "Electron", "Neutron", "Positron"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 14,
+        "question": "The isotopes of an element have:",
+        "options": ["Same number of protons but different number of neutrons", "Same number of neutrons but different number of protons", "Same number of electrons and neutrons", "Different number of electrons and protons"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 15,
+        "question": "What is the electron configuration of an atom with atomic number 10?",
+        "options": ["2, 6", "2, 8", "2, 8, 1", "2, 8, 8"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "In the modern periodic table, elements are arranged in the order of:",
+        "options": ["Increasing atomic number", "Increasing mass number", "Decreasing atomic number", "Decreasing mass number"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 17,
+        "question": "Which of the following statements is true about isotopes?",
+        "options": ["They have the same number of neutrons", "They have different atomic numbers", "They have the same atomic number but different mass numbers", "They have different chemical properties"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 18,
+        "question": "What is the maximum number of electrons that can be accommodated in the first shell (K-shell)?",
+        "options": ["2", "4", "6", "8"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 19,
+        "question": "Which subatomic particle was discovered by J.J. Thomson?",
+        "options": ["Proton", "Electron", "Neutron", "Photon"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "Who proposed the model of the atom where electrons are embedded in a positively charged sphere?",
+        "options": ["Rutherford", "Bohr", "Thomson", "Chadwick"],
+        "correctAnswer": "c"
+      }
+    ]
+  }
+  

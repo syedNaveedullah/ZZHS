@@ -1,0 +1,125 @@
+
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the principal axis of a spherical mirror?",
+      "options": ["The line passing through the pole and the focus", "The line passing through the center of curvature and the pole", "The line passing through the pole and any point on the mirror", "The line parallel to the surface of the mirror"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "What is the focal length of a concave mirror with a radius of curvature of 20 cm?",
+      "options": ["5 cm", "10 cm", "20 cm", "40 cm"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "Which type of mirror is used in vehicles as rear-view mirrors?",
+      "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "The image formed by a concave mirror when the object is placed beyond the center of curvature is:",
+      "options": ["Virtual and diminished", "Real, inverted and diminished", "Real, inverted and enlarged", "Virtual and enlarged"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 5,
+      "question": "In which type of mirror is the focal length negative?",
+      "options": ["Convex mirror", "Concave mirror", "Plane mirror", "All of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "What is the nature of the image formed by a convex mirror regardless of the object’s position?",
+      "options": ["Real and enlarged", "Virtual and diminished", "Real and inverted", "Virtual and enlarged"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 7,
+      "question": "What happens to the image formed by a concave mirror as the object moves closer to the mirror from infinity?",
+      "options": ["The image becomes smaller", "The image becomes inverted and smaller", "The image becomes larger and upright", "The image becomes larger and inverted"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 8,
+      "question": "The center of curvature of a spherical mirror is:",
+      "options": ["The geometric center of the mirror", "The point on the mirror where the reflection occurs", "The center of the sphere from which the mirror is a part", "The point on the principal axis where rays parallel to it converge or appear to diverge"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 9,
+      "question": "What is the magnification of an image formed by a spherical mirror?",
+      "options": ["Ratio of image height to object height", "Ratio of object height to image height", "Product of object height and image height", "Difference between object height and image height"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "If the magnification produced by a spherical mirror is negative, the image is:",
+      "options": ["Virtual and erect", "Real and inverted", "Virtual and inverted", "Real and erect"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 11,
+      "question": "For a concave mirror, where should the object be placed to get a magnified, real image?",
+      "options": ["At infinity", "Between the pole and the focus", "Between the center of curvature and the focus", "At the focus"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 12,
+      "question": "In a convex mirror, the reflected rays:",
+      "options": ["Converge at a point", "Diverge from a point", "Converge to infinity", "Are parallel to each other"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "What is the formula to find the focal length (f) of a spherical mirror using its radius of curvature (R)?",
+      "options": ["f = 2R", "f = R", "f = R/2", "f = R/4"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 14,
+      "question": "The image formed by a plane mirror is always:",
+      "options": ["Real and inverted", "Virtual and inverted", "Virtual and erect", "Real and erect"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 15,
+      "question": "Which type of mirror can form a real image?",
+      "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Both concave and convex mirrors"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 16,
+      "question": "When an object is placed at the focus of a concave mirror, the image formed is:",
+      "options": ["At infinity", "Real and inverted", "Virtual and upright", "At the center of curvature"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "A concave mirror is used in torches because it:",
+      "options": ["Produces a magnified image", "Makes parallel light rays converge", "Makes light rays diverge", "Reflects all light back to the source"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "A convex mirror is preferred for rear-view mirrors in vehicles because:",
+      "options": ["It gives a magnified image", "It gives a wider field of view", "It gives an inverted image", "It produces real images"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 19,
+      "question": "What happens to parallel rays of light after reflection from a convex mirror?",
+      "options": ["They converge to a point", "They diverge as if coming from a point", "They remain parallel", "They pass through the focus"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "The focal length of a convex mirror is:",
+      "options": ["Always positive", "Always negative", "Zero", "Either positive or negative"],
+      "correctAnswer": "a"
+    }
+  ]
+}

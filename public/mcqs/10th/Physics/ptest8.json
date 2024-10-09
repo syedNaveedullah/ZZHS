@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is a chemical bond?",
+        "options": ["The force that holds atoms together in a molecule", "The energy released during a reaction", "A type of chemical reaction", "The mass of an atom"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 2,
+        "question": "Which type of bond is formed by the transfer of electrons from one atom to another?",
+        "options": ["Covalent bond", "Ionic bond", "Hydrogen bond", "Metallic bond"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "In a covalent bond, electrons are:",
+        "options": ["Transferred from one atom to another", "Shared between atoms", "Lost by both atoms", "Gained by both atoms"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is an example of an ionic compound?",
+        "options": ["H₂O", "NaCl", "CH₄", "CO₂"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "How many electrons are shared in a single covalent bond?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "What is the maximum number of covalent bonds a carbon atom can form?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 7,
+        "question": "Which type of bond involves the sharing of two pairs of electrons?",
+        "options": ["Single bond", "Double bond", "Triple bond", "Ionic bond"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 8,
+        "question": "In which of the following compounds is a coordinate bond present?",
+        "options": ["HCl", "NH₄⁺", "CH₄", "Na₂O"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "Which bond is the strongest?",
+        "options": ["Ionic bond", "Single covalent bond", "Double covalent bond", "Triple covalent bond"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 10,
+        "question": "What type of bond is present in a molecule of water (H₂O)?",
+        "options": ["Ionic bond", "Single covalent bond", "Double covalent bond", "Hydrogen bond"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 11,
+        "question": "Metallic bonds are formed by:",
+        "options": ["The sharing of electron pairs", "The transfer of electrons", "A sea of free electrons", "The donation of electrons"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 12,
+        "question": "Which of the following properties is characteristic of ionic compounds?",
+        "options": ["Low melting point", "High melting point", "Poor conductivity in molten state", "Low solubility in water"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is a polar covalent bond?",
+        "options": ["Cl₂", "H₂", "HCl", "N₂"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 14,
+        "question": "What is the main characteristic of a polar covalent bond?",
+        "options": ["Equal sharing of electrons", "Unequal sharing of electrons", "Transfer of electrons", "Complete loss of electrons"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 15,
+        "question": "Which element tends to form three covalent bonds?",
+        "options": ["Hydrogen", "Nitrogen", "Oxygen", "Chlorine"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following molecules contains a double bond?",
+        "options": ["H₂O", "O₂", "H₂", "NH₃"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 17,
+        "question": "A molecule with polar bonds but a non-polar nature overall is:",
+        "options": ["H₂O", "CO₂", "CH₄", "NH₃"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "Which of the following bonds has partial positive and partial negative charges?",
+        "options": ["Ionic bond", "Nonpolar covalent bond", "Polar covalent bond", "Hydrogen bond"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 19,
+        "question": "In which of the following compounds are electrons transferred completely between atoms?",
+        "options": ["NaCl", "H₂", "CH₄", "O₂"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following statements is true for covalent compounds?",
+        "options": ["They conduct electricity in aqueous solution", "They have high melting and boiling points", "They are soluble in water", "They exist as molecules"],
+        "correctAnswer": "d"
+      }
+    ]
+  }
+  

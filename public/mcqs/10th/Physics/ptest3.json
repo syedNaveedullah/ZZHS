@@ -1,0 +1,125 @@
+
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the pH value of a neutral solution?",
+      "options": ["0", "7", "14", "10"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a property of acids?",
+      "options": ["Bitter taste", "Sour taste", "Slippery feel", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "What happens when an acid reacts with a metal?",
+      "options": ["Salt and water are formed", "Salt and hydrogen gas are formed", "Water and carbon dioxide are formed", "Salt and oxygen are formed"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of a strong acid?",
+      "options": ["Acetic acid", "Hydrochloric acid", "Citric acid", "Carbonic acid"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a strong base?",
+      "options": ["Sodium hydroxide", "Ammonium hydroxide", "Magnesium hydroxide", "Calcium hydroxide"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "What type of reaction occurs when an acid reacts with a base to form salt and water?",
+      "options": ["Displacement reaction", "Decomposition reaction", "Neutralization reaction", "Redox reaction"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following salts is produced when hydrochloric acid reacts with sodium hydroxide?",
+      "options": ["Sodium chloride", "Sodium sulfate", "Sodium nitrate", "Sodium carbonate"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 8,
+      "question": "What is the pH range of basic solutions?",
+      "options": ["0 to 7", "7 to 14", "1 to 6", "3 to 9"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 9,
+      "question": "Which indicator turns red in acidic solutions and blue in basic solutions?",
+      "options": ["Methyl orange", "Phenolphthalein", "Litmus", "Bromothymol blue"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 10,
+      "question": "What is the chemical formula of sodium bicarbonate, commonly known as baking soda?",
+      "options": ["Na2CO3", "NaCl", "NaOH", "NaHCO3"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following salts is used in the manufacture of plaster of Paris?",
+      "options": ["Calcium carbonate", "Calcium sulfate", "Sodium carbonate", "Sodium chloride"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 12,
+      "question": "Which acid is present in vinegar?",
+      "options": ["Sulfuric acid", "Citric acid", "Acetic acid", "Formic acid"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following gases is released when an acid reacts with a metal carbonate?",
+      "options": ["Oxygen", "Hydrogen", "Carbon dioxide", "Nitrogen"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 14,
+      "question": "What is the chemical name of the common salt used in cooking?",
+      "options": ["Sodium sulfate", "Sodium hydroxide", "Sodium chloride", "Sodium carbonate"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an amphoteric oxide?",
+      "options": ["Zinc oxide", "Calcium oxide", "Sodium oxide", "Magnesium oxide"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "Which of the following bases is used in antacid tablets to relieve indigestion?",
+      "options": ["Sodium hydroxide", "Magnesium hydroxide", "Calcium hydroxide", "Ammonium hydroxide"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "question": "What is the pH of pure water at 25°C?",
+      "options": ["3", "7", "10", "14"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is an example of a weak base?",
+      "options": ["Sodium hydroxide", "Potassium hydroxide", "Ammonium hydroxide", "Calcium hydroxide"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 19,
+      "question": "Which gas is produced when sodium carbonate reacts with hydrochloric acid?",
+      "options": ["Hydrogen", "Carbon dioxide", "Oxygen", "Nitrogen"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following acids is used in the preparation of pickles to enhance taste and preservation?",
+      "options": ["Lactic acid", "Acetic acid", "Citric acid", "Sulfuric acid"],
+      "correctAnswer": "b"
+    }
+  ]
+}

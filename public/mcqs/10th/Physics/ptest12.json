@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following is a characteristic property of carbon?",
+        "options": ["It is a metal", "It can form long chains", "It is a gas at room temperature", "It is highly reactive with water"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "What type of bond is formed between carbon atoms in hydrocarbons?",
+        "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following compounds is a saturated hydrocarbon?",
+        "options": ["Ethylene", "Acetylene", "Propane", "Benzene"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is an unsaturated hydrocarbon?",
+        "options": ["Butane", "Ethene", "Hexane", "Decane"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "What is the formula for ethyne?",
+        "options": ["C2H2", "C2H4", "C2H6", "C3H4"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is a property of carbon dioxide (CO2)?",
+        "options": ["It is highly flammable", "It supports combustion", "It is soluble in water", "It is a greenhouse gas"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is a natural polymer?",
+        "options": ["Nylon", "Polystyrene", "Cellulose", "Polyethylene"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "What is the main use of ethanoic acid?",
+        "options": ["As a fuel", "As a solvent", "In the preparation of vinegar", "In the manufacture of plastics"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is a property of alkanes?",
+        "options": ["They contain a carbon-carbon double bond", "They are generally less reactive than alkenes", "They are acidic", "They have a high melting point"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "What is the general formula for alkenes?",
+        "options": ["C_nH_(2n)", "C_nH_(2n+2)", "C_nH_n", "C_nH_(2n-2)"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 11,
+        "question": "Which compound is used as a primary fuel in the industry?",
+        "options": ["Methane", "Ethanol", "Propane", "Butane"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 12,
+        "question": "Which of the following compounds is used as a refrigerant?",
+        "options": ["Chloroform", "Freon", "Acetic acid", "Ethanol"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is a property of carbon monoxide (CO)?",
+        "options": ["It is a colorless gas", "It supports combustion", "It is less dense than air", "It is produced by complete combustion"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 14,
+        "question": "What is the main constituent of natural gas?",
+        "options": ["Propane", "Butane", "Methane", "Ethane"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 15,
+        "question": "What type of reaction occurs when an alkene reacts with hydrogen?",
+        "options": ["Addition reaction", "Substitution reaction", "Elimination reaction", "Decomposition reaction"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following is a characteristic of aromatic compounds?",
+        "options": ["They have a strong odor", "They are usually non-toxic", "They contain at least one carbon-carbon double bond", "They are usually colored"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 17,
+        "question": "What is the process of breaking down larger hydrocarbons into smaller ones called?",
+        "options": ["Cracking", "Reforming", "Isomerization", "Hydrogenation"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 18,
+        "question": "Which of the following is an example of a ketone?",
+        "options": ["Ethanol", "Butan-1-ol", "Acetone", "Methanal"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following is a characteristic of alcohols?",
+        "options": ["They are acidic", "They contain a hydroxyl group (-OH)", "They are aliphatic hydrocarbons", "They have a high boiling point"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "What is the byproduct of the fermentation process of sugars?",
+        "options": ["Carbon dioxide", "Methanol", "Acetic acid", "Hydrogen gas"],
+        "correctAnswer": "a"
+      }
+    ]
+  }
+  

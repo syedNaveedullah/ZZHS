@@ -1,0 +1,125 @@
+
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is refraction?",
+      "options": ["The bending of light when it enters a different medium", "The reflection of light from a surface", "The dispersion of light", "The scattering of light"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "What happens to the speed of light when it passes from a rarer to a denser medium?",
+      "options": ["It increases", "It decreases", "It remains the same", "It first increases then decreases"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following describes the refractive index of a medium?",
+      "options": ["The ratio of the speed of light in a vacuum to the speed of light in that medium", "The bending angle of light in the medium", "The frequency of light in the medium", "The color change of light in the medium"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is the formula for Snell’s Law?",
+      "options": ["n = c/v", "sin i / sin r = constant", "v = fλ", "n1sinθ1 = n2sinθ2"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 5,
+      "question": "What is the principal axis of a lens?",
+      "options": ["The line passing through the center of curvature of the lens", "The line passing through the optical center and perpendicular to the lens", "The line passing through the focal point", "The line passing parallel to the lens"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "question": "What is the focal length of a lens?",
+      "options": ["The distance from the optical center to the object", "The distance from the optical center to the focal point", "The distance from the focal point to the image", "The distance from the object to the image"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 7,
+      "question": "When light passes through a convex lens, how does it behave?",
+      "options": ["It diverges", "It converges", "It reflects back", "It scatters"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "Which type of lens is thicker in the middle and thinner at the edges?",
+      "options": ["Concave lens", "Convex lens", "Plano-convex lens", "Cylindrical lens"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 9,
+      "question": "What is the unit of power of a lens?",
+      "options": ["Meter", "Dioptre", "Joule", "Newton"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 10,
+      "question": "What is the sign of the focal length for a concave lens?",
+      "options": ["Positive", "Negative", "Zero", "Depends on the object position"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is true for the image formed by a convex lens when the object is placed at infinity?",
+      "options": ["The image is real, inverted, and at the focal point", "The image is virtual and upright", "The image is real and at infinity", "The image is virtual and at the focal point"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "What happens to the focal length of a lens when it is immersed in water compared to air?",
+      "options": ["It increases", "It decreases", "It remains the same", "It becomes zero"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 13,
+      "question": "What kind of image is formed by a concave lens?",
+      "options": ["Virtual, upright, and diminished", "Real, inverted, and magnified", "Real, upright, and magnified", "Virtual, inverted, and diminished"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "In which type of lens is the image always virtual?",
+      "options": ["Convex lens", "Concave lens", "Plano-convex lens", "Cylindrical lens"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 15,
+      "question": "What is the nature of the image formed by a convex lens when the object is placed between the focal point and the optical center?",
+      "options": ["Virtual, erect, and magnified", "Real, inverted, and magnified", "Real, inverted, and diminished", "Virtual, erect, and diminished"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "Which device uses the principle of refraction through lenses to magnify small objects?",
+      "options": ["Telescope", "Microscope", "Periscope", "Camera"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "question": "What is the focal length of a lens with a power of +2.5 D?",
+      "options": ["40 cm", "25 cm", "10 cm", "4 cm"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following materials has the highest refractive index?",
+      "options": ["Water", "Air", "Glass", "Diamond"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 19,
+      "question": "Which phenomenon explains the twinkling of stars due to the bending of light?",
+      "options": ["Reflection", "Refraction", "Diffraction", "Dispersion"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following statements is true about concave lenses?",
+      "options": ["They converge light rays", "They form real images", "They have a negative focal length", "They form magnified images"],
+      "correctAnswer": "c"
+    }
+  ]
+}

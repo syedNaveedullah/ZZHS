@@ -1,0 +1,125 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is electromagnetism?",
+        "options": ["The study of electric charges at rest", "The study of electric and magnetic fields and their interactions", "The study of thermal energy", "The study of light"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "Who discovered electromagnetic induction?",
+        "options": ["James Clerk Maxwell", "Michael Faraday", "Albert Einstein", "Nikola Tesla"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "What is the main principle behind an electromagnet?",
+        "options": ["Current flowing through a wire generates a magnetic field", "Magnetic fields can generate current", "Electromagnets can repel other magnets", "Magnetic fields can create electric fields"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following devices uses electromagnetism?",
+        "options": ["Electric fan", "Light bulb", "Electric motor", "Thermometer"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 5,
+        "question": "What does the right-hand rule help to determine?",
+        "options": ["Direction of current", "Direction of magnetic field", "Direction of force on a current-carrying conductor", "Both b and c"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 6,
+        "question": "What happens to the strength of an electromagnet when the current increases?",
+        "options": ["Strength decreases", "Strength remains the same", "Strength increases", "Strength becomes zero"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 7,
+        "question": "What is the unit of magnetic field strength?",
+        "options": ["Tesla", "Volt", "Ampere", "Ohm"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 8,
+        "question": "What type of current is used in most electromagnetic devices?",
+        "options": ["Direct current (DC)", "Alternating current (AC)", "Both DC and AC", "None of the above"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "What is the effect of a magnetic field on a moving charged particle?",
+        "options": ["It causes the particle to accelerate in a straight line", "It exerts a force perpendicular to both the velocity and the magnetic field", "It slows down the particle", "It has no effect on the particle"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "What is the function of a transformer?",
+        "options": ["To increase or decrease voltage", "To store electrical energy", "To convert AC to DC", "To generate electricity"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 11,
+        "question": "The magnetic field inside a solenoid is:",
+        "options": ["Uniform and strong", "Weak and non-uniform", "Only present at the ends", "Non-existent"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 12,
+        "question": "Which law states that a change in magnetic field induces an electromotive force (emf) in a circuit?",
+        "options": ["Ohm's Law", "Faraday's Law of Electromagnetic Induction", "Ampere's Law", "Lenz's Law"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "What is Lenz's Law related to?",
+        "options": ["Direction of current", "Conservation of energy", "Magnetic field strength", "None of the above"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "What is the main application of electromagnets in technology?",
+        "options": ["To create permanent magnets", "To power electric vehicles", "To generate sound", "To lift heavy objects in cranes"],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 15,
+        "question": "What type of wave is an electromagnetic wave?",
+        "options": ["Transverse wave", "Longitudinal wave", "Surface wave", "All of the above"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following is not an electromagnetic wave?",
+        "options": ["Radio waves", "Microwaves", "Sound waves", "X-rays"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "What does a galvanometer measure?",
+        "options": ["Voltage", "Current", "Resistance", "Power"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 18,
+        "question": "In which device is the principle of electromagnetic induction utilized?",
+        "options": ["Battery", "Generator", "Resistor", "Capacitor"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following describes the behavior of magnetic field lines?",
+        "options": ["They diverge from north to south", "They are parallel and equidistant", "They form closed loops", "They do not exist"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 20,
+        "question": "What effect does increasing the number of turns in a coil have on the strength of the electromagnet?",
+        "options": ["It decreases the strength", "It increases the strength", "It has no effect", "It reverses the polarity"],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

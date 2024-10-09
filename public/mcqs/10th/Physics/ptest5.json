@@ -1,0 +1,125 @@
+
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the average focal length of the human eye lens?",
+      "options": ["2 cm", "2.5 cm", "3 cm", "3.5 cm"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "What is the function of the iris in the human eye?",
+      "options": ["Focusing light", "Regulating the amount of light entering the eye", "Protecting the eye", "Forming the image"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "Which part of the human eye is responsible for adjusting the focal length?",
+      "options": ["Cornea", "Retina", "Lens", "Iris"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "What is the cause of myopia (nearsightedness)?",
+      "options": ["Eyeball being too short", "Eyeball being too long", "Weak ciliary muscles", "Thickened cornea"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "Which type of lens is used to correct hypermetropia (farsightedness)?",
+      "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "The least distance of distinct vision for a normal eye is:",
+      "options": ["10 cm", "25 cm", "50 cm", "1 m"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 7,
+      "question": "Which phenomenon causes the splitting of white light into its constituent colors?",
+      "options": ["Reflection", "Refraction", "Dispersion", "Diffraction"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 8,
+      "question": "Which part of the eye contains cells that are sensitive to light?",
+      "options": ["Cornea", "Lens", "Retina", "Optic nerve"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following causes the formation of a rainbow?",
+      "options": ["Refraction", "Dispersion and total internal reflection", "Reflection and refraction", "Scattering"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 10,
+      "question": "During refraction, ______________ will not change?",
+      "options": ["Wave Length ", "Frequency", "speed of light", "all the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 11,
+      "question": "The ability of the eye lens to adjust its focal length is called:",
+      "options": ["Accommodation", "Refraction", "Dispersion", "Magnification"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "What causes the twinkling of stars?",
+      "options": ["Reflection", "Refraction of light in the atmosphere", "Dispersion", "Scattering of light"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "Which color of light has the shortest wavelength?",
+      "options": ["Red", "Blue", "Green", "Violet"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 14,
+      "question": "The splitting of white light into its seven constituent colors is called:",
+      "options": ["Reflection", "Dispersion", "Refraction", "Diffraction"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 15,
+      "question": "Which phenomenon is responsible for the blue color of the sky?",
+      "options": ["Reflection", "Refraction", "Scattering of light", "Dispersion"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 16,
+      "question": "Presbyopia is caused due to:",
+      "options": ["Weakening of ciliary muscles", "Increase in eyeball length", "Decrease in eyeball length", "Thickened cornea"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "Which lens is used to correct myopia?",
+      "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following colors of light bends the least when passing through a prism?",
+      "options": ["Red", "Yellow", "Green", "Violet"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 19,
+      "question": "What is the cause of presbyopia?",
+      "options": ["Loss of elasticity of the eye lens", "Thickening of the cornea", "Weakening of the iris", "Shortened eyeball"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 20,
+      "question": "Which phenomenon causes the apparent shift in the position of stars?",
+      "options": ["Dispersion", "Scattering", "Atmospheric refraction", "Total internal reflection"],
+      "correctAnswer": "c"
+    }
+  ]
+}
