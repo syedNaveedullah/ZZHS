@@ -148,7 +148,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// ****************************starting the server******************
+// ****************************starting the server****************************
 app.listen(port, () => {
   console.log("server is running");
   console.log("http://localhost:4000/");

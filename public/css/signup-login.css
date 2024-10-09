@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-#signup-login {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
 #signup-login a {
   text-decoration: none;
   font-size: 15px;
@@ -24,6 +19,7 @@
   width: 70px;
   border-radius: 5px;
   margin-top: 5px;
+  margin-right: 5px;
 }
 
 .main-sign-login-div {

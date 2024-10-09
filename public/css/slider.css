@@ -1,14 +1,14 @@
 /* section 5 Gallery ================================================== */
 #section-5 {
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   overflow: hidden;
   background: white;
 }
 
 .sec5-h1 {
   display: flex;
-  height: 150px;
+  height: 130px;
   align-items: center;
 }
 
@@ -19,61 +19,125 @@
 }
 
 #sec5-green-circle {
-  background: url("../pictures/Overall-Site-circle.png") no-repeat center center/cover;
+  background: url("../pictures/Overall-Site-circle.png") no-repeat center
+    center/cover;
   height: 1000px;
   width: 600px;
   position: absolute;
-  top: 4100px;
+  top: 3900px;
   right: 0;
 }
 
 /* Updated slider ======================================== */
 .container {
-  max-width: 1024px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
+  position: relative;
+  top: 10rem;
+  max-width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
 }
 
 .imgContainer {
   display: flex;
-  width: 100%;
-  flex-direction: row;
   animation: scroll 20s ease-in-out infinite;
+  transition: transform 0.5s ease;
 }
 
+/* Keyframes for sliding effect */
+@keyframes scroll {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-40%);
+  }
+}
+
+/* Styling the images */
 .slide_div img {
-  flex-shrink: 0;
   width: 350px;
   height: 250px;
   object-fit: cover;
   border: 3px solid white;
-  border-radius: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
-@keyframes scroll {
-  0%, 100% {
-    transform: translate3d(0, 0, 0);
+.imgContainer.stopped {
+  animation-play-state: paused;
+}
+
+.enlarged {
+  transform: scale(1.5);
+  z-index: 10;
+  position: relative;
+}
+
+/* Media Queries for responsiveness ==========================*/
+
+/* For tablets (landscape) and smaller screens */
+@media (max-width: 1024px) {
+  .sec5-h1 h1 {
+    font-size: 40px; /* Smaller font size for the heading */
+    margin-top: 150px; /* Adjust top margin */
+    margin-left: 50px; /* Adjust left margin */
   }
-  50% {
-    transform: translate3d(-100%, 0, 0);
+
+  .slide_div img {
+    width: 300px; /* Reduce image width */
+    height: 200px; /* Reduce image height */
+  }
+
+  #sec5-green-circle {
+    height: 800px; /* Adjust height of the green circle */
   }
 }
 
-/* Optional: Adjust button hover effect for interactive feeling */
-.button {
-  position: absolute;
-  width: 350px;
-  height: 250px;
-  transition: 0.7s;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 20px;
+/* For mobile phones */
+@media (max-width: 768px) {
+  .sec5-h1 h1 {
+    font-size: 30px; /* Further reduce font size for mobile */
+    margin-top: 120px; /* Adjust top margin */
+    margin-left: 30px; /* Adjust left margin */
+  }
+
+  .container {
+    top: 5rem; /* Adjust container position */
+  }
+
+  .slide_div img {
+    width: 100%; /* Make images responsive to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    /* max-width: 350px; Limit max width */
+  }
+
+  #sec5-green-circle {
+    height: 600px; /* Adjust height for mobile */
+  }
 }
 
-.button:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+/* For very small screens */
+@media (max-width: 480px) {
+  .sec5-h1 h1 {
+    font-size: 25px; /* Smaller font size for very small screens */
+    margin-top: 100px; /* Adjust top margin */
+    margin-left: 20px; /* Adjust left margin */
+  }
+
+  .container {
+    top: 2rem; /* Further adjust container position */
+  }
+
+  .slide_div img {
+    width: 100%; /* Ensure images are full width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Limit max width for very small screens */
+  }
+
+  #sec5-green-circle {
+    height: 400px; /* Adjust height for very small screens */
+  }
 }

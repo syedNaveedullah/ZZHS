@@ -22,30 +22,35 @@ body {
 /* navbar--------------- */
 #navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly !important;
   align-items: center;
   background-color: #82ad59;
-  height: 190px;
+  height: 150px;
   width: 100vw;
   padding: 10px 20px;
+  border: none !important;
+}
+
+.navbar-toggler{
+  background-color: #82ad59;
 }
 
 #nav-logo img {
-  height: 180px;
-  width: 180px;
+  height: 150px;
+  width: 150px;
 }
 
 #nav-bot-icon {
-  height: 190px;
+  height: 180px;
 }
 #nav-bot-icon img {
-  height: 220px;
-  width: 180px;
+  height: 100%;
+  width: 100%;
   margin-top: 30px;
 }
 
 #nav-items {
-  width: 70%;
+  width: 100%;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -71,29 +76,28 @@ body {
 }
 
 /* main index view ====================================================*/
-.main{
+.main {
   height: 70vh;
   width: 100vw;
 }
-.carousel-btn{
+.carousel-btn {
   z-index: 20 !important;
   background-color: black !important;
 }
 
-.carousel{
+.carousel {
   height: 70vh;
   width: 100vw;
 }
 
-.carousel-caption{
+.carousel-caption {
   color: rgb(255, 255, 255);
   font-size: 2rem;
 }
 
-.carousel-item img{
+.carousel-item img {
   height: 70vh;
 }
-
 
 /* Circle-below-logo */
 #Circle-below-logo {
@@ -159,7 +163,7 @@ body {
   height: 800px;
   width: 845px;
   position: absolute;
-  top: 920px;
+  top: 700px;
   right: 0;
 }
 
@@ -206,7 +210,7 @@ body {
   height: 830px;
   width: 700px;
   position: absolute;
-  top: 2597px;
+  top: 2378px;
   left: 0;
 }
 

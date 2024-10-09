@@ -6,38 +6,63 @@
 
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" class="carousel-btn"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="carousel-btn"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="carousel-btn"></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+        class="carousel-btn"></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+        class="carousel-btn"></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+        class="carousel-btn"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/pictures/P1-s.png" class="d-block w-100" alt="...">
+        <img src="/pictures/P1-s.png" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/pictures/sec2img.jpg" class="d-block w-100" alt="...">
+        <img src="/pictures/sec2img.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/pictures/sec4img.jpg" class="d-block w-100" alt="...">
+        <img src="/pictures/sec4img.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" >
+    <button
+      class="carousel-control-prev carousel-btn"
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" >
+    <button
+      class="carousel-control-next carousel-btn"
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -147,137 +172,126 @@
 </section>
 
 <!-- section 5 gallery =================================================== -->
-<section id="section-5">
-  <!-- heading -->
-  <div class="sec5-h1">
-    <h1>Gallery</h1>
-  </div>
-  <div id="sec5-green-circle"></div>
-  <!-- slider -->
-  <div class="container">
-    <span class="slider" id="slider1"></span>
-    <span class="slider" id="slider2"></span>
-    <span class="slider" id="slider3"></span>
-    <span class="slider" id="slider4"></span>
-    <span class="slider" id="slider5"></span>
-    <span class="slider" id="slider6"></span>
-    <span class="slider" id="slider7"></span>
+  <section id="section-5">
+    <div class="sec5-h1">
+      <h1>Gallery</h1>
+    </div>
+    <div id="sec5-green-circle"></div>
+    <div class="container">
+      <div class="imgContainer">
+        <div class="slide_div" id="slide_1">
+          <img src="pictures/slider-imgs/1.jpeg" alt="image1" class="img" />
+        </div>
+        <div class="slide_div" id="slide_2">
+          <img src="pictures/slider-imgs/2.jpg" alt="image2" class="img" />
+        </div>
+        <div class="slide_div" id="slide_3">
+          <img src="pictures/slider-imgs/3.jpg" alt="" class="img" id="img3" />
+          <a href="#slider3" class="button" id="button3"></a>
+        </div>
+        <div class="slide_div" id="slide_4">
+          <img src="pictures/slider-imgs/4.jpg" alt="" class="img" id="img4" />
+          <a href="#slider4" class="button" id="button4"></a>
+        </div>
+        <div class="slide_div" id="slide_5">
+          <img src="pictures/slider-imgs/5.jpg" alt="" class="img" id="img5" />
+          <a href="#slider5" class="button" id="button5"></a>
+        </div>
+        <div class="slide_div" id="slide_6">
+          <img src="pictures/slider-imgs/6.jpg" alt="" class="img" id="img6" />
+          <a href="#slider6" class="button" id="button6"></a>
+        </div>
+        <div class="slide_div" id="slide_7">
+          <img src="pictures/slider-imgs/7.jpg" alt="" class="img" id="img7" />
+          <a href="#slider7" class="button" id="button7"></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <div class="imgContainer">
-      <div class="slide_div" id="slide_1">
-        <img src="pictures/slider-imgs/1.jpeg" alt="" class="img" id="img1" />
-        <a href="#slider1" class="button" id="button1"></a>
+  <!-- section 6 Testimonial -->
+  <section id="section-6">
+    <div class="sec6-h1">
+      <h1>Testimonials</h1>
+    </div>
+    <div class="sec6-container">
+      <!-- div 1 -->
+      <div class="sec6-cards">
+        <div class="pic">
+          <img src="pictures/testimonial-imgs/1.jpeg" alt="img" />
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
+          incidunt unde. Ullam,Lorem, ipsum dolor. quam quisquam!
+        </div>
       </div>
-      <div class="slide_div" id="slide_2">
-        <img src="pictures/slider-imgs/2.jpg" alt="" class="img" id="img2" />
-        <a href="#slider2" class="button" id="button2"></a>
+      <!-- div 2 -->
+      <div class="sec6-cards">
+        <div class="pic">
+          <img src="pictures/testimonial-imgs/2.jpg" alt="img" />
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
+          incidunt unde. Ullam,Lorem, ipsum dolor. quam quisquam!
+        </div>
       </div>
-      <div class="slide_div" id="slide_3">
-        <img src="pictures/slider-imgs/3.jpg" alt="" class="img" id="img3" />
-        <a href="#slider3" class="button" id="button3"></a>
-      </div>
-      <div class="slide_div" id="slide_4">
-        <img src="pictures/slider-imgs/4.jpg" alt="" class="img" id="img4" />
-        <a href="#slider4" class="button" id="button4"></a>
-      </div>
-      <div class="slide_div" id="slide_5">
-        <img src="pictures/slider-imgs/5.jpg" alt="" class="img" id="img5" />
-        <a href="#slider5" class="button" id="button5"></a>
-      </div>
-      <div class="slide_div" id="slide_6">
-        <img src="pictures/slider-imgs/6.jpg" alt="" class="img" id="img6" />
-        <a href="#slider6" class="button" id="button6"></a>
-      </div>
-      <div class="slide_div" id="slide_7">
-        <img src="pictures/slider-imgs/7.jpg" alt="" class="img" id="img7" />
-        <a href="#slider7" class="button" id="button7"></a>
+      <!-- div 3 -->
+      <div class="sec6-cards">
+        <div class="pic">
+          <img src="pictures/testimonial-imgs/3.jpg" alt="img" />
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
+          incidunt unde. Ullam,Lorem, ipsum dolor. quam quisquam!
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- section 6 Testimonial -->
-<section id="section-6">
-  <div class="sec6-h1">
-    <h1>Testimonials</h1>
-  </div>
-  <div class="sec6-container">
-    <!-- div 1 -->
-    <div class="sec6-cards">
-      <div class="pic">
-        <img src="pictures/testimonial-imgs/1.jpeg" alt="img" />
-      </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
-        incidunt unde. Ullam,Lorem, ipsum dolor. quam quisquam!
-      </div>
+  <!-- section 7 contact us form -->
+  <section id="section-7">
+    <!-- heading -->
+    <div class="sec7-h1">
+      <h1>Contact Us</h1>
     </div>
-    <!-- div 2 -->
-    <div class="sec6-cards">
-      <div class="pic">
-        <img src="pictures/testimonial-imgs/2.jpg" alt="img" />
-      </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
-        incidunt unde. Ullam,Lorem, ipsum dolor. quam quisquam!
-      </div>
+    <!-- form -->
+    <div id="form-div">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Replace with your Access Key in value attribute//this is for getting mail from form using (web3forms)-->
+        <input
+          type="hidden"
+          name="access_key"
+          value="0dad372e-1edb-44da-bdc3-357b6d99b02c" />
+        <!-- name -->
+        <div class="form-input">
+          <label for="name">Name:-</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <!-- email -->
+        <div class="form-input">
+          <label for="email">Mail id:-</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <!-- mobile number -->
+        <div class="form-input">
+          <label for="phone">Mobile No. :-</label>
+          <input type="number" name="phone" id="phone" required />
+        </div>
+        <!-- query -->
+        <div class="form-input">
+          <label for="query">Query :-</label>
+          <textarea
+            name="query"
+            id="query"
+            cols="15"
+            rows="2"
+            required></textarea>
+        </div>
+        <!-- button -->
+        <div class="form-input">
+          <button class="form-btn">Send</button>
+        </div>
+      </form>
     </div>
-    <!-- div 3 -->
-    <div class="sec6-cards">
-      <div class="pic">
-        <img src="pictures/testimonial-imgs/3.jpg" alt="img" />
-      </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
-        incidunt unde. Ullam,Lorem, ipsum dolor. quam quisquam!
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- section 7 contact us form -->
-<section id="section-7">
-  <!-- heading -->
-  <div class="sec7-h1">
-    <h1>Contact Us</h1>
-  </div>
-  <!-- form -->
-  <div id="form-div">
-    <form action="https://api.web3forms.com/submit" method="POST">
-      <!-- Replace with your Access Key in value attribute//this is for getting mail from form using (web3forms)-->
-      <input
-        type="hidden"
-        name="access_key"
-        value="0dad372e-1edb-44da-bdc3-357b6d99b02c" />
-      <!-- name -->
-      <div class="form-input">
-        <label for="name">Name:-</label>
-        <input type="text" name="name" id="name" required />
-      </div>
-      <!-- email -->
-      <div class="form-input">
-        <label for="email">Mail id:-</label>
-        <input type="email" name="email" id="email" required />
-      </div>
-      <!-- mobile number -->
-      <div class="form-input">
-        <label for="phone">Mobile No. :-</label>
-        <input type="number" name="phone" id="phone" required />
-      </div>
-      <!-- query -->
-      <div class="form-input">
-        <label for="query">Query :-</label>
-        <textarea
-          name="query"
-          id="query"
-          cols="15"
-          rows="2"
-          required></textarea>
-      </div>
-      <!-- button -->
-      <div class="form-input">
-        <button class="form-btn">Send</button>
-      </div>
-    </form>
-  </div>
+  </section>
 </section>
