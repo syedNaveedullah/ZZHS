@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the formula for the area of a rectangle?",
+      "options": [
+        "Length × Width",
+        "2(Length + Width)",
+        "Length + Width",
+        "Length × Height"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "What is the volume of a cube with a side length of 4 cm?",
+      "options": [
+        "16 cm³",
+        "24 cm³",
+        "64 cm³",
+        "32 cm³"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 3,
+      "question": "The area of a triangle is given by the formula:",
+      "options": [
+        "1/2 × Base × Height",
+        "Base × Height",
+        "Base + Height",
+        "1/3 × Base × Height"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 4,
+      "question": "If the radius of a circle is 7 cm, what is its area?",
+      "options": [
+        "154 cm²",
+        "49 cm²",
+        "28 cm²",
+        "14 cm²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 5,
+      "question": "What is the perimeter of a square with a side length of 5 cm?",
+      "options": [
+        "20 cm",
+        "25 cm",
+        "30 cm",
+        "15 cm"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "What is the volume of a cylinder with a radius of 3 cm and a height of 5 cm?",
+      "options": [
+        "45π cm³",
+        "30π cm³",
+        "60π cm³",
+        "15π cm³"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "The circumference of a circle is calculated using the formula:",
+      "options": [
+        "2πr",
+        "πr²",
+        "2πr²",
+        "πd"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 8,
+      "question": "What is the surface area of a cube with a side length of 3 cm?",
+      "options": [
+        "27 cm²",
+        "54 cm²",
+        "36 cm²",
+        "9 cm²"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 9,
+      "question": "If a rectangular garden is 10 m long and 6 m wide, what is its area?",
+      "options": [
+        "60 m²",
+        "16 m²",
+        "40 m²",
+        "100 m²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "What is the area of a trapezium with bases of length 8 m and 6 m, and a height of 4 m?",
+      "options": [
+        "32 m²",
+        "28 m²",
+        "36 m²",
+        "24 m²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 11,
+      "question": "The volume of a cone with a radius of 3 cm and height of 5 cm is:",
+      "options": [
+        "15π cm³",
+        "10π cm³",
+        "30π cm³",
+        "5π cm³"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is the formula for the surface area of a sphere?",
+      "options": [
+        "4πr",
+        "4πr²",
+        "2πr²",
+        "πr²"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "What is the area of a circle with a diameter of 14 cm?",
+      "options": [
+        "49π cm²",
+        "7π cm²",
+        "14π cm²",
+        "21π cm²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "If a rectangle has a length of 12 m and a width of 9 m, what is its perimeter?",
+      "options": [
+        "42 m",
+        "18 m",
+        "36 m",
+        "24 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "The base and height of a parallelogram are 10 cm and 5 cm, respectively. What is its area?",
+      "options": [
+        "50 cm²",
+        "15 cm²",
+        "30 cm²",
+        "25 cm²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "What is the formula to find the volume of a rectangular prism?",
+      "options": [
+        "Length × Width × Height",
+        "2(Length + Width)",
+        "Length + Width + Height",
+        "Length × Height"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "The lateral surface area of a cylinder is given by the formula:",
+      "options": [
+        "2πrh",
+        "πr²h",
+        "2πr + 2h",
+        "πd²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 18,
+      "question": "If the slant height of a cone is 10 cm and the radius is 6 cm, what is the lateral surface area?",
+      "options": [
+        "30π cm²",
+        "60π cm²",
+        "20π cm²",
+        "10π cm²"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 19,
+      "question": "What is the area of a sector with a radius of 5 cm and a central angle of 60°?",
+      "options": [
+        "13.25 cm²",
+        "25 cm²",
+        "12.5 cm²",
+        "5 cm²"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 20,
+      "question": "The area of a rhombus is given by the formula:",
+      "options": [
+        "1/2 × d₁ × d₂",
+        "d₁ + d₂",
+        "d₁ - d₂",
+        "d₁ × d₂"
+      ],
+      "correctAnswer": "a"
+    }
+  ]
+}

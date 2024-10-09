@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "If two triangles are similar, what is true about their corresponding angles?",
+      "options": ["They are equal.", "They are supplementary.", "They are complementary.", "They are all acute."],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "If the sides of triangle ABC are in the ratio 2:3:4 and the sides of triangle DEF are in the ratio 4:6:8, are the triangles similar?",
+      "options": ["Yes", "No", "Only one pair is equal", "Not enough information"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 3,
+      "question": "In similar triangles, the ratio of their areas is equal to what?",
+      "options": ["The square of the ratio of their corresponding sides", "The ratio of their corresponding angles", "The sum of their sides", "The difference of their sides"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 4,
+      "question": "If triangle ABC ~ triangle DEF, and AB = 6 cm, DE = 9 cm, what is the ratio of BC to EF?",
+      "options": ["2:3", "3:2", "4:3", "1:1"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 5,
+      "question": "In triangle XYZ, if the angles are 30°, 60°, and 90°, what are the angles of a similar triangle?",
+      "options": ["30°, 60°, 90°", "45°, 45°, 90°", "60°, 30°, 90°", "Any angle"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "If two triangles are similar, what can be said about the lengths of their corresponding medians?",
+      "options": ["They are equal", "They are in the same ratio as the sides", "They are in a different ratio", "Not enough information"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 7,
+      "question": "If the ratio of the sides of two similar triangles is 5:7, what is the ratio of their perimeters?",
+      "options": ["5:7", "25:49", "7:5", "7:25"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 8,
+      "question": "What is the criterion for two triangles to be similar according to AA similarity criterion?",
+      "options": ["Two angles of one triangle are equal to two angles of the other", "All sides are equal", "One angle is equal and the other two are proportional", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "In a pair of similar triangles, if one triangle has sides measuring 3 cm, 4 cm, and 5 cm, what could be the sides of the similar triangle?",
+      "options": ["6 cm, 8 cm, 10 cm", "3 cm, 4 cm, 5 cm", "9 cm, 12 cm, 15 cm", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 10,
+      "question": "If triangle PQR ~ triangle STU and PQ = 8 cm, ST = 12 cm, what is the ratio of their areas?",
+      "options": ["16:36", "2:3", "4:9", "3:2"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following statements is true about similar triangles?",
+      "options": ["Their sides are equal", "Their corresponding angles are equal", "Their areas are equal", "Their heights are equal"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 12,
+      "question": "If two triangles have sides of lengths 6 cm, 8 cm, and 10 cm, and 9 cm, 12 cm, and 15 cm respectively, what can be concluded?",
+      "options": ["They are not similar", "They are congruent", "They are similar", "Not enough information"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 13,
+      "question": "If two similar triangles have a side ratio of 1:4, what is the ratio of their altitudes?",
+      "options": ["1:4", "1:16", "4:1", "16:1"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "In triangle ABC, if angle A = 50° and angle B = 60°, what is angle C?",
+      "options": ["70°", "80°", "50°", "60°"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "If two triangles are similar, what can be said about their corresponding altitudes?",
+      "options": ["They are equal", "They are in the same ratio as their corresponding sides", "They are in different ratios", "Not enough information"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 16,
+      "question": "If triangle DEF is similar to triangle GHI, and DE = 3 cm, GH = 6 cm, what is the ratio of EF to HI if EF = 4 cm?",
+      "options": ["4:6", "2:3", "3:2", "1:2"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "question": "The sides of triangle JKL are in the ratio 3:4:5, what can be the sides of a similar triangle?",
+      "options": ["6, 8, 10", "9, 12, 15", "12, 16, 20", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 18,
+      "question": "If the angles of triangle ABC are 40°, 60°, and 80°, what will be the angles of a similar triangle?",
+      "options": ["40°, 60°, 80°", "30°, 60°, 90°", "50°, 70°, 80°", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a property of similar triangles?",
+      "options": ["They have the same area", "Their corresponding angles are equal", "Their corresponding sides are equal", "All of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "In triangle ABC, if the length of side AB is 5 cm and the corresponding side in triangle DEF is 15 cm, what is the ratio of the perimeters of the two triangles?",
+      "options": ["1:3", "1:4", "5:15", "3:1"],
+      "correctAnswer": "a"
+    }
+  ]
+}

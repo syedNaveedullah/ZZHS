@@ -1,0 +1,225 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the probability of getting a tail when a fair coin is tossed?",
+        "options": [
+          "0",
+          "0.25",
+          "0.5",
+          "1"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 2,
+        "question": "In a single roll of a die, what is the probability of rolling a number greater than 4?",
+        "options": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 3,
+        "question": "If a bag contains 3 red balls and 2 blue balls, what is the probability of drawing a red ball?",
+        "options": [
+          "2/5",
+          "3/5",
+          "1/2",
+          "3/2"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "What is the probability of drawing a queen from a standard deck of 52 playing cards?",
+        "options": [
+          "1/52",
+          "1/13",
+          "1/26",
+          "1/4"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "In a class of 40 students, 24 are girls. What is the probability of randomly selecting a boy?",
+        "options": [
+          "3/5",
+          "2/5",
+          "1/2",
+          "1/4"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 6,
+        "question": "What is the probability of rolling an even number on a fair six-sided die?",
+        "options": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 7,
+        "question": "If two dice are rolled, what is the probability that the sum is 8?",
+        "options": [
+          "5/36",
+          "1/6",
+          "1/12",
+          "1/18"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 8,
+        "question": "In a bag of 10 balls, 4 are green, 3 are red, and 3 are blue. What is the probability of drawing a blue ball?",
+        "options": [
+          "1/5",
+          "3/10",
+          "3/5",
+          "4/10"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 9,
+        "question": "What is the probability of not rolling a 3 on a fair die?",
+        "options": [
+          "1/6",
+          "2/3",
+          "5/6",
+          "1/2"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 10,
+        "question": "If a card is drawn from a standard deck of cards, what is the probability of drawing a heart?",
+        "options": [
+          "1/52",
+          "1/13",
+          "1/4",
+          "1/2"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 11,
+        "question": "A box contains 5 red, 7 blue, and 8 green balls. What is the probability of picking a red ball?",
+        "options": [
+          "5/20",
+          "7/20",
+          "1/5",
+          "1/4"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 12,
+        "question": "In a lottery, there are 100 tickets, and 1 ticket is winning. What is the probability of selecting the winning ticket?",
+        "options": [
+          "1/100",
+          "1/10",
+          "1/50",
+          "1/25"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 13,
+        "question": "If a spinner is divided into 4 equal sections numbered 1 to 4, what is the probability of landing on an odd number?",
+        "options": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "1/3"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 14,
+        "question": "A die is rolled. What is the probability of getting a number less than 5?",
+        "options": [
+          "2/6",
+          "1/3",
+          "3/6",
+          "4/6"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 15,
+        "question": "If a student guesses on a multiple-choice test with 4 options for each question, what is the probability of answering a question correctly?",
+        "options": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "1/3"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 16,
+        "question": "A bag contains 10 marbles, 4 of which are blue. What is the probability of drawing a non-blue marble?",
+        "options": [
+          "2/5",
+          "6/10",
+          "3/5",
+          "4/10"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "If a student draws a card from a standard deck, what is the probability that it is either a king or a queen?",
+        "options": [
+          "1/26",
+          "2/52",
+          "4/52",
+          "1/13"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 18,
+        "question": "If the probability of an event happening is 0.2, what is the probability of it not happening?",
+        "options": [
+          "0.8",
+          "0.2",
+          "0.5",
+          "1"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 19,
+        "question": "What is the probability of drawing a face card (jack, queen, king) from a standard deck of cards?",
+        "options": [
+          "1/52",
+          "3/52",
+          "12/52",
+          "4/52"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 20,
+        "question": "What is the probability of rolling a sum of 10 with two dice?",
+        "options": [
+          "1/36",
+          "3/36",
+          "2/36",
+          "4/36"
+        ],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the degree of the polynomial 3x² + 5x + 7?",
+      "options": ["1", "2", "3", "0"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a monomial?",
+      "options": ["3x", "5x + 2", "x² + 2x + 1", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 3,
+      "question": "What is the coefficient of x in the polynomial 4x³ + 3x² + 2x + 1?",
+      "options": ["4", "3", "2", "1"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "Which polynomial is a perfect square?",
+      "options": ["x² - 9", "x² + 4", "(x + 2)²", "x² + 2x + 1"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 5,
+      "question": "The polynomial 2x² - 3x + 1 is of what type?",
+      "options": ["Linear", "Quadratic", "Cubic", "Constant"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a zero of the polynomial x² - 4?",
+      "options": ["2", "-2", "0", "Both a and b"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 7,
+      "question": "What is the value of the polynomial 2x² + 3x - 5 at x = 1?",
+      "options": ["0", "2", "-4", "3"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "What is the sum of the polynomials (3x² + 2x) and (4x² - x + 1)?",
+      "options": ["7x² + x + 1", "7x² + x - 1", "7x² - 3x + 1", "7x² + 3x + 1"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "What is the product of the polynomials (x + 2) and (x - 3)?",
+      "options": ["x² - x - 6", "x² - x + 6", "x² + 5x - 6", "x² - 5x - 6"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is the standard form of a polynomial?",
+      "options": ["ax + b", "a + bx + cx²", "ax² + bx + c", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 11,
+      "question": "What is the remainder when the polynomial x³ - 4x + 6 is divided by x - 2?",
+      "options": ["2", "4", "6", "8"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is not a polynomial?",
+      "options": ["2x² + 3x - 1", "x - 5", "5/x", "3"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 13,
+      "question": "The polynomial x² + 5x + 6 can be factored as:",
+      "options": ["(x + 2)(x + 3)", "(x - 2)(x + 3)", "(x - 3)(x - 2)", "(x + 1)(x + 6)"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "What is the leading coefficient of the polynomial 5x³ - 4x² + 2?",
+      "options": ["5", "-4", "2", "0"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following represents the roots of the polynomial x² + 4x + 4?",
+      "options": ["-2", "2", "4", "0"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "The sum of the roots of the polynomial x² - 5x + 6 is:",
+      "options": ["5", "-5", "6", "-6"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "What is the factorization of x² - 16?",
+      "options": ["(x - 4)(x + 4)", "(x + 4)(x + 4)", "(x - 8)(x + 8)", "(x - 2)(x + 2)"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a quadratic polynomial?",
+      "options": ["x + 1", "x² + 2x + 1", "x³ - x", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 19,
+      "question": "If p(x) = x² - 2x and q(x) = x + 3, what is p(q(x))?",
+      "options": ["(x + 3)² - 2(x + 3)", "(x + 3)² + 2", "(x + 3) - 2", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 20,
+      "question": "The polynomial 2x² + 3x - 5 is:",
+      "options": ["Monomial", "Binomial", "Trinomial", "Constant"],
+      "correctAnswer": "c"
+    }
+  ]
+}

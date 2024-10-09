@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is a rational number?",
+      "options": ["√2", "π", "3/4", "e"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 2,
+      "question": "What is the decimal representation of the fraction 1/8?",
+      "options": ["0.125", "0.2", "0.5", "0.75"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is an irrational number?",
+      "options": ["0.3333...", "√3", "1/2", "4"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 4,
+      "question": "The square root of 64 is:",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a whole number?",
+      "options": ["-1", "0", "1/2", "3.5"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "question": "What is the value of -5 + 3?",
+      "options": ["-2", "-1", "1", "2"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following numbers is not a perfect square?",
+      "options": ["16", "25", "30", "36"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 8,
+      "question": "What is the least common multiple (LCM) of 4 and 6?",
+      "options": ["12", "24", "8", "6"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "What is the greatest common divisor (GCD) of 12 and 15?",
+      "options": ["3", "5", "1", "12"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is true for any two integers a and b?",
+      "options": ["a + b = b + a", "a + b = ab", "a - b = b - a", "ab = 0 if a or b = 0"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 11,
+      "question": "The decimal representation of 1/3 is:",
+      "options": ["0.3", "0.33", "0.333...", "0.3333"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a rational number?",
+      "options": ["√5", "1.414", "0.75", "π"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following numbers is a natural number?",
+      "options": ["0", "-2", "5", "4.5"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 14,
+      "question": "What is the prime factorization of 60?",
+      "options": ["2 × 3 × 5", "2 × 2 × 3 × 5", "3 × 4 × 5", "2 × 3 × 10"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an example of an irrational number?",
+      "options": ["√2", "1/4", "0.25", "2"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "What is the absolute value of -10?",
+      "options": ["10", "-10", "0", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following statements is true?",
+      "options": ["Every integer is a whole number", "Every natural number is a rational number", "Every rational number is an integer", "Every whole number is a natural number"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "The number π is classified as:",
+      "options": ["Rational", "Irrational", "Whole", "Integer"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a composite number?",
+      "options": ["7", "13", "9", "3"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 20,
+      "question": "The sum of the rational numbers 1/2 and 1/3 is:",
+      "options": ["5/6", "7/6", "1/6", "1"],
+      "correctAnswer": "a"
+    }
+  ]
+}

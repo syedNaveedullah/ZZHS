@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A ladder is placed against a wall making an angle of 60° with the ground. If the foot of the ladder is 4 m away from the wall, what is the height of the ladder on the wall?",
+      "options": [
+        "2√3 m",
+        "4√3 m",
+        "8 m",
+        "2 m"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "From a point 30 m away from the foot of a building, the angle of elevation to the top of the building is 45°. What is the height of the building?",
+      "options": [
+        "30 m",
+        "15 m",
+        "45 m",
+        "60 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 3,
+      "question": "A person standing on the ground observes the top of a tree at an angle of elevation of 60°. If the tree is 10 m tall, how far is the person from the base of the tree?",
+      "options": [
+        "5 m",
+        "10 m",
+        "15 m",
+        "20 m"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 4,
+      "question": "In a right triangle, if the length of the opposite side is 12 m and the length of the adjacent side is 16 m, what is the value of tan θ?",
+      "options": [
+        "3/4",
+        "4/3",
+        "5/4",
+        "4/5"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 5,
+      "question": "If a ship is sailing away from a port at a speed of 20 km/h, what is the angle of elevation of the ship from the port after 1 hour if the angle was 30° at the start?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "75°"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "A person standing at a point observes a bird flying at an angle of elevation of 30°. If the bird is 15 m above the ground, how far is the person from the point directly below the bird?",
+      "options": [
+        "5√3 m",
+        "10√3 m",
+        "15√3 m",
+        "20 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "A flagpole is observed from a distance of 50 m at an angle of elevation of 60°. What is the height of the flagpole?",
+      "options": [
+        "25√3 m",
+        "50√3 m",
+        "100 m",
+        "25 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 8,
+      "question": "From the top of a 60 m high building, the angle of depression to the foot of a tree is 30°. How tall is the tree?",
+      "options": [
+        "30 m",
+        "10 m",
+        "25 m",
+        "35 m"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 9,
+      "question": "A ramp is inclined at an angle of 45° to the horizontal. If the height of the ramp is 5 m, what is the length of the ramp?",
+      "options": [
+        "5√2 m",
+        "10 m",
+        "5 m",
+        "7 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "If a person is 15 m away from a vertical pole and the angle of elevation to the top of the pole is 60°, what is the height of the pole?",
+      "options": [
+        "10 m",
+        "15 m",
+        "20 m",
+        "25 m"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 11,
+      "question": "In a right triangle, if one angle is 30° and the length of the hypotenuse is 10 m, what is the length of the side opposite to the 30° angle?",
+      "options": [
+        "5 m",
+        "10 m",
+        "√3 m",
+        "2√3 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "What is the height of a tower if the angle of elevation from a point 50 m away from the base of the tower is 60°?",
+      "options": [
+        "25√3 m",
+        "50√3 m",
+        "50 m",
+        "25 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 13,
+      "question": "The angle of elevation of a cloud from a point 30 m above a lake is 45°. How far is the cloud from the point?",
+      "options": [
+        "30 m",
+        "15√2 m",
+        "30√2 m",
+        "45 m"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 14,
+      "question": "A kite is flying at a height of 100 m. If the angle of elevation from the ground is 30°, what is the distance from the observer to the point directly below the kite?",
+      "options": [
+        "100√3 m",
+        "50√3 m",
+        "100 m",
+        "200 m"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 15,
+      "question": "If the angle of depression from the top of a tower is 30° and the tower is 40 m high, how far is the observer from the base of the tower?",
+      "options": [
+        "40√3 m",
+        "20√3 m",
+        "40 m",
+        "80 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "If the angle of elevation to the top of a building is 60° from a point 50 m away, what is the height of the building?",
+      "options": [
+        "25√3 m",
+        "50 m",
+        "25 m",
+        "100 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "A tree's shadow is 10 m long when the angle of elevation of the sun is 45°. How tall is the tree?",
+      "options": [
+        "10 m",
+        "20 m",
+        "15 m",
+        "5 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 18,
+      "question": "A person on the ground sees the top of a tower at an angle of elevation of 30°. If the tower is 20 m tall, how far is the person from the base of the tower?",
+      "options": [
+        "10√3 m",
+        "20 m",
+        "40 m",
+        "30 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 19,
+      "question": "A building is observed from a distance of 100 m at an angle of elevation of 60°. What is the height of the building?",
+      "options": [
+        "50√3 m",
+        "100√3 m",
+        "100 m",
+        "50 m"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 20,
+      "question": "If a man stands 20 m from a tree and looks at the top of the tree at an angle of elevation of 45°, what is the height of the tree?",
+      "options": [
+        "20 m",
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "correctAnswer": "a"
+    }
+  ]
+}

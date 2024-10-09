@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "In a right-angled triangle, if the angle is 30°, what is the ratio of the opposite side to the hypotenuse?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1/√2",
+        "1/√3"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "What is the value of sin 90°?",
+      "options": [
+        "0",
+        "1",
+        "√2/2",
+        "√3/2"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "The tangent of an angle in a right triangle is defined as the ratio of:",
+      "options": [
+        "Adjacent side to Opposite side",
+        "Opposite side to Hypotenuse",
+        "Opposite side to Adjacent side",
+        "Hypotenuse to Adjacent side"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "If cos θ = 0.6, what is the value of sin θ?",
+      "options": [
+        "0.8",
+        "0.4",
+        "0.5",
+        "0.3"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 5,
+      "question": "What is the value of tan 45°?",
+      "options": [
+        "0",
+        "1",
+        "√3",
+        "undefined"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "question": "In a right triangle, if the hypotenuse is 10 cm and one angle is 60°, what is the length of the side opposite to this angle?",
+      "options": [
+        "5√3 cm",
+        "10√3 cm",
+        "10/2 cm",
+        "5 cm"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is true for sin² θ + cos² θ?",
+      "options": [
+        "sin² θ + cos² θ = 0",
+        "sin² θ + cos² θ = 1",
+        "sin² θ + cos² θ = 2",
+        "sin² θ + cos² θ = θ"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "What is the value of sin 0°?",
+      "options": [
+        "0",
+        "1",
+        "1/2",
+        "√3/2"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "If tan θ = 3/4, what is sin θ?",
+      "options": [
+        "3/5",
+        "4/5",
+        "5/4",
+        "5/3"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "What is the value of cos 180°?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "undefined"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 11,
+      "question": "In a right triangle, if the opposite side is 8 cm and the adjacent side is 6 cm, what is the value of tan θ?",
+      "options": [
+        "4/3",
+        "3/4",
+        "2/3",
+        "3/2"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "What is the value of sec 60°?",
+      "options": [
+        "1/2",
+        "2",
+        "√3/2",
+        "2/√3"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "If sin θ = 1/2, what is the value of θ?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "45°"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following identities is correct?",
+      "options": [
+        "sin(90° - θ) = cos θ",
+        "sin(90° + θ) = cos θ",
+        "sin(θ) = cos(θ)",
+        "cos(θ) = tan(θ)"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "What is the value of cosec 30°?",
+      "options": [
+        "2",
+        "√3/2",
+        "1/√3",
+        "1/2"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 16,
+      "question": "What is the complementary angle of 45°?",
+      "options": [
+        "45°",
+        "90°",
+        "60°",
+        "30°"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "question": "If cos θ = 3/5, what is the value of sin² θ?",
+      "options": [
+        "16/25",
+        "9/25",
+        "25/16",
+        "12/25"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 18,
+      "question": "What is the value of sin 120°?",
+      "options": [
+        "√3/2",
+        "1/2",
+        "-√3/2",
+        "-1/2"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 19,
+      "question": "The value of sin θ when θ is 90° is:",
+      "options": [
+        "0",
+        "1",
+        "√2",
+        "undefined"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "What is the angle whose sine is equal to 0.5?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": "a"
+    }
+  ]
+}

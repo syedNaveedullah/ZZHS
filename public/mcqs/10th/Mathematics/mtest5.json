@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the standard form of a quadratic equation?",
+      "options": ["ax + b = 0", "ax² + bx + c = 0", "a²x + bx + c = 0", "x² + y² = r²"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "In the quadratic equation ax² + bx + c = 0, what is the value of b if the equation is 2x² + 3x + 5 = 0?",
+      "options": ["2", "3", "5", "0"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "What is the discriminant of the quadratic equation ax² + bx + c = 0?",
+      "options": ["b² - 4ac", "a² + b² + c²", "2ab", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 4,
+      "question": "If the discriminant of a quadratic equation is positive, the roots are:",
+      "options": ["Real and equal", "Real and distinct", "Imaginary", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "What is the sum of the roots of the quadratic equation ax² + bx + c = 0?",
+      "options": ["-b/a", "b/a", "c/a", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "The roots of the quadratic equation x² - 5x + 6 = 0 are:",
+      "options": ["1 and 6", "2 and 3", "3 and 2", "6 and 1"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 7,
+      "question": "What is the product of the roots of the quadratic equation ax² + bx + c = 0?",
+      "options": ["c/a", "-c/a", "-b/a", "b/a"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 8,
+      "question": "Which method can be used to solve a quadratic equation?",
+      "options": ["Factoring", "Completing the square", "Quadratic formula", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 9,
+      "question": "What are the roots of the equation 2x² + 4x = 0?",
+      "options": ["0 and -2", "2 and 0", "0 and 4", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "If the quadratic equation x² + 4x + 4 = 0 is solved, what is the nature of its roots?",
+      "options": ["Real and equal", "Real and distinct", "Imaginary", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 11,
+      "question": "The quadratic equation 3x² - 12 = 0 can be simplified to:",
+      "options": ["x² - 4 = 0", "x² - 3 = 0", "x² + 4 = 0", "x² + 3 = 0"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "Using the quadratic formula, what are the roots of the equation x² - 3x - 10 = 0?",
+      "options": ["5 and -2", "2 and -5", "5 and 2", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 13,
+      "question": "What will be the value of the discriminant for the equation 2x² + 4x + 2 = 0?",
+      "options": ["0", "4", "-4", "8"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 14,
+      "question": "If one root of the quadratic equation x² - 5x + k = 0 is 2, what is the value of k?",
+      "options": ["6", "8", "10", "4"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following equations represents a quadratic equation?",
+      "options": ["x + 2 = 0", "x² + 3 = 0", "2x + 4 = 0", "3x - 2y = 1"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 16,
+      "question": "The roots of the quadratic equation 4x² - 12x + 9 = 0 are:",
+      "options": ["3", "1.5", "2 and 2", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 17,
+      "question": "What is the vertex of the parabola represented by the quadratic equation y = x² - 4x + 3?",
+      "options": ["(2, -1)", "(2, 1)", "(1, 1)", "(3, 0)"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 18,
+      "question": "In the equation x² + 6x + 9 = 0, the roots are:",
+      "options": ["Real and equal", "Real and distinct", "Imaginary", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following values for k will make the equation x² + kx + 4 = 0 have no real roots?",
+      "options": ["4", "8", "3", "7"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "The graph of a quadratic equation is a:",
+      "options": ["Line", "Circle", "Parabola", "None of the above"],
+      "correctAnswer": "c"
+    }
+  ]
+}

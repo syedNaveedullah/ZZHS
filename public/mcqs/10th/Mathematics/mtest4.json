@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the general form of a linear equation in two variables?",
+      "options": ["Ax + By + C = 0", "Ax² + By² + C = 0", "x + y = 0", "Ax + By = 1"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "What is the solution of the system of equations 2x + 3y = 6 and 4x + 6y = 12?",
+      "options": ["No solution", "Unique solution", "Infinitely many solutions", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 3,
+      "question": "Which method can be used to solve a pair of linear equations?",
+      "options": ["Graphical method", "Substitution method", "Elimination method", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 4,
+      "question": "If two linear equations represent the same line, they are called:",
+      "options": ["Independent", "Dependent", "Inconsistent", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "The pair of equations x + y = 10 and x - y = 2 is an example of:",
+      "options": ["Consistent and independent", "Consistent and dependent", "Inconsistent", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "What is the graphical representation of the equations 3x + 4y = 12 and 6x + 8y = 24?",
+      "options": ["Two intersecting lines", "Two parallel lines", "Same line", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following pairs of equations is inconsistent?",
+      "options": ["2x + 3y = 6 and 4x + 6y = 12", "x - y = 3 and x + y = 1", "3x + 2y = 5 and 3x + 2y = 10", "x + y = 4 and x - y = 2"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 8,
+      "question": "To find the point of intersection of two lines, we need to:",
+      "options": ["Add the equations", "Subtract the equations", "Solve the equations simultaneously", "Multiply the equations"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 9,
+      "question": "What is the elimination method in solving linear equations?",
+      "options": ["Graphing the equations", "Substituting one variable", "Eliminating one variable to solve", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 10,
+      "question": "If a pair of linear equations has a unique solution, the lines are:",
+      "options": ["Coinciding", "Parallel", "Intersecting", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 11,
+      "question": "The equations x + 2y = 5 and 3x + 6y = 15 represent:",
+      "options": ["Two intersecting lines", "Two parallel lines", "Same line", "None of the above"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 12,
+      "question": "The substitution method involves:",
+      "options": ["Adding equations", "Rearranging one equation to express a variable", "Multiplying equations", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "What is the solution for the equations 5x + 3y = 10 and 2x + y = 4?",
+      "options": ["(0, 0)", "(1, 1)", "(2, 0)", "(1, 2)"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 14,
+      "question": "The two equations x + y = 5 and x - y = 1 can be solved by which method?",
+      "options": ["Graphical method", "Substitution method", "Elimination method", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following represents a dependent system of equations?",
+      "options": ["2x + 3y = 6 and 4x + 6y = 15", "x + y = 4 and 2x + 2y = 8", "3x + 2y = 4 and 3x + 2y = 8", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 16,
+      "question": "In the equation 4x + 2y = 10, what is the value of y when x = 1?",
+      "options": ["3", "2", "1", "0"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "question": "What is the graphical representation of the equations 2x + y = 4 and 2x + y = 6?",
+      "options": ["Two intersecting lines", "Two parallel lines", "Same line", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "The slope of the line represented by the equation y = mx + b is:",
+      "options": ["m", "b", "x", "y"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 19,
+      "question": "The point where two lines intersect is called the:",
+      "options": ["Slope", "Point of intersection", "Origin", "None of the above"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 20,
+      "question": "If the equations x + y = 10 and 2x + 2y = 20 have a unique solution, then they are:",
+      "options": ["Dependent", "Independent", "Inconsistent", "None of the above"],
+      "correctAnswer": "b"
+    }
+  ]
+}

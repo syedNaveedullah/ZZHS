@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is a set?",
+      "options": ["The set of all prime numbers", "The set of all even numbers", "The set of all students in a class", "All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 2,
+      "question": "What is the cardinality of the set {a, b, c, d}?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following represents an empty set?",
+      "options": ["{}", "{0}", "Ø", "Both a and c"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 4,
+      "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∩ B?",
+      "options": ["{1, 2, 3}", "{3}", "{4, 5}", "{}"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "What is the union of sets A and B denoted by?",
+      "options": ["A ∩ B", "A - B", "A ∪ B", "A + B"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a subset of {1, 2, 3}?",
+      "options": ["{1, 2}", "{4}", "{} ", "{1, 4}"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "How many subsets does a set with n elements have?",
+      "options": ["n", "2n", "2^n", "n^2"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 8,
+      "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is A - B?",
+      "options": ["{1, 2}", "{3, 4}", "{5, 6}", "{}"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is true?",
+      "options": ["Every subset is a proper subset", "A set can be a member of itself", "The empty set is a subset of every set", "All sets are finite"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 10,
+      "question": "What is the complement of set A, denoted by A’?",
+      "options": ["Elements not in A", "Elements in A", "Elements in A and B", "None of the above"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 11,
+      "question": "If U = {1, 2, 3, 4, 5} and A = {1, 2}, what is the complement of A?",
+      "options": ["{3, 4, 5}", "{1, 2}", "{} ", "{2, 3, 4, 5}"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following pairs of sets are disjoint?",
+      "options": ["{1, 2}, {2, 3}", "{4, 5}, {6, 7}", "{1, 3}, {2, 3}", "{1, 2}, {2, 2}"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "question": "What is the intersection of the set of odd numbers and the set of even numbers?",
+      "options": ["All numbers", "No numbers", "All integers", "All natural numbers"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 14,
+      "question": "If A = {x | x is an even number} and B = {x | x is a prime number}, then A ∩ B is:",
+      "options": ["{2}", "{2, 4}", "{} ", "{2, 3}"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "If A = {1, 2, 3} and B = {2, 3, 4}, what is A ∪ B?",
+      "options": ["{1, 2, 3}", "{2, 3}", "{1, 2, 3, 4}", "{}"],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 16,
+      "question": "Which notation is used to denote a universal set?",
+      "options": ["U", "∅", "N", "Z"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "The set of all integers can be represented as:",
+      "options": ["N", "Z", "Q", "R"],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is not a valid method for representing a set?",
+      "options": ["Roster method", "Set-builder method", "Venn diagram", "Alphabetical method"],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 19,
+      "question": "If A = {2, 4, 6} and B = {1, 2, 3}, what is A ∩ B?",
+      "options": ["{2}", "{1, 2}", "{3}", "{}"],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 20,
+      "question": "The number of proper subsets of a set with 3 elements is:",
+      "options": ["3", "4", "7", "8"],
+      "correctAnswer": "c"
+    }
+  ]
+}

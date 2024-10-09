@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a tangent to a circle?",
+      "options": [
+        "A line that intersects the circle at two points",
+        "A line that touches the circle at exactly one point",
+        "A line that passes through the center of the circle",
+        "A line that intersects the circle at four points"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "If a tangent from point P touches the circle at point A, what is the relationship between the radius OA and the tangent PA?",
+      "options": [
+        "OA is greater than PA",
+        "OA is less than PA",
+        "OA is perpendicular to PA",
+        "OA is parallel to PA"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 3,
+      "question": "In a circle, if two tangents are drawn from an external point, what can be said about their lengths?",
+      "options": [
+        "They are equal",
+        "They are different",
+        "One is longer than the radius",
+        "None of the above"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 4,
+      "question": "If a tangent intersects a secant at point P, which of the following relationships holds?",
+      "options": [
+        "PA² = PB × PC",
+        "PA = PB + PC",
+        "PA² = PB + PC",
+        "PA × PB = PC"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 5,
+      "question": "What is the angle between the tangent and the radius at the point of contact?",
+      "options": [
+        "90°",
+        "45°",
+        "180°",
+        "0°"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "If the radius of a circle is 10 cm, what is the length of the tangent drawn from a point 10 cm away from the center?",
+      "options": [
+        "0 cm",
+        "5 cm",
+        "10 cm",
+        "√100 cm"
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following statements is true regarding tangents and secants?",
+      "options": [
+        "A tangent can intersect a secant at more than one point.",
+        "A secant can intersect a circle at two points.",
+        "A tangent and a secant cannot meet.",
+        "A tangent and a chord are the same."
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "If two tangents are drawn to a circle from an external point P, and they touch the circle at points A and B, which of the following is true?",
+      "options": [
+        "PA = PB",
+        "PA + PB = Diameter",
+        "PA = 2 × radius",
+        "AB = radius"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "In the equation of a circle (x - h)² + (y - k)² = r², what do h and k represent?",
+      "options": [
+        "Radius",
+        "Center coordinates",
+        "Diameter",
+        "Area"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 10,
+      "question": "What is the common point between a tangent and a circle called?",
+      "options": [
+        "Vertex",
+        "Point of contact",
+        "Intersection",
+        "Secant"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 11,
+      "question": "If a secant intersects a circle at points A and B, and a tangent is drawn from point P to point A, what is the formula relating the lengths?",
+      "options": [
+        "PA² = AB × AP",
+        "PA² = PB × PA",
+        "PA² = AP × PB",
+        "PA × AB = AP"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "question": "In a circle, if the lengths of tangents from an external point P to points A and B are equal, then which of the following is true?",
+      "options": [
+        "P lies on the circle.",
+        "P lies inside the circle.",
+        "P lies outside the circle.",
+        "P is the center of the circle."
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 13,
+      "question": "The distance from the center of a circle to a tangent line is equal to what?",
+      "options": [
+        "The diameter of the circle",
+        "The length of the radius",
+        "The circumference",
+        "The area"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 14,
+      "question": "If two secants intersect outside the circle at point P and intersect the circle at points A, B and C, D respectively, which of the following is the correct relationship?",
+      "options": [
+        "PA × PB = PC × PD",
+        "PA + PB = PC + PD",
+        "PA × PD = PB × PC",
+        "PA = PB + PC + PD"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 15,
+      "question": "The length of a tangent drawn from a point 13 cm away from the center of a circle with a radius of 5 cm is:",
+      "options": [
+        "12 cm",
+        "8 cm",
+        "10 cm",
+        "9 cm"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 16,
+      "question": "If a circle has a radius of r cm, what is the distance from the center to the point where a tangent touches the circle?",
+      "options": [
+        "r cm",
+        "2r cm",
+        "r/2 cm",
+        "0 cm"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is true for a tangent to a circle?",
+      "options": [
+        "It can cut the circle at two points.",
+        "It is always a line segment.",
+        "It meets the radius at the center.",
+        "It meets the circle at one point."
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 18,
+      "question": "What is the measure of the angle formed between two tangents drawn from an external point P to a circle?",
+      "options": [
+        "180°",
+        "90°",
+        "Equal to the angle subtended by the line segment connecting the points of tangency",
+        "45°"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 19,
+      "question": "If a secant intersects the circle at points A and B, then what is true about the segments PA and PB where P is a point outside the circle?",
+      "options": [
+        "PA + PB = Diameter",
+        "PA - PB = Radius",
+        "PA × PB = length of the tangent from P",
+        "PA + PB = length of the tangent from P"
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 20,
+      "question": "If two circles intersect at points A and B, then the line segment AB is a:",
+      "options": [
+        "Tangent",
+        "Secant",
+        "Chord",
+        "Diameter"
+      ],
+      "correctAnswer": "c"
+    }
+  ]
+}

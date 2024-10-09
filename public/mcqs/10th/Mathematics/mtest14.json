@@ -1,0 +1,225 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the mean of the following data: 4, 8, 6, 5, 3?",
+        "options": [
+          "4.0",
+          "5.0",
+          "6.0",
+          "7.0"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "In a frequency distribution, the sum of the frequencies is called the:",
+        "options": [
+          "Mean",
+          "Median",
+          "Total Frequency",
+          "Mode"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 3,
+        "question": "What is the mode of the following set of numbers: 1, 2, 2, 3, 4?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 4,
+        "question": "The median of the data set 10, 20, 30, 40, 50 is:",
+        "options": [
+          "20",
+          "30",
+          "25",
+          "35"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "What is the range of the following data set: 2, 7, 3, 9, 5?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 6,
+        "question": "If the mean of the following data set is 12: 8, 10, x, 14, 16, what is the value of x?",
+        "options": [
+          "12",
+          "14",
+          "10",
+          "16"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 7,
+        "question": "What is the probability of selecting a value greater than the mean in a symmetric distribution?",
+        "options": [
+          "0",
+          "1",
+          "0.5",
+          "0.25"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "The median is the value that separates the higher half from the lower half of a data set. True or False?",
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 9,
+        "question": "What is the sum of the deviations from the mean in any data set?",
+        "options": [
+          "Mean",
+          "Zero",
+          "Mode",
+          "Median"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 10,
+        "question": "In the data set: 3, 6, 9, 12, the mode is:",
+        "options": [
+          "3",
+          "6",
+          "No mode",
+          "12"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 11,
+        "question": "Which measure of central tendency is most affected by extreme values?",
+        "options": [
+          "Mean",
+          "Median",
+          "Mode",
+          "None of the above"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 12,
+        "question": "In a grouped frequency distribution, what is the purpose of class intervals?",
+        "options": [
+          "To find the mean",
+          "To organize data",
+          "To find the mode",
+          "To calculate the range"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 13,
+        "question": "If the mean of a data set is 20 and the sum of the values is 100, how many values are in the data set?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 14,
+        "question": "The median of the following numbers: 1, 4, 7, 8, 9 is:",
+        "options": [
+          "4",
+          "5",
+          "7",
+          "6"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 15,
+        "question": "In a data set with an even number of observations, how is the median calculated?",
+        "options": [
+          "Average of the two middle values",
+          "Sum of all values divided by the number of values",
+          "The middle value itself",
+          "No median exists"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 16,
+        "question": "In a box plot, what do the whiskers represent?",
+        "options": [
+          "Mean",
+          "Median",
+          "Range",
+          "Interquartile range"
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 17,
+        "question": "Which of the following data sets has the greatest range: {1, 2, 3}, {2, 3, 4}, or {3, 4, 5}?",
+        "options": [
+          "First set",
+          "Second set",
+          "Third set",
+          "All sets have the same range"
+        ],
+        "correctAnswer": "d"
+      },
+      {
+        "id": 18,
+        "question": "What does a lower quartile (Q1) represent in a data set?",
+        "options": [
+          "25th percentile",
+          "50th percentile",
+          "75th percentile",
+          "Mean"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 19,
+        "question": "In the context of statistics, what is a population?",
+        "options": [
+          "A sample of data",
+          "All members of a defined group",
+          "The mean of a data set",
+          "The mode of a data set"
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 20,
+        "question": "Which measure of central tendency is used most commonly in real-life situations?",
+        "options": [
+          "Mean",
+          "Median",
+          "Mode",
+          "None of the above"
+        ],
+        "correctAnswer": "a"
+      }
+    ]
+  }
+  
