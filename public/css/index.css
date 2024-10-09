@@ -32,7 +32,7 @@ body {
   box-shadow: 0 0.1rem 1rem 0.2rem rgb(0, 0, 0);
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: #82ad59;
 }
 
@@ -165,7 +165,7 @@ body {
   height: 800px;
   width: 845px;
   position: absolute;
-  top: 700px;
+  top: 718px;
   right: 0;
 }
 
@@ -175,6 +175,7 @@ body {
   font-size: 30px;
   font-weight: 500;
   z-index: 2;
+  text-align: justify;
 }
 
 .learn-moreBtn {
@@ -212,7 +213,7 @@ body {
   height: 830px;
   width: 700px;
   position: absolute;
-  top: 2378px;
+  top: 2395px;
   left: 0;
 }
 
@@ -235,7 +236,7 @@ body {
   font-weight: 500;
 }
 
-/* section 4 image========================================================= */
+/* section 4 image=========image================================================ */
 #section-4 {
   height: 100vh;
   width: 100vw;
@@ -452,39 +453,209 @@ footer {
 /* Media query for Monitor (wide screens) */
 @media only screen and (min-width: 1200px) {
   /* Styles for large monitors */
-  body {
-    font-size: 18px;
-  }
+  /* ====================section 1 About Us========= */
 }
 
 /* Media query for Laptops (15–16 inches, typical width range: 1366px to 1600px) */
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {
   /* Styles for 15–16 inch laptops */
-  body {
-    font-size: 16px;
-  }
+  /* ====================section 1 About Us========= */
 }
 
 /* Media query for Laptops without numeric pad (typical width: around 13–14 inches, width range: 1200px to 1365px) */
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   /* Styles for laptops without numeric pad */
-  body {
-    font-size: 15px;
+  /* ====================section 1 About Us========= */
+  /* left---------- */
+  #left {
+    padding: 70px;
   }
+
+  #left h1 {
+    margin: 0px 0px 30px 0px;
+    font-size: 40px;
+  }
+  .content {
+    width: 400px;
+    height: 250px;
+  }
+
+  /* left-down */
+  #left-down {
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;
+  }
+
+  #left-down img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #sec1-green-circle {
+    top: 610px;
+    right: 0;
+  }
+
+  #sec1-green-circle img {
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+  }
+
+  .sec1-text h3 {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 2;
+  }
+
+  .learn-moreBtn {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 450px;
+  }
+  /* *******************section 1 end*************************  */
 }
 
 /* Media query for Tablets (width range: 768px to 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles for tablets */
-  body {
-    font-size: 14px;
+  /* ====================section 1 About Us========= */
+  /* left---------- */
+  #left {
+    padding: 70px;
   }
+
+  #left h1 {
+    margin: 0px 0px 30px 0px;
+    font-size: 40px;
+  }
+  .content {
+    width: 300px;
+    height: 200px;
+  }
+
+  /* left-down */
+  #left-down {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  #left-down img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #sec1-green-circle {
+    top: 610px;
+    right: 0;
+  }
+
+  #sec1-green-circle img {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    right: 0;
+  }
+
+  .sec1-text h3 {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 12;
+  }
+
+  .learn-moreBtn {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 370px;
+  }
+  /* *******************section 1 end*************************  */
 }
 
 /* Media query for Mobile Phones (typical width: less than 768px) */
 @media only screen and (max-width: 767px) {
   /* Styles for mobile phones */
-  body {
-    font-size: 12px;
+  /* ====================section 1 About Us========= */
+  /* left---------- */
+  #section-1 {
+    background-color: white;
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
+  #left {
+    /* padding: 50px; */
+    width: 100%;
+    height: 50%;
+  }
+
+  #left h1 {
+    margin: 0px 0px 30px 0px;
+    font-size: 40px;
+  }
+  .content {
+    width: 300px;
+    height: 200px;
+  }
+
+  /* left-down */
+  #left-down {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  #left-down img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* right--------------- */
+  #right {
+    padding: 40px;
+    width: 100%;
+    height: 50%;
+  }
+  #sec1-green-circle {
+    display: none;
+  }
+
+  #sec1-green-circle img {
+    display: none;
+  }
+
+  .sec1-text h3 {
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    z-index: 12;
+  }
+
+  .learn-moreBtn {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+  }
+  /* *******************section 1 end*************************  */
 }
