@@ -205,7 +205,7 @@ body {
 /* section 3 Academics========================================================= */
 #section-3 {
   background-color: white;
-  height: 110vh;
+  height: 1000px;
   width: 100vw;
 }
 
@@ -244,7 +244,7 @@ body {
 
 /* section 4 image=========image================================================ */
 #section-4 {
-  height: 100vh;
+  height: 900px;
   width: 100vw;
 }
 
@@ -473,6 +473,11 @@ footer {
   /* Styles for laptops without numeric pad */
   /* ====================section 1 About Us========= */
   /* left---------- */
+  #section-1 {
+    height: 720px;
+    width: 100vw;
+  }
+
   #left {
     padding: 70px;
   }
@@ -529,15 +534,20 @@ footer {
     margin-left: 450px;
   }
   /* *******************section 1 end*************************  */
+  /* section 2 image========================================================= */
+  #section-2 {
+    height: 900px;
+  }
+  /* section 2 image end========================================================= */
   /* section 3 Academics========================================================= */
   #section-3 {
-    height: 1300px;
+    height: 1100px;
   }
 
   #sec3-green-circle {
     height: 900px;
     width: 700px;
-    top: 1935px;
+    top: 1872px;
   }
 
   #sec3-green-circle img {
@@ -575,6 +585,9 @@ footer {
   /* Styles for tablets */
   /* ====================section 1 About Us========= */
   /* left---------- */
+  #section-1 {
+    height: 700px;
+  }
   #left {
     padding: 70px;
   }
@@ -614,9 +627,9 @@ footer {
   }
 
   .sec1-text h3 {
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     z-index: 12;
   }
@@ -625,15 +638,15 @@ footer {
     height: 40px;
     width: 150px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 260px;
   }
   /* *******************section 1 end*************************  */
   /*===================section 2 image========================*/
   #section-2 {
-    height: 100vh;
+    height: 900px;
     width: 100vw;
   }
   /*===================section 2 image end========================*/
@@ -698,9 +711,9 @@ footer {
   /*================section-6 testimonials ends==================*/
 }
 
-/* Media query for Mobile Phones (typical width: less than 768px) */
-@media only screen and (max-width: 767px) {
-  /* Styles for mobile phones */
+/****************** Media query for iPhone & samsung(typical width: less than 392px) */
+@media only screen and (min-width: 360px) and (max-width: 720px) and (orientation: portrait) {
+  /* Styles for  iphone 12 & samsung*/
   /* ====================section 1 About Us========= */
   /* left---------- */
   #section-1 {
@@ -837,54 +850,4 @@ footer {
     font-size: 17px;
   }
   /*================section-6 testimonials ends==================*/
-}
-/****************** Media query for iPhone & samsung(typical width: less than 392px) */
-@media only screen and (min-width: 360px) and (max-width: 720px) and (orientation: portrait) {
-  /* Styles for  iphone 12 & samsung*/
-  /* ====================section 1 About Us========= */
-  /* left---------- */
-  #section-1 {
-    height: 1000px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-
-  #left {
-    padding: 40px;
-  }
-
-  #right {
-    padding: 20px;
-    width: 100%;
-    height: 50%;
-  }
-
-  /* ====================section 1 About Us end========= */
-  /* section 3 Academics=================*/
-  #section-3 {
-    height: 950px;
-  }
-
-  #sec3-green-circle {
-    top: 2588px;
-  }
-
-  #sec3-green-circle img {
-    height: 350px;
-    width: 300px;
-  }
-
-  .sec3-text h3 {
-    margin: 0px 0px 0px 10px;
-    padding: 20px;
-    font-size: 17px;
-  }
-  /* section 3 Academics end=================*/
-  /*================section-6 testimonials==================*/
-  #section-6 {
-    height: 1300px;
-  }
-  /*================section-6 testimonials end==================*/
 }
