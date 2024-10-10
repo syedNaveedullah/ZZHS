@@ -42,11 +42,11 @@ const handleIntersection = (entries, observer) => {
     if (entry.isIntersecting) {
       // Play sound when section 4 is in view
       sound.play();
-      console.log("playing");
+      // console.log("playing");
     } else {
       // Pause and reset sound when section 4 is out of view
       sound.pause();
-      console.log("pause");
+      // console.log("pause");
       sound.currentTime = 0;
     }
   });
