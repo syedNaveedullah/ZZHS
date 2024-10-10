@@ -210,11 +210,16 @@ body {
 }
 
 #sec3-green-circle {
-  height: 830px;
+  height: 700px;
   width: 700px;
   position: absolute;
-  top: 2395px;
+  top: 2250px;
   left: 0;
+}
+
+#sec3-green-circle img {
+  height: 800px;
+  width: 700px;
 }
 
 .sec3-h1 {
@@ -234,6 +239,7 @@ body {
   padding: 60px;
   font-size: 30px;
   font-weight: 500;
+  text-align: justify;
 }
 
 /* section 4 image=========image================================================ */
@@ -502,6 +508,7 @@ footer {
     width: 600px;
     position: absolute;
     right: 0;
+    top: 20px;
   }
 
   .sec1-text h3 {
@@ -522,6 +529,40 @@ footer {
     margin-left: 450px;
   }
   /* *******************section 1 end*************************  */
+  /* section 3 Academics========================================================= */
+  #section-3 {
+    height: 160vh;
+  }
+
+  #sec3-green-circle {
+    height: 900px;
+    width: 700px;
+    top: 1935px;
+  }
+
+  #sec3-green-circle img {
+    height: 800px;
+    width: 700px;
+  }
+
+  .sec3-h1 h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .sec3-text h3 {
+    margin: 0px 0px 0px 20px;
+    padding: 60px;
+    font-size: 30px;
+  }
+  /*========section 3 Academics end =================================*/
+  /* section 4 image=========image================================================ */
+  #section-4 {
+    height: 110vh;
+    width: 100vw;
+  }
+  /* section 4 image end========================================================= */
 }
 
 /* Media query for Tablets (width range: 768px to 1024px) */
@@ -563,6 +604,7 @@ footer {
     height: 400px;
     width: 500px;
     position: absolute;
+    top: 20px;
     right: 0;
   }
 
@@ -590,6 +632,40 @@ footer {
     width: 100vw;
   }
   /*===================section 2 image end========================*/
+  /* section 3 Academics========================================================= */
+  #section-3 {
+    height: 130vh;
+  }
+
+  #sec3-green-circle {
+    height: 750px;
+    width: 700px;
+    top: 1935px;
+  }
+
+  #sec3-green-circle img {
+    height: 750px;
+    width: 700px;
+  }
+
+  .sec3-h1 h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .sec3-text h3 {
+    margin: 0px 0px 0px 20px;
+    padding: 40px;
+    font-size: 23px;
+  }
+  /*========section 3 Academics end =================================*/
+  /* section 4 image=========image================================================ */
+  #section-4 {
+    height: 100vh;
+    width: 100vw;
+  }
+  /* section 4 image end========================================================= */
 }
 
 /* Media query for Mobile Phones (typical width: less than 768px) */
@@ -606,7 +682,6 @@ footer {
     align-items: left;
   }
   #left {
-    /* padding: 50px; */
     width: 100%;
     height: 50%;
   }
@@ -670,4 +745,77 @@ footer {
     width: 100vw;
   }
   /*===================section 2 image end========================*/
+  /* section 3 Academics========================================================= */
+  #section-3 {
+    height: 120vh;
+  }
+
+  #sec3-green-circle {
+    height: 450px;
+    width: 400px;
+    top: 2587px;
+  }
+
+  #sec3-green-circle img {
+    height: 450px;
+    width: 400px;
+  }
+
+  .sec3-h1 {
+    height: 80px;
+  }
+  .sec3-h1 h1 {
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+
+  .sec3-text h3 {
+    margin: 0px 0px 0px 20px;
+    padding: 15px;
+    font-size: 19px;
+  }
+  /*========section 3 Academics end =================================*/
+  /* section 4 image=========image================================================ */
+  #section-4 {
+    height: 80vh;
+    width: 100vw;
+  }
+  /* section 4 image end========================================================= */
+}
+/* Media query for iPhone 12 (typical width: less than 392px) */
+@media only screen and (max-width: 391px) {
+  /* Styles for  iphone 12 */
+  /* ====================section 1 About Us========= */
+  /* left---------- */
+  #section-1 {
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  #left {
+    padding: 40px;
+  }
+
+  #right {
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* ====================section 1 About Us end========= */
+  /* section 3 Academics=================*/
+  #sec3-green-circle {
+    top: 2564px;
+  }
+
+  .sec3-text h3 {
+    margin: 0px 0px 0px 10px;
+    padding: 20px;
+    font-size: 17px;
+  }
+  /* section 3 Academics end=================*/
 }

@@ -19,13 +19,16 @@
 }
 
 #sec5-green-circle {
-  background: url("../pictures/Overall-Site-circle.png") no-repeat center
-    center/cover;
-  height: 1000px;
-  width: 600px;
+  height: 800px;
+  width: 500px;
   position: absolute;
-  top: 3900px;
+  top: 3800px;
   right: 0;
+  z-index: 0;
+}
+#sec5-green-circle img {
+  height: 800px;
+  width: 500px;
 }
 
 /* Updated slider ======================================== */
@@ -61,7 +64,7 @@
   width: 350px;
   height: 250px;
   object-fit: cover;
-  border: 3px solid white;
+  border: 1px solid white;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
@@ -77,67 +80,89 @@
 }
 
 /* Media Queries for responsiveness ==========================*/
+/*****************Responsive********************************/
+/* Media query for Monitor (wide screens) */
+@media only screen and (min-width: 1200px) {
+  /* Styles for large monitors */
+}
 
-/* For tablets (landscape) and smaller screens */
-@media (max-width: 1024px) {
-  .sec5-h1 h1 {
-    font-size: 40px; /* Smaller font size for the heading */
-    margin-top: 150px; /* Adjust top margin */
-    margin-left: 50px; /* Adjust left margin */
-  }
+/* Media query for Laptops (15–16 inches, typical width range: 1366px to 1600px) */
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  /* Styles for 15–16 inch laptops */
+}
 
-  .slide_div img {
-    width: 300px; /* Reduce image width */
-    height: 200px; /* Reduce image height */
-  }
-
+/* Media query for Laptops without numeric pad (typical width: around 13–14 inches, width range: 1200px to 1365px) */
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  /* Styles for laptops without numeric pad */
   #sec5-green-circle {
-    height: 800px; /* Adjust height of the green circle */
+    top: 3600px;
   }
 }
 
-/* For mobile phones */
-@media (max-width: 768px) {
-  .sec5-h1 h1 {
-    font-size: 30px; /* Further reduce font size for mobile */
-    margin-top: 120px; /* Adjust top margin */
-    margin-left: 30px; /* Adjust left margin */
-  }
-
-  .container {
-    top: 5rem; /* Adjust container position */
-  }
-
-  .slide_div img {
-    width: 100%; /* Make images responsive to fill the container */
-    height: auto; /* Maintain aspect ratio */
-    /* max-width: 350px; Limit max width */
-  }
-
+/* Media query for Tablets (width range: 768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
   #sec5-green-circle {
-    height: 600px; /* Adjust height for mobile */
+    top: 3360px;
   }
 }
 
-/* For very small screens */
-@media (max-width: 480px) {
+/* Media query for Mobile Phones (typical width: less than 768px) */
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile phones */
+  #section-5 {
+    width: 100vw;
+    height: 80vh;
+  }
+
   .sec5-h1 h1 {
-    font-size: 25px; /* Smaller font size for very small screens */
-    margin-top: 100px; /* Adjust top margin */
-    margin-left: 20px; /* Adjust left margin */
-  }
-
-  .container {
-    top: 2rem; /* Further adjust container position */
-  }
-
-  .slide_div img {
-    width: 100%; /* Ensure images are full width */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 300px; /* Limit max width for very small screens */
+    margin-top: 130px;
+    margin-left: 40px;
   }
 
   #sec5-green-circle {
-    height: 400px; /* Adjust height for very small screens */
+    height: 500px;
+    width: 300px;
+    top: 4550px;
+  }
+
+  #sec5-green-circle img {
+    height: 500px;
+    width: 300px;
+  }
+  .imgContainer {
+    display: flex;
+    animation: scroll 20s ease-in-out infinite;
+    transition: transform 0.5s ease;
+  }
+
+  /* Keyframes for sliding effect */
+  @keyframes scroll {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-80%);
+    }
+  }
+
+  /* Styling the images */
+  .slide_div img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+}
+/* Media query for iPhone 12 (typical width: less than 392px) */
+@media only screen and (max-width: 391px) {
+  /* Styles for  iphone 12 */
+  #sec5-green-circle {
+    height: 500px;
+    width: 300px;
+    top: 4400px;
   }
 }
