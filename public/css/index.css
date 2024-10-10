@@ -531,7 +531,7 @@ footer {
   /* *******************section 1 end*************************  */
   /* section 3 Academics========================================================= */
   #section-3 {
-    height: 160vh;
+    height: 1300px;
   }
 
   #sec3-green-circle {
@@ -559,7 +559,7 @@ footer {
   /*========section 3 Academics end =================================*/
   /* section 4 image=========image================================================ */
   #section-4 {
-    height: 110vh;
+    height: 1000px;
     width: 100vw;
   }
   /* section 4 image end========================================================= */
@@ -868,7 +868,7 @@ footer {
   }
 
   #sec3-green-circle {
-    top: 2592px;
+    top: 2588px;
   }
 
   #sec3-green-circle img {
