@@ -75,6 +75,9 @@ body {
   color: white;
   font-size: 20px;
   font-weight: 600;
+  #nav-items ul li a:hover {
+    background-color: #2980b9;
+}
 }
 
 /* main index view ====================================================*/
@@ -167,6 +170,7 @@ body {
   position: absolute;
   top: 718px;
   right: 0;
+  opacity: 0.6;
 }
 
 .sec1-text h3 {
