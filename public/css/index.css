@@ -833,13 +833,13 @@ footer {
   }
   /*================section-6 testimonials ends==================*/
 }
-/****************** Media query for iPhone 12 (typical width: less than 392px) */
-@media only screen and (max-width: 391px) {
-  /* Styles for  iphone 12 */
+/****************** Media query for iPhone & samsung(typical width: less than 392px) */
+@media only screen and (max-width: 361px) {
+  /* Styles for  iphone 12 & samsung*/
   /* ====================section 1 About Us========= */
   /* left---------- */
   #section-1 {
-    height: 130vh;
+    height: 150vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -858,8 +858,17 @@ footer {
 
   /* ====================section 1 About Us end========= */
   /* section 3 Academics=================*/
+  #section-3 {
+    height: 150vh;
+  }
+
   #sec3-green-circle {
-    top: 2564px;
+    top: 2097px;
+  }
+
+  #sec3-green-circle img {
+    height: 350px;
+    width: 300px;
   }
 
   .sec3-text h3 {
@@ -870,7 +879,7 @@ footer {
   /* section 3 Academics end=================*/
   /*================section-6 testimonials==================*/
   #section-6 {
-    height: 160vh;
+    height: 200vh;
   }
   /*================section-6 testimonials end==================*/
 }

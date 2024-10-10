@@ -157,12 +157,16 @@
     transition: transform 0.3s ease;
   }
 }
-/* Media query for iPhone 12 (typical width: less than 392px) */
-@media only screen and (max-width: 391px) {
-  /* Styles for  iphone 12 */
+/* Media query for iPhone 12 & samsung(typical width: less than 392px) */
+@media only screen and (max-width: 361px) {
+  /* Styles for  iphone 12 & samsung*/
+  #section-5 {
+    width: 100vw;
+    height: 100vh;
+  }
   #sec5-green-circle {
     height: 500px;
     width: 300px;
-    top: 4400px;
+    top: 3700px;
   }
 }
