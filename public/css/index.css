@@ -256,7 +256,7 @@ body {
 /* section 5 Gallery ==================================================*/
 /* section 5 style code is in slider.css file */
 
-/* section-6 */
+/*================section-6 testimonials==================*/
 #section-6 {
   background-color: white;
   height: 100vh;
@@ -666,6 +666,31 @@ footer {
     width: 100vw;
   }
   /* section 4 image end========================================================= */
+  /*================section-6 testimonials==================*/
+  #section-6 {
+    height: 140vh;
+  }
+  .sec6-cards {
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+
+  .sec6-cards .pic {
+    height: 150px;
+    width: 150px;
+  }
+
+  .sec6-cards .pic img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .sec6-cards .text {
+    font-size: 17px;
+  }
+  /*================section-6 testimonials ends==================*/
 }
 
 /* Media query for Mobile Phones (typical width: less than 768px) */
@@ -782,8 +807,33 @@ footer {
     width: 100vw;
   }
   /* section 4 image end========================================================= */
+  /*================section-6 testimonials==================*/
+  #section-6 {
+    height: 150vh;
+  }
+  .sec6-cards {
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+
+  .sec6-cards .pic {
+    height: 150px;
+    width: 150px;
+  }
+
+  .sec6-cards .pic img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .sec6-cards .text {
+    font-size: 17px;
+  }
+  /*================section-6 testimonials ends==================*/
 }
-/* Media query for iPhone 12 (typical width: less than 392px) */
+/****************** Media query for iPhone 12 (typical width: less than 392px) */
 @media only screen and (max-width: 391px) {
   /* Styles for  iphone 12 */
   /* ====================section 1 About Us========= */
@@ -818,4 +868,9 @@ footer {
     font-size: 17px;
   }
   /* section 3 Academics end=================*/
+  /*================section-6 testimonials==================*/
+  #section-6 {
+    height: 160vh;
+  }
+  /*================section-6 testimonials end==================*/
 }
