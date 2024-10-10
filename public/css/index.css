@@ -563,6 +563,11 @@ footer {
     width: 100vw;
   }
   /* section 4 image end========================================================= */
+  /*================section-6 testimonials==================*/
+  #section-6 {
+    height: 1200px;
+  }
+  /*================section-6 testimonials ends==================*/
 }
 
 /* Media query for Tablets (width range: 768px to 1024px) */
@@ -623,7 +628,7 @@ footer {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin-left: 370px;
+    margin-left: 300px;
   }
   /* *******************section 1 end*************************  */
   /*===================section 2 image========================*/
@@ -668,7 +673,7 @@ footer {
   /* section 4 image end========================================================= */
   /*================section-6 testimonials==================*/
   #section-6 {
-    height: 140vh;
+    height: 1000px;
   }
   .sec6-cards {
     height: 350px;
@@ -700,7 +705,7 @@ footer {
   /* left---------- */
   #section-1 {
     background-color: white;
-    height: 110vh;
+    height: 1000px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -766,7 +771,7 @@ footer {
   /* *******************section 1 end*************************  */
   /*===================section 2 image========================*/
   #section-2 {
-    height: 80vh;
+    height: 800px;
     width: 100vw;
   }
   /*===================section 2 image end========================*/
@@ -809,7 +814,7 @@ footer {
   /* section 4 image end========================================================= */
   /*================section-6 testimonials==================*/
   #section-6 {
-    height: 150vh;
+    height: 1300px;
   }
   .sec6-cards {
     height: 350px;
@@ -834,12 +839,12 @@ footer {
   /*================section-6 testimonials ends==================*/
 }
 /****************** Media query for iPhone & samsung(typical width: less than 392px) */
-@media only screen and (max-width: 361px) {
+@media only screen and (min-width: 360px) and (max-width: 720px) and (orientation: portrait) {
   /* Styles for  iphone 12 & samsung*/
   /* ====================section 1 About Us========= */
   /* left---------- */
   #section-1 {
-    height: 150vh;
+    height: 1000px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -859,11 +864,11 @@ footer {
   /* ====================section 1 About Us end========= */
   /* section 3 Academics=================*/
   #section-3 {
-    height: 150vh;
+    height: 950px;
   }
 
   #sec3-green-circle {
-    top: 2097px;
+    top: 2592px;
   }
 
   #sec3-green-circle img {
@@ -879,7 +884,7 @@ footer {
   /* section 3 Academics end=================*/
   /*================section-6 testimonials==================*/
   #section-6 {
-    height: 200vh;
+    height: 1300px;
   }
   /*================section-6 testimonials end==================*/
 }
