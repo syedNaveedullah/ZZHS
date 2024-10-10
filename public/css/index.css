@@ -77,7 +77,7 @@ body {
   font-weight: 600;
   #nav-items ul li a:hover {
     background-color: #2980b9;
-}
+  }
 }
 
 /* main index view ====================================================*/
@@ -104,19 +104,11 @@ body {
   height: 82vh;
 }
 
-/* Circle-below-logo */
-#Circle-below-logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5;
-}
-
 /* section 1 About Us======================================================= */
 /* left---------- */
 #section-1 {
   background-color: white;
-  height: 110vh;
+  height: 120vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -129,8 +121,21 @@ body {
 }
 
 #left h1 {
-  margin: 0px 0px 30px 0px;
   font-size: 50px;
+}
+
+#textbtn {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 100%;
+}
+#textbtn a .btn {
+  margin: 0px 0px 10px 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
 }
 .content {
   width: 500px;
@@ -139,7 +144,7 @@ body {
 
 /* left-down */
 #left-down {
-  margin-top: 20px;
+  margin-top: 50px;
   width: 500px;
   height: 281px;
   display: flex;
@@ -152,27 +157,12 @@ body {
   height: 300px;
 }
 
-#left-down a .btn {
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 300;
-}
 /* right--------------- */
 #right {
   padding: 40px;
   width: 60%;
   height: 100%;
 }
-#sec1-green-circle {
-  height: 800px;
-  width: 845px;
-  position: absolute;
-  top: 718px;
-  right: 0;
-  opacity: 0.6;
-}
-
 .sec1-text h3 {
   margin-top: 20px;
   padding: 10px;
@@ -180,19 +170,6 @@ body {
   font-weight: 500;
   z-index: 2;
   text-align: justify;
-}
-
-.learn-moreBtn {
-  height: 60px;
-  width: 200px;
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 10px;
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 550px;
 }
 
 /* section 2 image========================================================= */
@@ -209,26 +186,13 @@ body {
 /* section 3 Academics========================================================= */
 #section-3 {
   background-color: white;
-  height: 1000px;
+  height: 600px;
   width: 100vw;
-}
-
-#sec3-green-circle {
-  height: 700px;
-  width: 700px;
-  position: absolute;
-  top: 2250px;
-  left: 0;
-}
-
-#sec3-green-circle img {
-  height: 800px;
-  width: 700px;
 }
 
 .sec3-h1 {
   display: flex;
-  height: 135px;
+  height: 80px;
   align-items: center;
 }
 
@@ -248,7 +212,8 @@ body {
 
 /* section 4 image=========image================================================ */
 #section-4 {
-  height: 900px;
+  background-color: white;
+  height: 700px;
   width: 100vw;
 }
 
