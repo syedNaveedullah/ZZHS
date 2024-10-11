@@ -1,34 +1,21 @@
 /* section 5 Gallery ================================================== */
 #section-5 {
+  height: 80vh;
   width: 100vw;
-  height: 100vh;
   overflow: hidden;
   background: white;
 }
 
 .sec5-h1 {
   display: flex;
-  height: 130px;
+  height: 50px;
   align-items: center;
 }
 
 .sec5-h1 h1 {
   font-size: 50px;
-  margin-top: 185px;
+  margin-top: 150px;
   margin-left: 70px;
-}
-
-#sec5-green-circle {
-  height: 800px;
-  width: 500px;
-  position: absolute;
-  top: 3800px;
-  right: 0;
-  z-index: 0;
-}
-#sec5-green-circle img {
-  height: 800px;
-  width: 500px;
 }
 
 /* Updated slider ======================================== */
@@ -94,9 +81,6 @@
 /* Media query for Laptops without numeric pad (typical width: around 13–14 inches, width range: 1200px to 1365px) */
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   /* Styles for laptops without numeric pad */
-  #sec5-green-circle {
-    top: 4000px;
-  }
 }
 
 /* Media query for Tablets (width range: 768px to 1024px) */
@@ -158,15 +142,10 @@
   }
 }
 /* Media query for iPhone 12 & samsung(typical width: less than 392px) */
-@media only screen and (min-width: 360px) and (max-width: 720px) and (orientation: portrait) {
+@media only screen and (min-width: 360px) and (max-width: 720px) {
   /* Styles for  iphone 12 & samsung*/
   #section-5 {
-    width: 100vw;
-    height: 100vh;
-  }
-  #sec5-green-circle {
     height: 500px;
-    width: 300px;
-    top: 4350px;
+    width: 100vw;
   }
 }
