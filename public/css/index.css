@@ -134,16 +134,9 @@ body {
   width: 200px;
   margin: 30px 0 0 100px;
 }
-#textbtn a .btn {
-  margin: 0px 0px 10px 50px;
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 300;
-}
 .content {
-  width: 500px;
-  height: 281px;
+  width: 450px;
+  height: 250px;
 }
 
 /* left-down */
@@ -157,8 +150,8 @@ body {
 }
 
 #left-down {
-  width: 500px;
-  height: 281px;
+  width: 450px;
+  height: 250px;
 }
 
 #left-down a .btn {
@@ -169,39 +162,18 @@ body {
 }
 /* right--------------- */
 #right {
-  padding: 40px;
+  padding: 40px 40px 0 0;
   width: 60%;
   height: 100%;
-}
-#sec1-green-circle {
-  height: 800px;
-  width: 845px;
-  position: absolute;
-  top: 718px;
-  right: 0;
-  opacity: 0.6;
 }
 
 .sec1-text h3 {
   margin-top: 20px;
-  padding: 10px;
+  padding: 30px 30px 0 0;
   font-size: 30px;
   font-weight: 500;
   z-index: 2;
   text-align: justify;
-}
-
-.learn-moreBtn {
-  height: 60px;
-  width: 200px;
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 10px;
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 550px;
 }
 
 /* section 2 image========================================================= */
@@ -328,7 +300,7 @@ body {
 /* section 7 contact us form ========================================================== */
 #section-7 {
   background: url("../pictures/Contact-us.png") no-repeat center center/cover;
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
   margin-top: 0;
 }
@@ -390,6 +362,7 @@ body {
   border-bottom: 2px solid white;
   width: 70%;
   margin-left: 25px;
+  margin-bottom: 20px;
 }
 
 .form-btn {
@@ -487,6 +460,9 @@ footer {
   /* Styles for laptops without numeric pad */
   /* ====================section 1 About Us========= */
   /* left---------- */
+  #section-1 {
+    height: 700px;
+  }
   #left {
     padding: 70px;
   }
@@ -512,19 +488,6 @@ footer {
     height: 200px;
   }
 
-  #sec1-green-circle {
-    top: 610px;
-    right: 0;
-  }
-
-  #sec1-green-circle img {
-    height: 500px;
-    width: 600px;
-    position: absolute;
-    right: 0;
-    top: 20px;
-  }
-
   .sec1-text h3 {
     margin-top: 20px;
     padding: 10px;
@@ -533,15 +496,6 @@ footer {
     z-index: 2;
   }
 
-  .learn-moreBtn {
-    height: 40px;
-    width: 150px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 450px;
-  }
   /* *******************section 1 end*************************  */
   /* section 3 Academics========================================================= */
   #section-3 {
@@ -568,9 +522,51 @@ footer {
   /* section 4 image end========================================================= */
   /*================section-6 testimonials==================*/
   #section-6 {
-    height: 1200px;
+    height: 1100px;
   }
   /*================section-6 testimonials ends==================*/
+  /* section 7 contact us form ========================================================== */
+  #section-7 {
+    height: 650px;
+    width: 100vw;
+    margin-top: 0;
+  }
+
+  .sec7-h1 {
+    height: 80px;
+  }
+
+  .sec7-h1 h1 {
+    font-size: 45px;
+  }
+
+  #form-div {
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  #form-div form {
+    height: 400px;
+    width: 60%;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  .form-input input {
+    font-size: 25px;
+    width: 70%;
+  }
+  .form-input textarea {
+    font-size: 25px;
+  }
+  .form-btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  /* section 7 contact us form  end========================================================== */
 }
 
 /* Media query for Tablets (width range: 768px to 1024px) */
@@ -602,23 +598,9 @@ footer {
     width: 150px;
     height: 150px;
   }
-
-  #sec1-green-circle {
-    top: 610px;
-    right: 0;
-  }
-
-  #sec1-green-circle img {
-    height: 400px;
-    width: 500px;
-    position: absolute;
-    top: 20px;
-    right: 0;
-  }
-
   .sec1-text h3 {
     margin-top: 70px;
-    padding: 30px;
+    padding: 30px 10px 0 60px;
     font-size: 18px;
     font-weight: 500;
     z-index: 12;
@@ -682,6 +664,48 @@ footer {
     font-size: 17px;
   }
   /*================section-6 testimonials ends==================*/
+  /* section 7 contact us form ========================================================== */
+  #section-7 {
+    height: 650px;
+    width: 100vw;
+    margin-top: 0;
+  }
+
+  .sec7-h1 {
+    height: 80px;
+  }
+
+  .sec7-h1 h1 {
+    font-size: 45px;
+  }
+
+  #form-div {
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  #form-div form {
+    height: 400px;
+    width: 80%;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 25px;
+  }
+
+  .form-input input {
+    font-size: 25px;
+    width: 70%;
+  }
+  .form-input textarea {
+    font-size: 25px;
+  }
+  .form-btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  /* section 7 contact us form  end========================================================== */
 }
 
 /****************** Media query for iPhone & samsung(typical width: less than 392px) */
@@ -690,8 +714,7 @@ footer {
   /* ====================section 1 About Us========= */
   /* left---------- */
   #section-1 {
-    background-color: white;
-    height: 1200px;
+    height: 1100px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -713,8 +736,7 @@ footer {
   }
 
   #viewbtn .btn {
-    width: 200px;
-    margin: 30px 0 0 50px;
+    margin: 20px 0 0 50px;
   }
 
   /* left-down */
@@ -731,12 +753,12 @@ footer {
 
   /* right--------------- */
   #right {
-    padding: 40px;
+    padding: 30px;
     width: 100%;
     height: 50%;
   }
   .sec1-text h3 {
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 20px;
     font-size: 15px;
     font-weight: 500;
@@ -800,54 +822,4 @@ footer {
     font-size: 17px;
   }
   /*================section-6 testimonials ends==================*/
-}
-/****************** Media query for iPhone & samsung(typical width: less than 392px) */
-@media only screen and (min-width: 360px) and (max-width: 720px) and (orientation: portrait) {
-  /* Styles for  iphone 12 & samsung*/
-  /* ====================section 1 About Us========= */
-  /* left---------- */
-  #section-1 {
-    height: 1000px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-
-  #left {
-    padding: 40px;
-  }
-
-  #right {
-    padding: 20px;
-    width: 100%;
-    height: 50%;
-  }
-
-  /* ====================section 1 About Us end========= */
-  /* section 3 Academics=================*/
-  #section-3 {
-    height: 950px;
-  }
-
-  #sec3-green-circle {
-    top: 2588px;
-  }
-
-  #sec3-green-circle img {
-    height: 350px;
-    width: 300px;
-  }
-
-  .sec3-text h3 {
-    margin: 0px 0px 0px 10px;
-    padding: 20px;
-    font-size: 17px;
-  }
-  /* section 3 Academics end=================*/
-  /*================section-6 testimonials==================*/
-  #section-6 {
-    height: 1300px;
-  }
-  /*================section-6 testimonials end==================*/
 }
