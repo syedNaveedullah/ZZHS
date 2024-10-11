@@ -567,6 +567,22 @@ footer {
     font-size: 25px;
   }
   /* section 7 contact us form  end========================================================== */
+  /* ============================footer============================ */
+  .circle {
+    height: 40px;
+    width: 40px;
+  }
+  .circle i {
+    font-size: 25px;
+  }
+  /* div2-------- */
+  #div2 ul li a {
+    font-size: 17px;
+  }
+  #div3 {
+    font-size: 15px;
+  }
+  /* ============================footer end============================ */
 }
 
 /* Media query for Tablets (width range: 768px to 1024px) */
@@ -706,6 +722,22 @@ footer {
     font-size: 25px;
   }
   /* section 7 contact us form  end========================================================== */
+  /* ============================footer============================ */
+  .circle {
+    height: 40px;
+    width: 40px;
+  }
+  .circle i {
+    font-size: 25px;
+  }
+  /* div2-------- */
+  #div2 ul li a {
+    font-size: 17px;
+  }
+  #div3 {
+    font-size: 15px;
+  }
+  /* ============================footer end============================ */
 }
 
 /****************** Media query for iPhone & samsung(typical width: less than 392px) */
@@ -822,4 +854,68 @@ footer {
     font-size: 17px;
   }
   /*================section-6 testimonials ends==================*/
+  /* section 7 contact us form ========================================================== */
+  #section-7 {
+    height: 700px;
+    width: 100vw;
+    margin-top: 0;
+  }
+
+  .sec7-h1 {
+    height: 80px;
+  }
+
+  .sec7-h1 h1 {
+    font-size: 40px;
+  }
+
+  #form-div {
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  #form-div form {
+    height: 500px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 18px;
+  }
+
+  .form-input input {
+    font-size: 25px;
+    width: 70%;
+  }
+  .form-input textarea {
+    font-size: 25px;
+  }
+  .form-input .form-btn {
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  /* section 7 contact us form  end========================================================== */
+  /* ============================footer============================ */
+  .circle {
+    height: 40px;
+    width: 40px;
+  }
+  .circle i {
+    font-size: 25px;
+  }
+  /* div2-------- */
+  #div2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #div2 ul li a {
+    font-size: 15px;
+  }
+  #div3 {
+    font-size: 15px;
+  }
+  /* ============================footer end============================ */
 }
