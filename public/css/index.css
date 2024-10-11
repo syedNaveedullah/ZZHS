@@ -4,6 +4,69 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* styling scroll bar */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(173, 173, 173, 0.2);
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(173, 173, 173, 0.5);
+}
+
+html {
+  overflow-y: overlay;
+}
+
+.loading-wrapper {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 250;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #loading {
+  z-index: 251;
+  width: 20rem;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
 body {
   background-color: black;
 }

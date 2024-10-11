@@ -33,7 +33,36 @@
     <!-- tab title -->
     <title>Zam Zam High School</title>
   </head>
-  <body>
+  <body onload="myFunction()">
+    <div class="loading-wrapper">
+      <!-- <img src="/pictures/zzl.png" id="loading" /> -->
+      <div>
+        <div class="spinner-grow text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
     <!-- ====navber===== -->
     <%- include("../includes/navbar.ejs") %>
     <!-- =====body======= -->
@@ -55,5 +84,12 @@
     <script src="/js/slider.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="/js/script.js"></script>
+    <script>
+      let preloader = document.querySelector(".loading-wrapper");
+      function myFunction() {
+        preloader.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+    </script>
   </body>
 </html>
