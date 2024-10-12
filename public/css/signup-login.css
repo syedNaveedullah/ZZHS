@@ -29,6 +29,7 @@
   margin-right: 5px;
 }
 
+/* ===========signup login div============================ */
 .main-sign-login-div {
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +38,7 @@
 }
 .form-div {
   height: 100vh;
-  width: 40vw;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +50,7 @@
   font-size: 20px;
 }
 .form-div form h1 {
-  font-size: 80px;
+  font-size: 4rem;
   color: #0f1f00;
 }
 
@@ -58,7 +59,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 40vw;
+  width: 40%;
 }
 .illustration img {
   height: 600px;
@@ -77,4 +78,66 @@
 }
 .form-btn:hover {
   background-color: #101c04;
+}
+
+/* Media Queries for responsiveness ==========================*/
+/*****************Responsive********************************/
+/* Media query for Tablets (width range: 768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  /* ===========signup login div============================ */
+  .illustration img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .form-btn {
+    height: 35px;
+    width: 90px;
+  }
+}
+
+/* Media query for iPhone 12 & samsung(typical width: less than 392px) */
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+  /* ===========signup login div============================ */
+  .main-sign-login-div {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form-div {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .login-form-div {
+    margin: 0 0 9rem 0;
+  }
+
+  .form-div form h1 {
+    font-size: 2.5rem;
+  }
+
+  .illustration {
+    height: 40%;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .login-illustration {
+    margin: 4rem 0 3rem 0;
+  }
+
+  .illustration img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .form-btn {
+    height: 35px;
+    width: 90px;
+  }
 }
