@@ -39,6 +39,8 @@ html {
   color: #27410f;
   transition: 0.3s ease-in-out;
 }
+/***********back to top end********************/
+
 /******************** styling scroll bar ****************************/
 ::-webkit-scrollbar {
   background: transparent;
@@ -96,6 +98,38 @@ html {
   }
 } */
 
+/* ===========loader end================== */
+
+/***********bot button ********************/
+.bot-btn {
+  display: none;
+  height: 55px;
+  width: 60px;
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+.bot-btn img {
+  height: 70px;
+  width: 60px;
+  animation: bot 1s ease-in-out 3; /* 3s duration, ease-in-out timing, play 1 time */
+  transition: 0.5s ease-in-out;
+}
+
+@keyframes bot {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg); /* Start with no rotation */
+  }
+  to {
+    transform: rotate3d(0, 1, 0, 360deg); /* Complete a 360-degree spin */
+  }
+}
+
+/***********bot button end********************/
+
 body {
   background-color: black;
 }
@@ -141,6 +175,27 @@ body {
   height: 100%;
   width: 100%;
   margin-top: 25px;
+}
+
+#nav-bot-icon img:hover {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+/* Keyframes for shaking */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0); /* Initial and final position */
+  }
+  25% {
+    transform: translateX(-5px); /* Move left */
+  }
+  50% {
+    transform: translateX(5px); /* Move right */
+  }
+  75% {
+    transform: translateX(-5px); /* Move left again */
+  }
 }
 
 #nav-items {
@@ -1010,4 +1065,14 @@ footer {
     font-size: 15px;
   }
   /* ============================footer end============================ */
+  /* backto to top  */
+  .back-top-wrap {
+    bottom: 10rem;
+  }
+  /* backto to top end */
+  /***********bot button ********************/
+  .bot-btn {
+    display: block;
+  }
+  /***********bot button end********************/
 }
