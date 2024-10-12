@@ -589,18 +589,6 @@ footer {
 
 /* ================Responsive index.css=============================================== */
 /* ***************************************************************** */
-/* Media query for Monitor (wide screens) */
-@media only screen and (min-width: 1200px) {
-  /* Styles for large monitors */
-  /* ====================section 1 About Us========= */
-}
-
-/* Media query for Laptops (15–16 inches, typical width range: 1366px to 1600px) */
-@media only screen and (min-width: 1366px) and (max-width: 1600px) {
-  /* Styles for 15–16 inch laptops */
-  /* ====================section 1 About Us========= */
-}
-
 /* Media query for Laptops without numeric pad (typical width: around 13–14 inches, width range: 1200px to 1365px) */
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   /* Styles for laptops without numeric pad */

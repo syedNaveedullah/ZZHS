@@ -12,6 +12,7 @@
 .lock {
   pointer-events: none;
 }
+
 /* sidebar================================================================================ */
 .sideBar {
   height: 100vh;
@@ -159,4 +160,32 @@ li {
 #currentTime,
 #totalTime {
   color: white;
+}
+
+/* ================Responsive index.css=============================================== */
+/****************** Media query for iPhone & samsung(typical width: less than 392px) */
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+  /* Styles for  iphone 12 & samsung*/
+  .main-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* sidebar======================================= */
+  .sideBar {
+    height: 90vh;
+    width: 100vw;
+  }
+  /* video player=============================== */
+  .videoPlayer {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    padding: 0.5rem;
+  }
+  /* Play/Pause and Fullscreen Buttons Styling */
+  #playPauseBtn,
+  #fullscreenBtn {
+    padding: 5px 12px;
+    font-size: 16px;
+  }
 }
