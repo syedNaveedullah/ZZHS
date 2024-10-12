@@ -9,20 +9,49 @@ html {
   scroll-behavior: smooth;
 }
 
-/* styling scroll bar */
-::-webkit-scrollbar {
-  background: transparent;
-  width: 0.4rem;
+/***********back to top ********************/
+.hidden {
+  visibility: hidden;
 }
 
+.back-top-wrap {
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  background-color: #82ad59;
+  padding: 1rem 1.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.back-top-wrap:hover {
+  background-color: #27410f;
+  color: white;
+}
+
+.back-top-wrap:hover .fas.fa-arrow-up {
+  color: white;
+}
+
+.fas.fa-arrow-up {
+  color: #27410f;
+  transition: 0.3s ease-in-out;
+}
+/******************** styling scroll bar ****************************/
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0.5rem;
+}
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(173, 173, 173, 0.2);
+  background-color: #27410f;
   border-radius: 10px;
   transition: background-color 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(173, 173, 173, 0.5);
+  background-color: #82ad59;
 }
 
 html {
