@@ -114,7 +114,7 @@
   }
 
   .login-form-div {
-    margin: 0 0 9rem 0;
+    margin: 0 0 8rem 0;
   }
 
   .form-div form h1 {
@@ -124,11 +124,11 @@
   .illustration {
     height: 40%;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
 
   .login-illustration {
-    margin: 4rem 0 3rem 0;
+    margin: 3rem 0 3rem 0;
   }
 
   .illustration img {
