@@ -52,7 +52,6 @@
   color: white;
 }
 #nav-items ul li a {
-  /* text-decoration: none; */
   color: white;
   font-size: 20px;
   font-weight: 600;
@@ -66,12 +65,13 @@
 
 #bot-heading h1 {
   font-size: 25px;
+  text-align: center;
 }
 
 /* ===///////////////BOT/////////////////////////////// */
 
 .bot {
-  padding: 20px;
+  padding: 30px;
   background-color: #82ad59;
   list-style: none;
   margin-right: 15px;
@@ -94,7 +94,6 @@
   border-radius: 20px;
   color: white;
   font-size: 20px;
-  font-weight: 800;
   line-height: 30px;
   margin: 20px;
   padding: 20px;
@@ -104,6 +103,7 @@
   left: 50%;
 }
 
+/****************input styling*********************/
 .input-group {
   width: 100vw;
   height: 100px;
@@ -150,7 +150,7 @@
   overflow-y: auto; /* Ensure scrolling is enabled */
 }
 
-/* Style for bot's response */
+/**************Style for bot's response*******************/
 .bot h1 {
   font-size: 22px;
   font-weight: bold;
@@ -177,5 +177,146 @@
 }
 
 .bot a:hover {
-  color: #f0f0f0;
+  color: #c0c0c0;
+}
+
+/* Media Queries for responsiveness ==========================*/
+/*****************Responsive********************************/
+/* Media query for Tablets (width range: 768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  /* navbar--------------- */
+  #navbar {
+    height: 120px;
+    width: 100vw;
+    padding: 10px 20px;
+    top: 0;
+  }
+  #nav-logo img {
+    height: 100px;
+    width: 100px;
+  }
+  #nav-bot-icon img {
+    height: 100px;
+    width: 80px;
+    margin-top: 60px;
+  }
+  #bot-heading {
+    margin-top: 10px;
+  }
+  #bot-heading h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /***********************input styling************************************/
+  .input-group {
+    width: 100vw;
+    height: 80px;
+  }
+
+  .input-group textarea {
+    width: 850px;
+    height: 60px;
+    max-height: 100;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 18px;
+  }
+
+  .input-group button {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  /* Bot text  */
+  .user {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 20px;
+    padding: 15px;
+  }
+  /* scrolling Bot text -----------------  */
+  .scroll-div {
+    height: 75vh;
+  }
+}
+
+/* Media query for iPhone 12 & samsung(typical width: less than 392px) */
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+  /* navbar--------------- */
+  #navbar {
+    height: 80px;
+    width: 100vw;
+    padding: 10px 20px;
+    top: 0;
+  }
+  #nav-logo img {
+    height: 70px;
+    width: 70px;
+  }
+
+  #nav-bot-icon {
+    height: 190px;
+    margin-right: 10px;
+  }
+
+  #nav-bot-icon img {
+    height: 80px;
+    width: 60px;
+    margin-top: 60px;
+  }
+  #bot-heading {
+    margin-top: 0px;
+  }
+  #bot-heading h1 {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #nav-items ul li a {
+    /* text-decoration: none; */
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+
+  /* Bot messages */
+  .bot,
+  .user {
+    width: 90vw;
+    font-size: 16px;
+    padding: 25px;
+    margin: 15px;
+  }
+
+  .user {
+    max-width: 90vw; /* Adjust for smaller screen */
+    left: initial; /* Avoid overflow issue */
+  }
+
+  /* Input area */
+  .input-group {
+    height: 80px; /* Reduce height */
+  }
+
+  .input-group textarea {
+    width: 75vw; /* Reduce width */
+    height: 60px; /* Adjust height */
+    font-size: 16px; /* Smaller font */
+  }
+
+  .input-group button {
+    width: 60px; /* Reduce button size */
+    height: 60px;
+    font-size: 16px; /* Adjust font size */
+  }
+
+  /* Scrollable area */
+  .scroll-div {
+    height: 80vh; /* Reduce the height for smaller screens */
+  }
 }
