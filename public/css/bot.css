@@ -317,6 +317,6 @@
 
   /* Scrollable area */
   .scroll-div {
-    height: 75vh; /* Reduce the height for smaller screens */
+    height: 72vh; /* Reduce the height for smaller screens */
   }
 }
