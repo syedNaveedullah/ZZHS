@@ -110,7 +110,7 @@
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   position: fixed;
   bottom: 0px;
 }
@@ -300,7 +300,7 @@
 
   /* Input area */
   .input-group {
-    height: 80px; /* Reduce height */
+    height: 100px; /* Reduce height */
   }
 
   .input-group textarea {
@@ -317,6 +317,6 @@
 
   /* Scrollable area */
   .scroll-div {
-    height: 80vh; /* Reduce the height for smaller screens */
+    height: 75vh; /* Reduce the height for smaller screens */
   }
 }
