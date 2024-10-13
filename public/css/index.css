@@ -901,6 +901,10 @@ footer {
     margin-bottom: 30px;
   }
 
+  #viewbtn {
+    position: relative;
+    z-index: 100;
+  }
   #viewbtn .btn {
     margin: 20px 0 0 50px;
   }
