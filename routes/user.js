@@ -75,6 +75,7 @@ router.post(
   (req, res) => {
     let { username } = req.body;
     req.flash("success", `Welcome back ${username}`);
+    console.log("loggedin");
     res.redirect("/");
   }
 );
